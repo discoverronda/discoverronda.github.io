@@ -18,6 +18,7 @@ body {
   margin: 0;
   font-family: "Helvetica", sans-serif;
   position: absolute;
+  text-align:justify;
 }
 
 /*Container Styling */
@@ -45,10 +46,21 @@ a:hover {
 }
 
 .small-container p {
-  text-align: justify;
-  color: #605e5e;
-  font-weight: 100;
+  font-family: "Source Sans Pro", "Helvetica" sans-serif;
   font-size: 0.9rem;
+  font-weight: 100;
+  margin:0;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+p {
+  font-family: "Source Sans Pro", "Helvetica" sans-serif;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin:0;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
 
 /* Header styling */
@@ -299,8 +311,7 @@ a:hover {
   width: 100%;
   height: 20rem;
   margin: auto;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+  object-fit:cover;
 }
 
 /* Blog image layouts styling */
@@ -384,10 +395,6 @@ margin:auto;
   color: white;
 }
 
-#footer-text #social p {
-  margin: 0;
-  padding-top: 0.3rem;
-}
 
 /*Text Left and Image right section*/
 .text-left-image-right {
@@ -548,13 +555,12 @@ h1 {
 }
 
 h2 {
-  font-family: "Yrsa", sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font: 1.2rem "Lato", sans-serif;
+  color: #111;
   margin: 0;
-  color: black;
-  text-align: left;
 }
 
 h3 {
@@ -573,10 +579,10 @@ h3 {
   font-weight: 100;
 }
 
-.image #desktop-banner {
+#homepage-banner  #desktop-banner {
   display: none;
 }
-.image #mobile-banner {
+#homepage-banner  #mobile-banner {
   display: block;
 }
 
@@ -587,13 +593,19 @@ h3 {
   width: 95%;
   margin: auto;
   margin-bottom: 1rem;
+  align-content: flex-start;
+
 }
 
 .flex-container p {
-  font-size: 0.9rem;
-  text-align: justify;
-  color: #605e5e;
-  font-weight: 100;
+    font-family: "Source Sans Pro", "Helvetica" sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin:0;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    line-height: 1.2rem;
+
 }
 
 .flex-container-parallax {
@@ -621,15 +633,16 @@ h3 {
 
 .flex-item-left {
   padding-top: 1rem;
-  flex: 50%;
-  text-align: justify;
+  flex: 30%;
+  text-align: center;
   font: 1.3rem "Lato", sans-serif;
+
 }
 
 .flex-item-right {
   flex: 50%;
   margin-top: 1rem;
-  text-align: justify;
+  text-align: center;
   font: 1.3rem "Lato", sans-serif;
 }
 
@@ -659,7 +672,7 @@ h3 {
   text-align: center;
   width: 95%;
   margin: auto;
-  margin-bottom: 1rem;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 .homepage-flex-item-left {
@@ -750,10 +763,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 1rem 0rem 1rem 0rem;
 }
 .homepage-parallax-banner-1 {
   background-image: url("../images/ronda/ronda_18.jpg");
   min-height: 60%;
+  padding: 1rem 0rem 10rem 0rem;
+
 }
 
 .homepage-parallax-banner-1:before {
@@ -894,11 +910,9 @@ html {
   color: #777;
   background-color: white;
   text-align: center;
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 1rem;
   text-align: justify;
   font: 1rem "Lato", sans-serif;
-
-  /*font: 400 1.1rem/1.8 "Lato", sans-serif;*/
 }
 
 .parallax-text-container-grey {
@@ -906,7 +920,7 @@ html {
   background-color: #282e34;
   text-align: center;
   text-align: justify;
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 1rem;
   font: 1rem "Lato", sans-serif;
 }
 
@@ -934,7 +948,7 @@ html {
   width: 100%;
 }
 
-.desktop-banner {
+#homepage-banner #desktop-banner {
   display: none;
 }
 
@@ -1022,7 +1036,7 @@ html {
   flex-direction: column;
   text-align: center;
   width: 100%;
-  height: 100rem;
+  height: auto;
   margin: 0 auto;
   padding: 1rem 0rem 1rem 0rem;
 }
@@ -1164,8 +1178,7 @@ h4 {
   text-transform: uppercase;
   font: 1rem "Lato", sans-serif;
   color: #111;
-  margin-bottom: 0;
-}
+margin: 0;}
 
 /* Slider homepage images Styling */
 /* Slideshow container */
@@ -1332,10 +1345,10 @@ h4 {
 
 /* Screen sizes 1024px and up */
 @media (min-width: 1024px) {
-  .image #desktop-banner {
+  #homepage-banner  #desktop-banner {
     display: block;
   }
-  .image #mobile-banner {
+  #homepage-banner  #mobile-banner {
     display: none;
   }
 
@@ -1346,6 +1359,8 @@ h4 {
     margin:0;
     padding-top:1rem;
     padding-bottom:1rem;
+    line-height: 1.2rem;
+
   }
 
   #boxes .box img:hover {
@@ -1356,8 +1371,8 @@ h4 {
 
   .container {
     max-width: 100% !important;
-    margin-top:1rem;
-    margin-bottom:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
     margin-left:auto;
     margin-right:auto;
   }
@@ -1583,7 +1598,7 @@ h4 {
     color: #777;
     background-color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
     text-align: justify;
     margin: 0 auto;
     width: 80%;
@@ -1697,7 +1712,9 @@ h4 {
     transform: translatez(0);
   }
 
- 
+ #homepage-banner{
+  padding: 1rem 0rem 1rem 0rem;
+ }
 
   #homepage-banner img {
     height: 25rem;
@@ -1754,8 +1771,7 @@ h4 {
     text-align: center;
     width: 70%;
     margin: auto;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+ 
   }
 
   .homepage-flex-item-left {
@@ -1929,5 +1945,10 @@ h4 {
     background: transparent;
     text-decoration: none;
     color: black !important;
+  }
+
+  p {
+    font-size: 1.3rem;
+
   }
 }
