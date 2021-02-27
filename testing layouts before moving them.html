@@ -79,7 +79,31 @@
   </ul>
 </nav>	
 
+<style>
+  .Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:25rem;
+}
 
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+</style>
+<div class="Aligner">
+  <div class="Aligner-item Aligner-item--top">Test 1</div>
+  <div class="Aligner-item">Test 2</div>
+  <div class="Aligner-item Aligner-item--bottom">Test 3</div>
+</div>
 
 
     <div class = "container">
