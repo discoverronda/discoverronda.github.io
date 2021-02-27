@@ -251,6 +251,8 @@ margin:auto;
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  bottom: 0;
 }
 
 #footer p {
@@ -1694,7 +1696,8 @@ p {
   .gallery-menu {
     margin: 0;
     text-align: center;
-    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-top:1rem;
   }
 
   .gallery-menu a {
@@ -1707,6 +1710,14 @@ p {
     text-transform: uppercase;
     font: 1rem "Lato", sans-serif;
     display: inline;
+  }
+
+  .gallery-menu a:hover {
+    color:#333;
+  }
+
+  .portfolio-container h4{
+    padding-top:1rem;
   }
 
   .portfolio-container {
