@@ -57,23 +57,31 @@ a:hover {
 
 /*Text Boxes */
 #text-box {
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
   text-align: center;
   display: flex;
   line-height: 1.2rem;
 }
 
 #text-box h2{
-  padding: 0rem 0rem 0.2rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+#text-box h3{
+  padding: 0rem 0rem 0.5rem 0rem;
   text-align: center;
   line-height: 1.7rem;
 }
 
 
-
 .text-left h3 {
   margin-top: 0;
-}
+  padding: 0rem 0rem 0.2rem 0rem;
+
+
+;}
 
 #text-box ul {
   flex-wrap: wrap;
@@ -1239,6 +1247,7 @@ p {
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 100;
+  padding-top:0.2rem;
 }
 
 
