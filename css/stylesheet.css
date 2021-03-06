@@ -15,6 +15,12 @@ html {
 
 }
 
+ img {
+  pointer-events: none;
+}
+
+
+
 body {
   margin: 0;
   position: absolute;
@@ -47,6 +53,10 @@ a:hover {
   margin: auto;
   width: 93%;
   overflow: hidden;
+}
+
+.small-container p{
+padding: 0rem 0rem 0.5rem 0rem;
 }
 
 
@@ -188,13 +198,13 @@ a:hover {
 }
 
 #homepage-banner {
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   }
 
 #homepage-banner img {
   display: block;
   width: 100%;
-  height: 20rem;
+  height: 15rem;
   margin: auto;
   object-fit:cover;
 }
@@ -221,8 +231,8 @@ a:hover {
   background-color: white;
   width: 90%;
 margin:auto;
-  padding-bottom:0.5rem;
-  padding-top: 0.5rem;
+  padding-bottom:1rem;
+  padding-top: 1rem;
 }
 
 
@@ -750,7 +760,7 @@ html {
   text-align: center;
   text-align: justify;
   font: 1rem "Lato", sans-serif;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
 
 }
 
@@ -759,7 +769,7 @@ html {
   background-color: #282e34;
   text-align: center;
   text-align: justify;
-  padding: 1rem;
+  padding: 2rem 1rem 1rem 1rem;
   font: 1rem "Lato", sans-serif;
 }
 
@@ -769,7 +779,7 @@ html {
   text-transform: uppercase;
   font: 1rem "Lato", sans-serif;
   color: #111;
-  padding: 0rem 0rem 0.25rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
 
 }
 
@@ -779,17 +789,17 @@ html {
   text-transform: uppercase;
   font: 1rem "Lato", sans-serif;
   color: white;
-  padding: 0rem 0rem 0.25rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
 }
 
 .parallax-text-container-white p {
   width: 100%;
-  padding: 0rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
 }
 
 .parallax-text-container-grey p {
   width: 100%;
-  padding: 0rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
 }
 
 #homepage-banner #desktop-banner {
@@ -900,10 +910,16 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
 
 .feature-item-left a,
 .feature-item-center a,
-.feature-item-right a{
+.feature-item-right a
+
+{
   text-decoration:none;
   color:white;
 }
+
+.feature-container-4-boxes a{
+  text-decoration:none;
+  color:white;}
 
 .feature-container hr {
   width: 10%;
@@ -1297,6 +1313,12 @@ p {
 
 /* Screen sizes 1024px and up */
 @media (min-width: 1024px) {
+
+  img {
+    pointer-events:all;
+  }
+
+
   #homepage-banner  #desktop-banner {
     display: block;
   }
@@ -1452,8 +1474,8 @@ p {
   /* Quote banner */
   #quote {
     width: 60%;
-    padding-bottom:1rem;
-    padding-top: 1rem;
+    padding-bottom:2rem;
+    padding-top: 2rem;
   }
 
   #quote hr {
@@ -1589,7 +1611,7 @@ p {
     color: #777;
     background-color: white;
     text-align: center;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
     text-align: justify;
     margin: 0 auto;
     width: 80%;
@@ -1601,7 +1623,7 @@ p {
     background-color: #282e34;
     text-align: center;
     text-align: justify;
-    padding: 1rem;
+    padding: 2rem 0rem 2rem 0rem;
     margin: 0 auto;
     padding-left: 10rem;
     padding-right: 10rem;
@@ -1614,6 +1636,7 @@ p {
     text-transform: uppercase;
     font: 2rem "Lato", sans-serif;
     color: #111;
+    padding: 0rem 0rem 0rem 0rem;
   }
 
   #read-more {
@@ -1630,6 +1653,8 @@ p {
     text-transform: uppercase;
     font: 2rem "Lato", sans-serif;
     color: white;
+    padding: 0rem 0rem 0rem 0rem;
+
   }
 
   /*
@@ -1642,11 +1667,11 @@ p {
   } */
 
   .parallax-text-container-white p {
- padding: 0rem 0rem 0rem 0rem;
+ padding: 1rem 0rem 1rem 0rem;
   }
   
   .parallax-text-container-grey p {
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
   }
 
   /* Features styling */
@@ -1721,11 +1746,11 @@ p {
   }
 
  #homepage-banner{
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
  }
 
   #homepage-banner img {
-    height: 25rem;
+    height: 20rem;
     object-fit: cover;
   }
 
