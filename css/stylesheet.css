@@ -75,6 +75,11 @@ a:hover {
   line-height: 1.7rem;
 }
 
+#map-embed h5{
+  padding: 1rem 0rem 0.5rem 0rem;
+  text-align: center;
+  line-height: 1.7rem;
+}
 
 .text-left h3 {
   margin-top: 0;
