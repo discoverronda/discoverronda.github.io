@@ -45,7 +45,7 @@ a:hover {
 
 .small-container {
   margin: auto;
-  width: 90%;
+  width: 93%;
   overflow: hidden;
 }
 
@@ -57,22 +57,25 @@ a:hover {
 
 /*Text Boxes */
 #text-box {
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 2rem 0rem 1rem 0rem;
   text-align: center;
   display: flex;
   line-height: 1.2rem;
 }
 
 #text-box h2{
-  padding: 0rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 0.5rem 0rem;
   text-align: center;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
+  font-size:1.5rem;
 }
 
 #text-box h3{
   padding: 0rem 0rem 0.5rem 0rem;
-  text-align: center;
+  text-align: left;
   line-height: 1.7rem;
+  font-size:1.2rem;
+  font-weight:900;
 }
 
 #map-embed h5{
@@ -84,8 +87,6 @@ a:hover {
 .text-left h3 {
   margin-top: 0;
   padding: 0rem 0rem 0.2rem 0rem;
-
-
 ;}
 
 #text-box ul {
@@ -203,7 +204,7 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom:1rem;
+  margin-bottom:0rem;
 }
 
 
@@ -1243,9 +1244,10 @@ p {
   /*font-family: "Source Sans Pro", "Helvetica" sans-serif;*/
   font-weight: 100;
   text-align: left;
-  line-height:1.2rem;
+  line-height:1.6rem;
   margin: 0;
   font-size:1rem;
+  letter-spacing: 0.5px;
 }
 
 .figcaption {
@@ -1253,7 +1255,7 @@ p {
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 100;
-  padding-top:0.2rem;
+  padding-top:0.5rem;
 }
 
 
@@ -1326,20 +1328,43 @@ p {
   }
 
   .small-container {
-    width: 50%;
+    width: 60%;
   }
 
 
   #text-box {
-    padding: 1rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
     text-align: center;
     line-height: 1.6rem;
   }
 
   #text-box h2{
-    padding: 0rem;
-
+    padding: 1rem 0rem 1rem 0rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 2.5rem;
   }
+  
+  #text-box h3{
+    padding: 0rem 0rem 0.5rem 0rem;
+    text-align: left;
+    line-height: 1.7rem;
+    font-size:1.5rem;
+    font-weight:900;
+  }
+  
+  #map-embed h5{
+    padding: 1rem 0rem 0.5rem 0rem;
+    text-align: center;
+    line-height: 1.7rem;
+  }
+  
+  .text-left h3 {
+    margin-top: 0;
+    padding: 0rem 0rem 0.2rem 0rem;
+  ;}
+
+ 
 
   #boxes {
     display: flex;
@@ -2016,8 +2041,9 @@ h5 {
 p {
   /*font-family: "Source Sans Pro", "Helvetica" sans-serif;*/
   font-weight: 100;
-  text-align: justify;
-  line-height:1.6rem;
+  text-align: left;
+  letter-spacing:1.2px;
+  line-height:1.8rem;
   margin: 0;
   font-size: 1.3rem;
   padding: 0.5rem 0rem 0.5rem 0rem;
@@ -2028,7 +2054,10 @@ p {
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 100;
+  padding-top:0.3rem;
+
 }
+
 
   /* Global stylings for desktop 
   h2 {
