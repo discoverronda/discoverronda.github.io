@@ -133,13 +133,14 @@ a:hover {
   color: inherit;
 }
 
+/*
 #boxes h5 {
   font-weight: 300;
   margin-top: 0;
   font-style: italic;
   border-bottom: 2px solid rgb(196, 198, 199);
   padding-bottom: 20px;
-}
+}*/
 
 #map-embed {
   width: 100vw;
