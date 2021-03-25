@@ -604,6 +604,157 @@ html {
   min-height: 400px;
 }
 
+.historybg-1,
+.historybg-2,
+.historybg-3,
+.historybg-4,
+.historybg-5,
+.historybg-6,
+.historybg-7,
+.historybg-8,
+.festivalsbg-1,
+.festivalsbg-2,
+.festivalsbg-3,
+.festivalsbg-4,
+.festivalsbg-5,
+.festivalsbg-6,
+.getting-to-ronda-bg-1,
+.getting-to-ronda-bg-2,
+.getting-to-ronda-bg-3,
+.getting-to-ronda-bg-4,
+.ronda-today-bg-1,
+.ronda-today-bg-2,
+.ronda-today-bg-3,
+.ronda-today-bg-4,
+.famous-bg-1,
+.famous-bg-2,
+.famous-bg-3,
+.famous-bg-4
+
+{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historybg-1 {
+  background-image: url("../images/historybg_1.jpg");
+  min-height: 80%;
+}
+
+.historybg-2 {
+  background-image: url("../images/historybg_2.jpg");
+  min-height: 400px;
+}
+
+.historybg-3 {
+  background-image: url("../images/historybg_3.jpg");
+  min-height: 400px;
+}
+
+.historybg-4 {
+  background-image: url("../images/historybg_4.jpg");
+  min-height: 400px;
+}
+
+.historybg-5 {
+  background-image: url("../images/historybg_5.jpg");
+  min-height: 400px;
+}
+
+.historybg-6 {
+  background-image: url("../images/historybg_6.jpg");
+  min-height: 400px;
+}
+
+.historybg-7 {
+  background-image: url("../images/historybg_7.jpg");
+  min-height: 400px;
+}
+
+.historybg-8 {
+  background-image: url("../images/historybg_8.jpg");
+  min-height: 400px;
+}
+
+.ronda-today-bg-1 {
+  background-image: url("../images/ronda-today-bg-1.jpg");
+  min-height: 400px;
+}
+
+.ronda-today-bg-2 {
+  background-image: url("../images/ronda-today-bg-2.jpg");
+  min-height: 400px;
+}
+
+.ronda-today-bg-3 {
+  background-image: url("../images/ronda-today-bg-3.jpg");
+  min-height: 400px;
+}
+
+.ronda-today-bg-4 {
+  background-image: url("../images/ronda-today-bg-4.jpg");
+  min-height: 400px;
+}
+
+.famous-bg-1 {
+  background-image: url("../images/famous-bg-1.jpg");
+  min-height: 400px;
+}
+
+.famous-bg-2 {
+  background-image: url("../images/famous-bg-2.jpg");
+  min-height: 400px;
+}
+
+.festivalsbg-1{
+  background-image: url("../images/festivals-banner-1.jpg");
+  min-height: 400px;
+  background-size:contain;
+
+}
+
+.festivalsbg-2{
+  background-image: url("../images/ronda_5.jpg");
+  min-height: 400px;
+
+}
+
+.festivalsbg-3{
+  background-image: url("../images/ronda_5.jpg");
+  min-height: 400px;
+}
+
+.festivalsbg-4{
+  background-image: url("../images/ronda_5.jpg");
+  min-height: 400px;
+}
+
+.festivalsbg-5{
+  background-image: url("../images/ronda_5.jpg");
+  min-height: 400px;
+}
+
+.festivalsbg-6{
+  background-image: url("../images/ronda_5.jpg");
+  min-height: 400px;
+}
+
+.festivalsbg-7{
+  background-image: url("../images/ronda_5.jpg");
+  min-height: 400px;
+}
+
+.getting-to-ronda-bg-1{
+  background-image: url("../images/getting-to-ronda-1.jpg");
+  min-height: 400px;
+
+
+}
+
 .homepage-parallax-banner-1,
 .homepage-parallax-banner-2,
 .homepage-parallax-banner-3 {
@@ -861,7 +1012,7 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
 
 /* Features Styling */
 
-.feature-container-4-boxes {
+.feature-container-multiple-boxes {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -869,10 +1020,8 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   margin: 0 auto;
 }
 
-.feature-item-1,
-.feature-item-2,
-.feature-item-3,
-.feature-item-4 {
+.feature-item
+{
   background: black;
   flex: 25%;
 margin: 0rem 0.5rem 0.5rem 0.5rem;
@@ -882,7 +1031,7 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
 
 
 
-.feature-container-4-boxes img {
+.feature-container-multiple-boxes img {
   width: 100%;
   object-fit: cover;
   transition: 0.7s;
@@ -908,6 +1057,30 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   line-height: 1.2em;
 }
 
+.feature-item-text {
+  position: absolute;
+  width: 100%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  /*font: 1rem "Lato", sans-serif;*/
+  font-family: Lato, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.2em;
+  display:none;
+  transition: 0.6s ease-in-out;
+
+
+}
+
+.feature-item:hover .feature-item-text{
+display:block;
+}
+
 .feature-item-left a,
 .feature-item-center a,
 .feature-item-right a
@@ -917,7 +1090,7 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   color:white;
 }
 
-.feature-container-4-boxes a{
+.feature-container-multiple-boxes a{
   text-decoration:none;
   color:white;}
 
@@ -930,7 +1103,7 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   opacity: 80%;
 }
 
-.feature-container-4-boxes hr {
+.feature-container-multiple-boxes hr {
   width: 10%;
   height: 2px;
   border-width: 0;
@@ -1078,7 +1251,19 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   padding-bottom: 0.5rem;
 }
 
+#visitor-information{
+  padding-bottom:1rem;
+}
 
+#visitor-information h5{
+  text-align:center;
+  padding-bottom:1rem;
+}
+
+#visitor-information p{
+  text-align:center;
+  padding:0;
+}
 
 /* Slider homepage images Styling */
 /* Slideshow container */
@@ -1274,7 +1459,50 @@ p {
   padding-top:0.5rem;
 }
 
+/* Accordion styling */
+.accordion {
+  margin: 0 auto;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
+.active, .accordion:hover {
+  background-color: #ccc;
+
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+}
+
+
+.border{
+  text-transform:uppercase;
+}
 
 
 
@@ -1697,14 +1925,12 @@ p {
     width: 100%;
   }
 
-  .feature-container-4-boxes {
+  .feature-container-multiple-boxes {
     flex-direction: row;
   }
   
-  .feature-item-1,
-  .feature-item-2,
-  .feature-item-3,
-  .feature-item-4 {
+  .feature-item
+{
     background: black;
     flex: 25%;
   margin: 0rem 0.5rem 0.5rem 0.5rem;
@@ -1712,7 +1938,7 @@ p {
     overflow: hidden;
   }
 
-  .feature-container-4-boxes img {
+  .feature-container-multiple-boxes img {
     height: 15rem;
     padding-bottom: 0rem;
   }
@@ -1788,6 +2014,12 @@ p {
   }
 
   .feature-item-right:hover img {
+    /* filter: brightness(120%); */
+    transform: scale(1.07);
+    transform-origin: 50% 50%;
+  }
+
+  .feature-item:hover img {
     /* filter: brightness(120%); */
     transform: scale(1.07);
     transform-origin: 50% 50%;
