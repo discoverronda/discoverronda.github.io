@@ -702,18 +702,17 @@ html {
 
 .famous-bg-1 {
   background-image: url("../images/famous-bg-1.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .famous-bg-2 {
   background-image: url("../images/famous-bg-2.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .festivalsbg-1{
   background-image: url("../images/festivals-banner-1.jpg");
   min-height: 400px;
-  background-size:contain;
 
 }
 
@@ -927,7 +926,6 @@ html {
 .parallax-text-container-white h3 {
   text-align: center;
   letter-spacing: 0.25rem;
-  text-transform: uppercase;
   font: 1rem "Lato", sans-serif;
   color: #111;
   padding: 0rem 0rem 1rem 0rem;
@@ -937,7 +935,6 @@ html {
 .parallax-text-container-grey h3 {
   text-align: center;
   letter-spacing: 0.25rem;
-  text-transform: uppercase;
   font: 1rem "Lato", sans-serif;
   color: white;
   padding: 0rem 0rem 1rem 0rem;
@@ -1861,7 +1858,6 @@ p {
   .parallax-text-container-white h3 {
     text-align: center;
     letter-spacing: 5px;
-    text-transform: uppercase;
     font: 2rem "Lato", sans-serif;
     color: #111;
     padding: 0rem 0rem 0rem 0rem;
@@ -2279,7 +2275,6 @@ font-weight:500;
 
 h3 {
   font-size: 1.8rem;
- /* text-transform: uppercase;*/
   letter-spacing: 0.2rem;
 
 }
@@ -2287,7 +2282,6 @@ h3 {
 h4 {
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
-  text-transform: uppercase;
 }
 
 h5 {
