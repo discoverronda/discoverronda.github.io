@@ -1083,6 +1083,11 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   line-height: 1.2em;
 }
 
+.centered-text a {
+  width: 80%;
+
+}
+
 .feature-item-text {
   position: absolute;
   width: 100%;
