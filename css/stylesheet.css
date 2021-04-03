@@ -11,7 +11,7 @@
 /* mobile first design */
 html {
   margin: 0;
-  width: 100vw;
+  width: 100%;
 
 }
 
@@ -25,6 +25,7 @@ body {
   margin: 0;
   position: absolute;
   font-family: "Lato", sans-serif;
+  width:100%;
 }
 
 
@@ -224,6 +225,8 @@ padding: 0rem 0rem 0.5rem 0rem;
   object-fit:cover;
 
 }
+
+
 
 /* Quote banner */
 #quote {
@@ -629,7 +632,12 @@ html {
 .famous-bg-1,
 .famous-bg-2,
 .famous-bg-3,
-.famous-bg-4
+.famous-bg-4,
+.getting-to-ronda-bg-1,
+.ronda-wines-bg-1,
+.around-ronda-bg-1,
+.other-activities-bg-1,
+.coming-soon-bg-1
 
 {
   position: relative;
@@ -640,6 +648,10 @@ html {
   background-size: cover;
 }
 
+.coming-soon-bg-1{
+  background-image: url("../images/coming-soon-bg-1.jpg");
+  min-height: 600px;
+}
 .historybg-1 {
   background-image: url("../images/historybg_1.jpg");
   min-height: 80%;
@@ -707,7 +719,7 @@ html {
 
 .famous-bg-2 {
   background-image: url("../images/famous-bg-2.jpg");
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .festivalsbg-1{
@@ -747,12 +759,29 @@ html {
   min-height: 400px;
 }
 
+
+
 .getting-to-ronda-bg-1{
   background-image: url("../images/getting-to-ronda-1.jpg");
-  min-height: 400px;
+  min-height: 600px;
+}
 
+.ronda-wines-bg-1{
+  background-image: url("../images/ronda-wines-bg-1.jpg");
+  min-height: 600px;
 
 }
+
+.around-ronda-bg-1{
+  background-image: url("../images/around-ronda-bg-1.jpg");
+  min-height: 400px; 
+}
+
+.other-activities-bg-1{
+  background-image: url("../images/birds-of-ronda.jpg");
+  min-height: 400px; 
+}
+
 
 .homepage-parallax-banner-1,
 .homepage-parallax-banner-2,
@@ -1260,6 +1289,42 @@ display:block;
 #visitor-information p{
   text-align:center;
   padding:0;
+}
+
+.full-width-banner{
+  margin: 0 auto;
+  align:center;
+  text-align:center;
+}
+
+.around-ronda-banner{
+  margin: 0 auto;
+  align:center;
+  text-align:center;
+  padding: 2rem 1rem 0rem 1rem;
+
+}
+
+.around-ronda-banner img{
+  width:80%;
+  height:500px;
+  object-fit: cover;
+}
+
+.parallax-text-container-white img{
+  margin: 0 auto;
+  width:80%;
+  height:500px;
+  object-fit: cover;
+}
+
+
+.full-width-banner img {
+
+  width:80%;
+  height:500px;
+  object-fit: cover;
+
 }
 
 /* Slider homepage images Styling */
