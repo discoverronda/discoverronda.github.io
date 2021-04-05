@@ -1648,6 +1648,13 @@ p {
     width: 60%;
   }
 
+  .small-container img{
+    width:100%;
+  }
+
+  .mapouter{
+    margin: 0 auto;
+  }
 
   #text-box {
     padding: 2rem 0rem 0rem 0rem;
