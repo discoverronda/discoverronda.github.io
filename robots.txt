@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /
+
+Sitemap: https://discoverronda.com/sitemap.xml
