@@ -1,18 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet');
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yrsa:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+
+
 * {
   /* box-sizing: border-box;*/
   -webkit-tap-highlight-color: transparent; /* This stops mobile borders on elements */
 }
 
-/* mobile first design */
+body,
 html {
+  height: 100%;
   margin: 0;
-  width: 100%;
+}
 
+body {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height:1.625;
+  color: #333;
+  font-size:18px;
+  letter-spacing: 1px;
 }
 
  img {
@@ -21,12 +35,7 @@ html {
 
 
 
-body {
-  margin: 0;
-  position: absolute;
-  font-family: "Lato", sans-serif;
-  width:100%;
-}
+
 
 
 /*Container Styling */
@@ -71,28 +80,22 @@ padding: 0rem 0rem 0.5rem 0rem;
   padding: 2rem 0rem 1rem 0rem;
   text-align: center;
   display: flex;
-  line-height: 1.2rem;
 }
 
 #text-box h2{
   padding: 0rem 0rem 0.5rem 0rem;
   text-align: center;
-  line-height: 1.5rem;
-  font-size:1.5rem;
 }
 
 #text-box h3{
   padding: 0rem 0rem 0.5rem 0rem;
   text-align: left;
-  line-height: 1.7rem;
-  font-size:1.2rem;
-  font-weight:900;
+
 }
 
 #map-embed h5{
   padding: 1rem 0rem 0.5rem 0rem;
   text-align: center;
-  line-height: 1.7rem;
 }
 
 .text-left h3 {
@@ -241,18 +244,18 @@ margin:auto;
 
 #quote h3 {
   font-family: Bariol-Regular, serif;
-  font-size: 1rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
   line-height: normal;
   text-transform: none;
   color: #707c80;
+  font-size: 1rem;
 }
 
 #quote h4 {
   font-family: Gotham-Book, sans-serif;
-  font-size: 15px;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 1px;
@@ -272,7 +275,7 @@ margin:auto;
 
 #footer {
   margin-top:1rem;
-  background-color: #333;
+  background-color: white;
   /*background-image: url("../images/travel-banner-2.jpg");*/
   opacity: 80%;
   background-size: cover;
@@ -288,7 +291,7 @@ margin:auto;
   text-align:center;
   font-size:0.7rem;
   padding: 0.1rem 0rem 0.1rem 0rem;
-  color: white;
+  color: #333;
 }
 
 
@@ -312,7 +315,6 @@ margin:auto;
 .text-left-image-right .text-left {
   background-color: white;
   flex: 1;
-  line-height: 1.3;
   text-align: left;
 }
 
@@ -348,7 +350,6 @@ margin:auto;
 #gallery-menu .region li {
   display: inline;
   font-size: 12px;
-  text-transform: uppercase;
   color: grey;
 }
 
@@ -367,7 +368,6 @@ margin:auto;
   content: "•";
   vertical-align: middle;
   display: inline-block;
-  font-size: 1em;
 }
 
 #gallery-menu a {
@@ -431,6 +431,20 @@ margin:auto;
   transform: scale(1.1);
 }
 
+.arrow {
+  border: solid #333;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-bottom:3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
 #homepage-banner  #desktop-banner {
   display: none;
 }
@@ -449,6 +463,16 @@ margin:auto;
 
 }
 
+#footer form {
+  padding-top: 0rem;
+  margin: 0 auto;
+}
+
+#footer img{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .flex-container-parallax {
   display: flex;
   flex-direction: column;
@@ -458,23 +482,12 @@ margin:auto;
   margin-bottom: 1rem;
 }
 
-.flex-container-parallax p {
-  text-align: justify;
-  color: #605e5e;
-  font-weight: 100;
-}
 
-.flex-container-parallax p {
-  text-align: justify;
-  color: #605e5e;
-  font-weight: 100;
-}
 
 .flex-item-left {
   padding-top: 1rem;
   flex: 50%;
   text-align: center;
-  font: 1.3rem "Lato", sans-serif;
   vertical-align:middle;
   align-items:center;
   margin-right: 0rem;
@@ -494,7 +507,6 @@ margin:auto;
   margin-top: 1rem;
   margin-left: 0rem;
   text-align: center;
-  font: 1.3rem "Lato", sans-serif;
 }
 
 
@@ -524,7 +536,6 @@ margin:auto;
   padding-top: 0rem;
   flex: 40%;
   text-align: justify;
-  font: 1rem "Lato", sans-serif;
 }
 
 .homepage-flex-item-left p{
@@ -538,28 +549,9 @@ margin:auto;
   margin-top: 1rem;
   text-align: justify;
   margin: 0 auto;
-  font: 1.3rem "Lato", sans-serif;
 }
 
-/*
-.homepage-flex-item-left h4 {
-  padding-top: 0.3rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font: 0.7rem "Lato", sans-serif;
-  color: #111;
-}
 
-.homepage-flex-item-right h3 {
-  text-align: center;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 1rem "Lato", sans-serif;
-  color: #111;
-}
-*/
 
 .homepage-flex-item-right img {
   width: 100%;
@@ -574,13 +566,7 @@ margin:auto;
 
 /* Styling for parallax scrolling */
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-  /*font: 400 1.1rem/1.8 "Lato", sans-serif;*/
-  color: #777;
-}
+
 
 .bgimg-1,
 .bgimg-2,
@@ -795,7 +781,7 @@ html {
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 .homepage-parallax-banner-1 {
-  background-image: url("../images/ronda/ronda_18.jpg");
+  background-image: url("../images/ronda/streets-in-ronda.jpg");
   min-height: 70%;
   margin: 0.5rem 0rem 0.5rem 0rem;
 
@@ -848,10 +834,8 @@ html {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  line-height: 1.2em;
 }
 
 .slider-centered-text-large hr {
@@ -873,10 +857,8 @@ html {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  line-height: 1.2em;
 }
 
 .slider-read-more {
@@ -889,11 +871,9 @@ html {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 0.7rem;
-  line-height: 1.2em;
   letter-spacing: 0rem;
   background: white;
 }
@@ -916,29 +896,29 @@ html {
 .caption {
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 40%;
   width: 100%;
   text-align: center;
-  color: #000;
-  font: 1rem "Lato", sans-serif;
   text-transform: uppercase;
 
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
+  background-color: #333;
+  color: white;
   padding: 18px;
-  font-size: 14px;
+  letter-spacing: 5px;
+  opacity:85%; 
   letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  
 }
 
 .parallax-text-container-white {
   color: #777;
   background-color: white;
-  text-align: center;
-  text-align: justify;
-  font: 1rem "Lato", sans-serif;
   padding: 2rem 1rem 1rem 1rem;
 
 }
@@ -946,26 +926,17 @@ html {
 .parallax-text-container-grey {
   color: #ddd;
   background-color: #282e34;
-  text-align: center;
-  text-align: justify;
   padding: 2rem 1rem 1rem 1rem;
-  font: 1rem "Lato", sans-serif;
 }
 
 .parallax-text-container-white h3 {
-  text-align: center;
-  letter-spacing: 0.25rem;
-  font: 1rem "Lato", sans-serif;
-  color: #111;
   padding: 0rem 0rem 1rem 0rem;
 
 }
 
 .parallax-text-container-grey h3 {
-  text-align: center;
-  letter-spacing: 0.25rem;
-  font: 1rem "Lato", sans-serif;
   color: white;
+
   padding: 0rem 0rem 1rem 0rem;
 }
 
@@ -1076,10 +1047,8 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  font-size: 1rem;
   line-height: 1.2em;
 }
 
@@ -1096,12 +1065,7 @@ margin: 0rem 0.5rem 0.5rem 0.5rem;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  letter-spacing: 2px;
-  /*font: 1rem "Lato", sans-serif;*/
-  font-family: Lato, "Times New Roman", Times, serif;
-  font-weight: 700;
-  font-size: 0.8rem;
-  line-height: 1.2em;
+
   display:none;
   transition: 0.6s ease-in-out;
 
@@ -1177,10 +1141,8 @@ display:block;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  font-size: 1rem;
   line-height: 1.2em;
 }
 
@@ -1194,10 +1156,8 @@ display:block;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  font-size: 0.5rem;
   line-height: 1.2em;
 }
 
@@ -1211,7 +1171,6 @@ display:block;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  /*font: 1rem "Lato", sans-serif;*/
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 0.4rem;
@@ -1233,17 +1192,15 @@ display:block;
 }
 
 .feature-read-more {
-  
   padding: 0.4rem 0.5rem 0.4rem 0.5rem;
   color: white;
   text-align:center;
   text-transform: uppercase;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
-  font-size: 0.5rem;
-  line-height: 1.2em;
+  font-size: 0.6rem;
   background: black;
-  width: 4rem;
+  width: 6rem;
   margin: 0 auto;
   border: 2px solid black !important; /*inline style is given more preference so need to use important here */
   margin-bottom:1rem;
@@ -1267,18 +1224,15 @@ display:block;
   margin: 0;
   text-align: center;
   padding-top: 1rem;
+  background-color: #333;
 }
 
 .gallery-menu a {
   display: block;
   text-align: center;
-  text-decoration: none;
   padding-left: 1rem;
   padding-right: 1rem;
-  color: black;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 0.6rem "Lato", sans-serif;
+  color: white;
   padding-bottom: 0.5rem;
 }
 
@@ -1309,6 +1263,8 @@ display:block;
   padding: 2rem 1rem 0rem 1rem;
 
 }
+
+
 
 .around-ronda-banner img{
   width:80%;
@@ -1384,8 +1340,7 @@ display:block;
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -1460,6 +1415,8 @@ display:block;
   margin: 0 auto;
 }
 
+
+
 /* On smaller screens, decrease text size 
       @media only screen and (max-width: 300px) {
         .prev, .next,.text {font-size: 11px}
@@ -1470,8 +1427,7 @@ display:block;
 /* Global Headings styling */
 
 h1,h2,h3,h4,h5, .figcaption{
-  font: 1.2rem "Lato", sans-serif;
-  text-align:center;
+    text-align:center;
   margin: 0;
  /* padding: 1rem 0rem 1rem 0rem;*/
   color: black;
@@ -1479,43 +1435,40 @@ h1,h2,h3,h4,h5, .figcaption{
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: normal;
-  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight:300;
 
 }
 
 h2 {
   font-size: 2rem;
   letter-spacing: 0.2rem;
-font-weight:500;
+  font-weight:300;
 }
 
 h3 {
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  font-weight:300;
 }
 
 h4 {
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
-  text-transform:none;
+  font-weight:300;
+
 }
 
 h5 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 0.2rem;
+  font-weight:300;
 }
 
 p {
   /*font-family: "Source Sans Pro", "Helvetica" sans-serif;*/
-  font-weight: 100;
   text-align: left;
-  line-height:1.6rem;
   margin: 0;
-  font-size:1rem;
-  letter-spacing: 0.5px;
 }
 
 .figcaption {
@@ -1523,7 +1476,7 @@ p {
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 100;
-  padding-top:0.5rem;
+  padding-top:0rem;
 }
 
 /* Accordion styling */
@@ -1536,8 +1489,8 @@ p {
   width: 100%;
   border: none;
   outline: none;
-  font-size: 15px;
   transition: 0.4s;
+  font-size:1rem;
 }
 
 .active, .accordion:hover {
@@ -1566,6 +1519,10 @@ p {
 
 }
 
+hr{
+ 
+  opacity: 20%;
+}
 
 .border{
   text-transform:uppercase;
@@ -1631,6 +1588,11 @@ p {
     opacity: 90%;
   }
 
+  hr{
+    width: 50%;
+    opacity: 20%;
+  }
+
   .container {
     max-width: 100% !important;
     padding-top:1rem;
@@ -1659,28 +1621,25 @@ p {
   #text-box {
     padding: 2rem 0rem 0rem 0rem;
     text-align: center;
-    line-height: 1.6rem;
+
   }
 
   #text-box h2{
     padding: 1rem 0rem 1rem 0rem;
     text-align: center;
-    line-height: 1.5rem;
-    font-size: 2.5rem;
+
   }
   
   #text-box h3{
     padding: 0rem 0rem 0.5rem 0rem;
-    text-align: left;
-    line-height: 1.7rem;
-    font-size:1.5rem;
-    font-weight:900;
+    text-align: center;
+
   }
   
   #map-embed h5{
     padding: 1rem 0rem 0.5rem 0rem;
     text-align: center;
-    line-height: 1.7rem;
+
   }
   
   .text-left h3 {
@@ -1784,19 +1743,17 @@ p {
     width: 10%;
   }
 
+  #quote h4{
+    font-size: 1rem;
+  }
+
 
   .flex-container-parallax {
     flex-direction: row;
     width: 95%;
   }
 
-  .flex-container-parallax h3 {
-    text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 2rem "Lato", sans-serif;
-    color: #111;
-  }
+  
 
   .flex-container {
     flex-direction: row;
@@ -1822,7 +1779,6 @@ p {
     padding-top: 1rem;
     flex: 50%;
     text-align: center;
-    font: 1.3rem "Lato", sans-serif;
     vertical-align:middle;
     align-items:center;
     margin-right: 1rem;
@@ -1890,8 +1846,7 @@ p {
   }
 
  
-
-  /* Styling for parallax scrolling */
+ /* Styling for parallax scrolling   */
   .caption {
     position: absolute;
     left: 0;
@@ -1902,40 +1857,41 @@ p {
   }
 
   .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: #333;
+    color: white;
     padding: 18px;
-    font-size: 25px;
     letter-spacing: 5px;
+    opacity:85%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:2rem;
   }
 
+
+
+
   .parallax-text-container-white {
-    color: #777;
     background-color: white;
-    text-align: center;
     padding: 2rem 0rem 2rem 0rem;
-    text-align: justify;
     margin: 0 auto;
     width: 80%;
-    font: 1.3rem "Lato", sans-serif;
+
   }
 
   .parallax-text-container-grey {
     color: #ddd;
     background-color: #282e34;
-    text-align: center;
-    text-align: justify;
+
     padding: 2rem 0rem 2rem 0rem;
     margin: 0 auto;
     padding-left: 10rem;
     padding-right: 10rem;
-    font: 1.3rem "Lato", sans-serif;
+
   }
 
   .parallax-text-container-white h3 {
-    text-align: center;
-    letter-spacing: 5px;
-    font: 2rem "Lato", sans-serif;
+
     color: #111;
     padding: 0rem 0rem 0rem 0rem;
   }
@@ -1944,28 +1900,17 @@ p {
     background-color: grey;
     text-decoration: none;
     border: none;
-    font: 1rem "Lato", sans-serif;
   }
 
 
   .parallax-text-container-grey h3 {
-    text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 2rem "Lato", sans-serif;
-    color: white;
-    padding: 0rem 0rem 0rem 0rem;
+
+
+    padding: 0rem ;
 
   }
 
-  /*
-  .parallax-text-container-white p {
-    width: 100%;
-  }
-
-  .parallax-text-container-grey p {
-    width: 100%;
-  } */
+  
 
   .parallax-text-container-white p {
  padding: 1rem 0rem 1rem 0rem;
@@ -2101,24 +2046,23 @@ p {
   .gallery-menu {
     margin: 0;
     text-align: center;
-    padding-bottom: 0rem;
-    padding-top:1rem;
+    padding-bottom: 0.5rem;
+    padding-top:0.5rem;
+    opacity: 0.9;
+
   }
 
   .gallery-menu a {
     text-align: center;
     text-decoration: none;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    color: black;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 1rem "Lato", sans-serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white;
     display: inline;
   }
 
   .gallery-menu a:hover {
-    color:#333;
+    color:#DB9300;
   }
 
   /*
@@ -2154,7 +2098,6 @@ p {
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 1rem "Lato", sans-serif;
     color: #111;
   }
 
@@ -2180,7 +2123,6 @@ p {
     left: 50%;
     font-weight: 700;
     font-size: 2rem;
-    line-height: 1em;
   }
 
   .centered-text-header {
@@ -2193,10 +2135,8 @@ p {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*font: 1rem "Lato", sans-serif;*/
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
-    font-size: 1rem;
     line-height: 1.2em;
   }
 
@@ -2210,7 +2150,6 @@ p {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*font: 1rem "Lato", sans-serif;*/
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
     font-size: 0.9rem;
@@ -2253,10 +2192,8 @@ p {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*font: 1rem "Lato", sans-serif;*/
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
-    font-size: 1rem;
     line-height: 1.2em;
   }
 
@@ -2270,7 +2207,6 @@ p {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*font: 1rem "Lato", sans-serif;*/
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
     font-size: 0.9rem;
@@ -2329,7 +2265,6 @@ p {
   /* Global Headings styling */
 
 h1,h2,h3,h4,h5, .figcaption{
-  font: 1.2rem "Lato", sans-serif;
   text-align:center;
   margin: 0;
  /* padding: 1rem 0rem 1rem 0rem;*/
@@ -2338,42 +2273,40 @@ h1,h2,h3,h4,h5, .figcaption{
 }
 
 h1 {
-  font-size: 2.9rem;
-  font-weight: normal;
-  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight:300;
 
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   letter-spacing: 0.2rem;
-font-weight:500;
+  font-weight:300;
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
-
+  font-weight:300;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   letter-spacing: 0.2rem;
+  font-weight:300;
+
 }
 
 h5 {
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
+  font-weight:300;
 }
 
 p {
   /*font-family: "Source Sans Pro", "Helvetica" sans-serif;*/
-  font-weight: 100;
   text-align: left;
-  letter-spacing:1.2px;
-  line-height:1.8rem;
   margin: 0;
-  font-size: 1.3rem;
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
@@ -2382,7 +2315,7 @@ p {
   font-size: 0.8rem;
   font-style: italic;
   font-weight: 100;
-  padding-top:0.3rem;
+  padding-top:0rem;
 
 }
 
@@ -2392,7 +2325,6 @@ p {
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
-    font: 2rem "Lato", sans-serif;
     color: #111;
   }
 
@@ -2401,7 +2333,6 @@ p {
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
-    font: 1rem "Lato", sans-serif;
     color: #111;
   }
 
