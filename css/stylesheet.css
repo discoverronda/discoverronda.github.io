@@ -745,7 +745,7 @@ a:hover {
   background-image: url("../images/top-photography-spots.jpg");
 
   /*background-image: url("../images/ronda/streets-in-ronda.jpg");*/
-  min-height: 70%;
+  min-height: 70vh;
   margin: 0.5rem 0rem 0.5rem 0rem;
 
 }
@@ -2417,7 +2417,7 @@ hr {
   }
 
   .homepage-parallax-banner-1 {
-    min-height: 80%;
+    height: 80vh;
     margin: 0rem 0rem 0rem 0rem;
 
   }
