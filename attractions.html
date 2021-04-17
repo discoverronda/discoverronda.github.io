@@ -1,250 +1,343 @@
 <html>
-    <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-2911RZ0VMC');
-</script>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" type="image/png" href="images/icon.png">
-        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-10703354-8', 'w3bits.com');ga('require', 'displayfeatures');ga('send', 'pageview');</script><script type='text/javascript' src='https://w3bits.com/wp-content/themes/w/assets/js/prettify.js'></script>
-        <link rel="stylesheet" href="css/menu.css">
-        <meta name="viewport" content="width=device-width">
-        <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-        <title>Ronda Tourist Sites and Attractions - Discover Ronda</title>
-       <meta name="description" content="Enjoy all of the top tourist sites and attractions that Ronda has to offer with our helpful guide!">
-  </head>
-  <body>
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("*").tooltip({
+        track: true
+      });
+      $("*[title]").tooltip("disable");
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-	<nav id="menu">
-  <label for="tm" id="toggle-menu">
-    <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span></a>   
-    <span class="hamburger"><span class="drop-icon" style=color:white;>☰</span></span>
-  </label>
-  <input type="checkbox" id="tm">
-  <ul class="main-menu">
-    <li class="logo"><a href="index.html"><span id="logo-text">Discover Ronda</span></a></li>
-    <li><a href="#">About Ronda
-        <span class="drop-icon">▾</span>
-        <label title="Toggle Drop-down" class="drop-icon" for="menu1">▾
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-2911RZ0VMC");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <title>Ronda Tourist Sites and Attractions - Discover Ronda</title>
+  <meta name="description"
+    content="Enjoy all of the top tourist sites and attractions that Ronda has to offer with our helpful guide!">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          </span>
         </label>
-      </a>
-      <input type="checkbox" id="menu1">
-      <ul class="sub-menu">
-        <li><a href="history.html">History</a></li>
-        <li><a href="ronda-today.html">Ronda Today</a></li>
-        <li><a href="famous-people.html">Famous Visitors</a></li>
-       <!-- <li><a href="regional-food.html">Gastronomy</a></li> -->
-      </ul>
-    </li>
-    <li><a href="#">See & Do
-      <span class="drop-icon">▾</span>
-      <label title="Toggle Drop-down" class="drop-icon" for="menu2">▾</label>
-    </a>
-    <input type="checkbox" id="menu2">
-    <ul class="sub-menu">
-      <li>  <a href="attractions.html">Attractions</a></li>
-      <li><a href="sightseeing.html">Sightseeing</a></li>
-      <li><a href="history.html">Festivals & Celebrations</a></li>
-      <li>  <a href="hiking.html">Hiking & Nature</a></li>
-      <li><a href="around-ronda.html">Around Ronda</a></li>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="ronda-today.html">Ronda Today</a></li>
+              <hr />
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3">▾</label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
+    </span>
+  </div>
 
-
-    </ul>
-  </li>
-  <li><a href="#">Image Gallery
-    <span class="drop-icon">▾</span>
-    <label title="Toggle Drop-down" class="drop-icon" for="menu3">▾</label>
-  </a>
-  <input type="checkbox" id="menu3">
-  <ul class="sub-menu">
-    <li>  <a href="ronda-gallery.html">Ronda</a></li>
-    <li> <a href="serrania-gallery.html">Serranía de Ronda</a></li>
-    <li> <a href="andalucia-gallery.html">Andalucía</a></li>
-  </ul>
-</li>
-<li><a href="#">Plan Your Trip
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
-</a>
-<input type="checkbox" id="menu4">
-<ul class="sub-menu">
-  <li>  <a href="ronda-gallery.html">Getting to Ronda</a></li>
-  <li> <a href="serrania-gallery.html">Getting Around</a></li>
-  <li> <a href="andalucia-gallery.html">Practical Information</a></li>
-</ul>
-</li>
-<li><a href="#">Travel Sustainably
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu5">▾</label>
-</a>
-<input type="checkbox" id="menu5">
-<ul class="sub-menu">
-  <li> <a href="support-us.html">Sustainability</a></li>
-  <li> <a href="who-we-are.html">Hotels & Accommodation</a></li>
-</ul>
-<li><a href="#">About Us
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu5">▾</label>
-</a>
-<input type="checkbox" id="menu5">
-<ul class="sub-menu">
-  <li> <a href="who-we-are.html">Who We Are</a></li>
-  <li> <a href="support-us.html">Support Us</a></li>
-</ul>
-<span class="addon-section">
-<li class="addon"><div class="instagram">
-  <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-  </div></li>
-  <li class="addon"><div class="language">
-    <a id="addon" href="es/index.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="spanish flag" title="Language selector" src="images/spanish-language.png" ></a>
-    </div></li>
-</li>
-</span>
-  </ul>
-</nav>	 	      
-
-<div class="gallery-menu">
-  <a href=#museums>Historic Sights and Museums</a>
-  <a href=#monuments>Monuments</a>
-  <a href=#parks-squares>Parks & Squares</a>
-  <a href=#things-to-do>Things to Do</a>
+  <div class="gallery-menu">
+    <a href=#museums>Historic Sights and Museums</a>
+    <hr>
+    <a href=#monuments>Monuments</a>
+    <hr>
+    <a href=#parks-squares>Parks & Squares</a>
+    <hr>
+    <a href=#things-to-do>Things to Do</a>
+    <hr>
 
   </div>
 
 
-<div class = "container">
-  <h4 id = "historic-sights">Historic Sights and Museums</h4>
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="mondragon-palace.html"><img alt="Mondragon palace" title="Mondragon Palace" src="./images/attractions/mondragon-palace-thumbnail.jpg"><span class="centered-text">Mondragon Palace<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="arab-baths.html"><img alt="Arab baths" title="Arab baths" src="./images/attractions/arab-baths-thumbnail.jpg"><span class="centered-text">Arab Baths<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="bullring.html"><img alt="Plaza del Toros Ronda" title="Plaza del Toros Ronda" src="./images/attractions/bullring-thumbnail.jpg"><span class="centered-text">Bullring of the Royal Cavalry of Ronda<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-  </div>
-</div>
-
-<div class = "container">
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="casa-don-bosco.html"><img alt="Casa Don Bosco" title="Casa Don Bosco" src="./images/attractions/casa-don-bosco-thumbnail.jpg"><span class="centered-text">Casa don Bosco<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="casa-del-rey-moro.html"><img alt="Casa del Rey Moro" title="Casa del Rey Moro" src="./images/attractions/casa-del-rey-moro-thumbnail.jpg"><span class="centered-text">Casa del Rey Moro<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="casa-del-gigante.html"><img alt="Casa del Gigante" title="Casa del Gigante" src="./images/attractions/casa-del-gigante-thumbnail.jpg"><span class="centered-text">Casa del Gigante<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-
-  </div>
-</div>
-
-<div class = "container">
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="museo-lara.html"><img alt="Museo Lara" title="Museo Lara" src="./images/attractions/museo-lara-thumbnail.jpg"><span class="centered-text">Museo Lara<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="iglesia-santa-maria-mayor.html"><img alt="Iglesia de Santa Maria la Mayor" title="Iglesia de Santa Maria la Mayor" src="./images/attractions/iglesia-santa-maria-mayor-thumbnail.jpg"><span class="centered-text">Iglesia de Santa María la Mayor<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="bridge-museum.html"><img alt="Puente Nuevo Interpretation Museum" title="Puente Nuevo Interpretation Museum" src="./images/attractions/bridge-museum-thumbnail.jpg"><span class="centered-text">Bridge Museum<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="palacio-salvatierra.html"><img alt="Palace of Salvatierra" title="Palace of Salvatierra" src="./images/attractions/palacio-salvatierra-thumbnail.jpg"><span class="centered-text">Palacio del Marqués de Salvatierra
-      <hr></span></a>
-    <span class="feature-item-text"></span></a>
+  <div class="container">
+    <h4 id="historic-sights">Historic Sights and Museums</h4>
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="mondragon-palace.html"><img alt="Mondragon palace" title="Mondragon Palace"
+            src="./images/attractions/mondragon-palace-thumbnail.jpg"><span class="centered-text">Mondragón Palace
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="arab-baths.html"><img alt="Arab baths" title="Arab baths"
+            src="./images/attractions/arab-baths-thumbnail.jpg"><span class="centered-text">Arab Baths
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="bullring.html"><img alt="Plaza del Toros Ronda" title="Plaza del Toros Ronda"
+            src="./images/attractions/bullring-thumbnail.jpg"><span class="centered-text">Plaza de Toros Bullring
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
     </div>
   </div>
-</div>
 
+  <div class="container">
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="casa-don-bosco.html"><img alt="Casa Don Bosco" title="Casa Don Bosco"
+            src="./images/attractions/casa-don-bosco-thumbnail.jpg"><span class="centered-text">Casa don Bosco
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="casa-del-rey-moro.html"><img alt="Casa del Rey Moro" title="Casa del Rey Moro"
+            src="./images/attractions/casa-del-rey-moro-thumbnail.jpg"><span class="centered-text">Casa del Rey Moro
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="casa-del-gigante.html"><img alt="Casa del Gigante" title="Casa del Gigante"
+            src="./images/attractions/casa-del-gigante-thumbnail.jpg"><span class="centered-text">Casa del Gigante
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
 
-
-<div class = "container">
-  <h4 id = "monuments">Monuments</h4>
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="puente-nuevo.html"><img alt="Puente Nuevo" title="Puente Nuevo" src="./images/attractions/puente-nuevo-thumbnail.jpg"><span class="centered-text">Puente Nuevo<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="puento-viejo.html"><img alt="Puente Viejo" title="Puente Viejo" src="./images/attractions/puente-viejo-thumbnail.jpg"><span class="centered-text">Puente Viejo<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="puente-romano.html"><img alt="Puente Romano" title="Puente Romano" src="./images/attractions/puente-romano-thumbnail.jpg"><span class="centered-text">Puente Romano<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-  </div>
-</div>
-
-<div class = "container">
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="murallas-de-ronda.html"><img alt="Walls of Ronda" title="Walls of Ronda" src="./images/attractions/murallas-de-ronda-thumbnail.jpg"><span class="centered-text">Walls of Ronda<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="puerta-de-almocabar.html"><img alt="Puerta de Almocabar" title="Puerta de Almocabar" src="./images/attractions/puerta-de-almocabar-thumbnail.jpg"><span class="centered-text">Puerta de Almocábar<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="cijara-gate.html"><img alt="Cijara gate" title="Cijara gate" src="./images/attractions/xijara-gate-thumbnail.jpg"><span class="centered-text">Cijara Gate<hr></span></a>
-    <span class="feature-item-text"></span></a>
     </div>
   </div>
-</div>
 
-<div class = "container">
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="felipe-v-arch.html"><img alt="Arch of Felipe V" title="Arch of Felipe V" src="./images/attractions/felipe-v-arch-thumbnail.jpg"><span class="centered-text">Felipe V Arch<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="minaret-of-san-sebastian.html"><img alt="Minaret of San Sebastian" title="Minaret of San Sebastian" src="./images/attractions/minaret-san-sebastian-thumbnail.jpg"><span class="centered-text">Minaret of San Sebastian<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<div class = "container">
-  <h4 id = "parks-squares">Parks & Squares</h4>
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="jardines-de-cuenca.html"><img alt="Jardines de Cuenca" title="Jardines de Cuenca" src="./images/attractions/jardines-de-cuenca-thumbnail.jpg"><span class="centered-text">Jardines de Cuenca<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="paseo-de-blas-infante.html"><img alt="Paseo de Blas Infante" title="Paseo de Blas Infante" src="./images/attractions/paseo-de-blas-infante-thumbnail.jpg"><span class="centered-text">Paseo de Blas Infante<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="alameda-del-tajo.html"><img alt="Alameda del Tajo" title="Alameda del Tajo" src="./images/attractions/alameda-del-tajo-thumbnail.jpg"><span class="centered-text">Alameda del Tajo<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-    <div class="feature-item"><a href="plaza-duquesa-parcent.html"><img alt="Plaza Duquesa de Parcent" title="Plaza Duquesa de Parcent" src="./images/attractions/plaza-duquesa-de-parcent-thumbnail.jpg"><span class="centered-text">Plaza Duquesa de Parcent<hr></span></a>
-    <span class="feature-item-text"></span></a>
-    </div>
-
-    <div class="feature-item"><a href="plaza-socorro.html"><img alt="Plaza del Socorro" title="Plaza del Socorro" src="./images/attractions/plaza-socorro-thumbnail.jpg"><span class="centered-text">Plaza del Socorro
-      <hr></span></a>
-    <span class="feature-item-text"></span></a>
+  <div class="container">
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="museo-lara.html"><img alt="Museo Lara" title="Museo Lara"
+            src="./images/attractions/museo-lara-thumbnail.jpg"><span class="centered-text">Museo Lara
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="iglesia-santa-maria-mayor.html"><img alt="Iglesia de Santa Maria la Mayor"
+            title="Iglesia de Santa Maria la Mayor"
+            src="./images/attractions/iglesia-santa-maria-mayor-thumbnail.jpg"><span class="centered-text">Church of
+            Santa María la Mayor
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="bridge-museum.html"><img alt="Puente Nuevo Interpretation Museum"
+            title="Puente Nuevo Interpretation Museum" src="./images/attractions/bridge-museum-thumbnail.jpg"><span
+            class="centered-text">Puente Nuevo Interpretation Museum
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="palacio-salvatierra.html"><img alt="Palace of the Marquis de Salvatierra"
+            title="Palace of the Marquis de Salvatierra"
+            src="./images/attractions/palacio-salvatierra-thumbnail.jpg"><span class="centered-text">Palace of the
+            Marquis de Salvatierra
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
     </div>
   </div>
-</div>
 
-<div class = "container">
-  <h4 id = "things-to-do">Things to Do</h4>
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="best-viewpoints-in-ronda.html"><img alt="Group of people photographing a sunset in Ronda" title="People at a viewpoint in Ronda" src="./images/top-photography-spots.jpg"><span class="centered-text">Best Viewpoints in Ronda<hr></a></span></div>
-  </div>
+
+
+  <div class="container">
+    <h4 id="monuments">Monuments</h4>
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="puente-nuevo.html"><img alt="Puente Nuevo (New Bridge)"
+            title="Puente Nuevo (New Bridge)" src="./images/attractions/puente-nuevo-thumbnail.jpg"><span
+            class="centered-text">Puente Nuevo<br>(New Bridge)
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="puento-viejo.html"><img alt="Puente Viejo" title="Puente Viejo"
+            src="./images/attractions/puente-viejo-thumbnail.jpg"><span class="centered-text">Puente Viejo<br>(Old
+            bridge)
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="puente-romano.html"><img alt="Puente Romano" title="Puente Romano"
+            src="./images/attractions/puente-romano-thumbnail.jpg"><span class="centered-text">Puente Romano<br>(Roman
+            Bridge)
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+    </div>
   </div>
 
-<!--
+  <div class="container">
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="murallas-de-ronda.html"><img alt="Walls of Ronda" title="Walls of Ronda"
+            src="./images/attractions/murallas-de-ronda-thumbnail.jpg"><span class="centered-text">Walls of Ronda
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="puerta-de-almocabar.html"><img alt="Puerta de Almocabar"
+            title="Puerta de Almocabar" src="./images/attractions/puerta-de-almocabar-thumbnail.jpg"><span
+            class="centered-text">Almocábar Gate
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="cijara-gate.html"><img alt="Cijara gate" title="Cijara gate"
+            src="./images/attractions/xijara-gate-thumbnail.jpg"><span class="centered-text">Cijara Gate
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="felipe-v-arch.html"><img alt="Arch of Felipe V" title="Arch of Felipe V"
+            src="./images/attractions/felipe-v-arch-thumbnail.jpg"><span class="centered-text">Arch of Felipe V
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="minaret-of-san-sebastian.html"><img alt="Minaret of San Sebastian"
+            title="Minaret of San Sebastian" src="./images/attractions/minaret-san-sebastian-thumbnail.jpg"><span
+            class="centered-text">Minaret of San Sebastian
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="container">
+    <h4 id="parks-squares">Parks & Squares</h4>
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="jardines-de-cuenca.html"><img alt="Jardines de Cuenca"
+            title="Jardines de Cuenca" src="./images/attractions/jardines-de-cuenca-thumbnail.jpg"><span
+            class="centered-text">Jardines de Cuenca
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="paseo-de-blas-infante.html"><img alt="Paseo de Blas Infante"
+            title="Paseo de Blas Infante" src="./images/attractions/paseo-de-blas-infante-thumbnail.jpg"><span
+            class="centered-text">Paseo de Blas Infante
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="alameda-del-tajo.html"><img alt="Alameda del Tajo" title="Alameda del Tajo"
+            src="./images/attractions/alameda-del-tajo-thumbnail.jpg"><span class="centered-text">Alameda del Tajo
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+      <div class="feature-item"><a href="plaza-duquesa-parcent.html"><img alt="Plaza Duquesa de Parcent"
+            title="Plaza Duquesa de Parcent" src="./images/attractions/plaza-duquesa-de-parcent-thumbnail.jpg"><span
+            class="centered-text">Plaza Duquesa de Parcent
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+
+      <div class="feature-item"><a href="plaza-socorro.html"><img alt="Plaza del Socorro" title="Plaza del Socorro"
+            src="./images/attractions/plaza-socorro-thumbnail.jpg"><span class="centered-text">Plaza del Socorro
+            <hr></span></a>
+        <span class="feature-item-text"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h4 id="things-to-do">Things to Do</h4>
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="best-viewpoints-in-ronda.html"><img
+            alt="Group of people photographing a sunset in Ronda" title="People at a viewpoint in Ronda"
+            src="./images/top-photography-spots.jpg"><span class="centered-text">Best Viewpoints in Ronda
+            <hr></a></span></div>
+    </div>
+  </div>
+
+
+  <!--
 <div class="feature-item"><a href="mirador-aldehuela.html"><img alt="" title="" src="./images/attractions/mirador-aldehuela-thumbnail.jpg"><div class="centered-text">Mirador de Aldehuela<hr></div></a>
 <span class="feature-item-text"></span></a>
 </div>
@@ -263,21 +356,27 @@
       <hr></div></a>
 
   -->
- 
+
 
   </div>
-</div>
+  </div>
 
-<span id="footer-hr"><hr></span>
-<div id = "footer">
-  <form action="https://www.paypal.com/donate" method="post" target="_top">
-    <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-    <img alt="paypal donate button" title="Paypal donations"  border="0" src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
+
+
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="paypal donate button" title="Paypal donations" border="0"
+        src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
     </form>
-      <div id="footer-text">
-        <p>Copyright &copy 2021 David Soanes<br>
+    <div id="footer-text">
+      <p>Copyright &copy 2021 David Soanes<br>
     </div>
-</div>
+  </div>
 </body>
+
 </html>

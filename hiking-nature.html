@@ -1,161 +1,217 @@
 <html>
-  <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-2911RZ0VMC');
-</script>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/stylesheet.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/lightbox.min.css" />
-    <link rel="stylesheet" href="css/menu.css">
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="icon" type="image/png" href="images/icon.png" />
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
-    ></script>
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-    <script type="text/javascript" src="js/javascript.js"></script>
-    <meta name="viewport" content="width=device-width" />
-    <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-    <title>Hiking and Nature - Discover Ronda</title>
-    <meta
-      name="description"
-      content="Discover Ronda - A place to discover Ronda."
-    />
-  </head>
-  <body>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $('*').tooltip({
+        track: true
+      });
+      $('*[title]').tooltip('disable');
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-	<nav id="menu">
-  <label for="tm" id="toggle-menu">
-    <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span></a>   
-    <span class="hamburger"><span class="drop-icon" style=color:white;>☰</span></span>
-  </label>
-  <input type="checkbox" id="tm">
-  <ul class="main-menu">
-    <li class="logo"><a href="index.html"><span id="logo-text">Discover Ronda</span></a></li>
-    <li><a href="#">About Ronda
-        <span class="drop-icon">▾</span>
-        <label title="Toggle Drop-down" class="drop-icon" for="menu1">▾
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2911RZ0VMC');
+  </script>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/menu.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <meta name="viewport" content="width=device-width" />
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <title>Hiking and Nature - Discover Ronda</title>
+  <meta name="description" content="Discover Ronda - A place to discover Ronda." />
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          </span>
         </label>
-      </a>
-      <input type="checkbox" id="menu1">
-      <ul class="sub-menu">
-        <li><a href="history.html">History</a></li>
-        <li><a href="ronda-today.html">Ronda Today</a></li>
-        <li><a href="famous-people.html">Famous People</a></li>
-        <li><a href="regional-food.html">Regional Food</a></li>
-      </ul>
-    </li>
-    <li><a href="#">See & Do
-      <span class="drop-icon">▾</span>
-      <label title="Toggle Drop-down" class="drop-icon" for="menu2">▾</label>
-    </a>
-    <input type="checkbox" id="menu2">
-    <ul class="sub-menu">
-      <li><a href="sightseeing.html">Sightseeing</a></li>
-      <li>  <a href="culture.html">Culture/Museums</a></li>
-      <li>  <a href="hiking.html">Nature/Hiking</a></li>
-    </ul>
-  </li>
-  <li><a href="#">Image Gallery
-    <span class="drop-icon">▾</span>
-    <label title="Toggle Drop-down" class="drop-icon" for="menu3">▾</label>
-  </a>
-  <input type="checkbox" id="menu3">
-  <ul class="sub-menu">
-    <li>  <a href="ronda-gallery.html">Ronda</a></li>
-    <li> <a href="serrania-gallery.html">Serrania</a></li>
-    <li> <a href="andalucia-gallery.html">Andalucía</a></li>
-  </ul>
-</li>
-<li><a href="plan-your-trip.html">Plan Your Trip</a></li>
-<li><a href="#">About Us
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
-</a>
-<input type="checkbox" id="menu4">
-<ul class="sub-menu">
-  <li> <a href="who-we-are.html">Who We Are</a></li>
-  <li> <a href="support-us.html">Support Us</a></li>
-
-</ul>
-<span class="addon-section">
-<li class="addon"><div class="instagram">
-  <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-  </div></li>
-  <li class="addon"><div class="language">
-    <a id="addon" href="es/index.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="spanish flag" title="Language selector" src="images/spanish-language.png" ></a>
-    </div></li>
-</li>
-</span>
-  </ul>
-</nav>	      
-
-<div class = "container">
-  <h4>Local Routes</h4>
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><a href="hike-virgen-de-la-cabeza.html"><img alt="Virgen de la cabeza church" title="Virgen de la cabeza church" src="./images/hiking/virgen-de-la-cabeza-hike.jpg"><span class="centered-text">Virgen de la Cabeza<hr></a></span></div>
-    <div class="feature-item"><a href="hike-el-tajo-gorge-viewpoints.html"><img alt="El Tajo gorge walk" title="" src="./images/hiking/gorge-hike.jpg"><span class="centered-text">El Tajo Gorge viewpoints<hr></a></span></div>
-    <div class="feature-item"><a href="hike-east-of-ronda.html"><img alt="Skyline of Ronda" title="Skyline of Ronda" src="./images/hiking/east-of-ronda-hike.jpg"><span class="centered-text">East of Ronda Viewpoints<hr></a></span></div>
-    <div class="feature-item"><a href="hike-el-tajo-gorge-loop.html"><img alt="Hills around Ronda" title="El Tajo gorge loop walk" src="./images/hiking/gorge-loop-hike.jpg"><span class="centered-text">El Tajo Gorge Loop<hr></a></span></div>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="ronda-today.html">Ronda Today</a></li>
+              <hr />
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3">▾</label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
+    </span>
   </div>
+
+  <div class="container">
+    <h4>Local Routes</h4>
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item"><a href="hike-virgen-de-la-cabeza.html"><img alt="Virgen de la cabeza church"
+            title="Virgen de la cabeza church" src="./images/hiking/virgen-de-la-cabeza-hike.jpg"><span
+            class="centered-text">Virgen de la Cabeza
+            <hr></a></span></div>
+      <div class="feature-item"><a href="hike-el-tajo-gorge-viewpoints.html"><img alt="El Tajo gorge walk" title=""
+            src="./images/hiking/gorge-hike.jpg"><span class="centered-text">El Tajo Gorge viewpoints
+            <hr></a></span></div>
+      <div class="feature-item"><a href="hike-east-of-ronda.html"><img alt="Skyline of Ronda" title="Skyline of Ronda"
+            src="./images/hiking/east-of-ronda-hike.jpg"><span class="centered-text">East of Ronda Viewpoints
+            <hr></a></span></div>
+      <div class="feature-item"><a href="hike-el-tajo-gorge-loop.html"><img alt="Hills around Ronda"
+            title="El Tajo gorge loop walk" src="./images/hiking/gorge-loop-hike.jpg"><span class="centered-text">El
+            Tajo Gorge Loop
+            <hr></a></span></div>
+    </div>
   </div>
 
-  <div class = "container">
+  <div class="container">
     <h4>Longer Hikes</h4>
     <div class="feature-container-multiple-boxes">
-      <div class="feature-item"><a href="hike-tajo-del-abanico.html"><img alt="Tajo del Abanico" title="Tajo del Abanico" src="./images/hiking/tajo-del-abanico-hike.jpg"><span class="centered-text">Tajo del Abanico<hr></a></span></div>
-      <div class="feature-item"><a href="hike-ronda-to-montejaque.html"><img alt="Montejaque pueblo" title="Montejaque hike" src="./images/hiking/montejaque-hike.jpg"><span class="centered-text">Montejaque<hr></a></span></div>
+      <div class="feature-item"><a href="hike-tajo-del-abanico.html"><img alt="Tajo del Abanico"
+            title="Tajo del Abanico" src="./images/hiking/tajo-del-abanico-hike.jpg"><span class="centered-text">Tajo
+            del Abanico
+            <hr></a></span></div>
+      <div class="feature-item"><a href="hike-ronda-to-montejaque.html"><img alt="Montejaque pueblo"
+            title="Montejaque hike" src="./images/hiking/montejaque-hike.jpg"><span class="centered-text">Montejaque
+            <hr></a></span></div>
     </div>
+  </div>
+
+  <div class="parallax-text-container-white">
+    <h3>Bird Watching</h3>
+    <p>The Serranía de Ronda offers a diverse and unique habitat for a huge variety of birds, from smaller birds like
+      goldfinches, stonechats and kingfishers to larger birds such as kestrels, peregrine falcons and griffin vultures.
+      Also the natural parks that surround Ronda such as The Sierra de las Nieves and Sierra de Grazalema offer an ideal
+      place to go birdwatching.</p>
+  </div>
+
+  <div class="portfolio-container">
+    <div id="portfoliolist">
+      <div class="portfolio ronda" data-cat="ronda">
+        <a href="images/blackbird.jpg" data-lightbox="ronda" data-title="Blackbird"><img alt="Blackbird"
+            title="Blackbird" src="images/blackbird.jpg" /></a>
+      </div>
+      <div class="portfolio ronda" data-cat="ronda">
+        <a href="images/griffon-vulture.jpg" data-lightbox="ronda" data-title="Griffon Vulture"><img
+            alt="Griffon vulture" title="Griffon vulture" src="images/griffon-vulture.jpg" /></a>
+      </div>
+      <div class="portfolio ronda" data-cat="ronda">
+        <a href="images/stonechat.jpg" data-lightbox="ronda" data-title="Stonechat"><img alt="Stonechat"
+            title="Stonechat" src="images/stonechat.jpg" /></a>
+      </div>
+      <div class="portfolio ronda" data-cat="ronda">
+        <a href="images/goldfinch.jpg" data-lightbox="ronda" data-title="Goldfinch"><img alt="Goldfinch"
+            title="Goldfinch" src="images/goldfinch.jpg" /></a>
+      </div>
+      <div class="portfolio ronda" data-cat="ronda">
+        <a href="images/yellow-tit.jpg" data-lightbox="ronda" data-title="Yellow Tit"><img alt="Yellow tit"
+            title="Yellow tit" src="images/yellow-tit.jpg" /></a>
+      </div>
     </div>
-
-    <div class="parallax-text-container-white">
-      <h3>Bird Watching</h3>
-      <p>The Serranía de Ronda offers a diverse and unique habitat for a huge variety of birds, from smaller birds like goldfinches, stonechats and kingfishers to larger birds such as kestrels, peregrine falcons and griffin vultures. Also the natural parks that surround Ronda such as The Sierra de las Nieves and Sierra de Grazalema offer an ideal place to go birdwatching.</p>  
-      </div>
-
-      <div class="portfolio-container">
-        <div id="portfoliolist">
-          <div class="portfolio ronda" data-cat="ronda">
-            <a href="images/blackbird.jpg" data-lightbox="ronda" data-title="Blackbird"
-              ><img alt="Blackbird" title="Blackbird" src="images/blackbird.jpg"
-            /></a>
-          </div>
-          <div class="portfolio ronda" data-cat="ronda">
-            <a href="images/griffon-vulture.jpg" data-lightbox="ronda" data-title="Griffon Vulture"
-              ><img alt="Griffon vulture" title="Griffon vulture" src="images/griffon-vulture.jpg"
-            /></a>
-          </div>
-          <div class="portfolio ronda" data-cat="ronda">
-            <a href="images/stonechat.jpg" data-lightbox="ronda" data-title="Stonechat"
-              ><img alt="Stonechat" title="Stonechat" src="images/stonechat.jpg"
-            /></a>
-          </div>
-          <div class="portfolio ronda" data-cat="ronda">
-            <a href="images/goldfinch.jpg" data-lightbox="ronda" data-title="Goldfinch"
-              ><img alt="Goldfinch" title="Goldfinch" src="images/goldfinch.jpg"
-            /></a>
-          </div>
-          <div class="portfolio ronda" data-cat="ronda">
-            <a href="images/yellow-tit.jpg" data-lightbox="ronda" data-title="Yellow Tit"
-              ><img alt="Yellow tit" title="Yellow tit" src="images/yellow-tit.jpg"
-            /></a>
-          </div>
-        </div>
-      </div>
- <!--
+  </div>
+  <!--
     <div class = "container">
       <div class="feature-container-multiple-boxes">
         <div class="feature-item"><a href="birds-of-ronda.html"><img alt="Birds of Ronda" title="Birds of Ronda" src="./images/birds-of-ronda.jpg"><span class="centered-text">Birds of Ronda<hr></a></span></div>
@@ -163,7 +219,7 @@
       </div>
 -->
 
- <!--
+  <!--
       <div class="parallax-text-container-white">
         <h3>Cycling</h3>
         <p>Ronda offers many cycling routes with its ideal location in the heart of the Serrania de Ronda. Routes such as Ronda to Arriate and Ronda to El Burgo make for a great cycling trip outside of the town. There are also bike rental businesses in Ronda.</p>  
@@ -181,56 +237,60 @@
             </div>
 
           -->
-            <script>
-              $(function () {
-                var filterList = {
-                  init: function () {
-                    // MixItUp plugin
-                    // http://mixitup.io
-                    $("#portfoliolist").mixItUp({
-                      selectors: {
-                        target: ".portfolio",
-                        filter: ".filter",
-                      },
-                      load: {
-                        filter: ".ronda", // show app tab on first load
-                      },
-                    });
-                  },
-                };
-        
-                // Run the show!
-                filterList.init();
-              });
-            </script>
-        
-        <span id="footer-hr"><hr></span>
-        <div id = "footer">
-          <form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="paypal donate button" title="Paypal donations"  border="0" src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-              <div id="footer-text">
-                <p>Copyright &copy 2021 David Soanes<br>
-            </div>
-        </div>
-        </body>
-        </html>
-        
-            <script>
-              lightbox.option({
-                resizeDuration: 0,
-                fadeDuration: 200,
-                fitImagesInViewport: true,
-                maxHeight: 550,
-                wrapAround: true,
-                disableScrolling: true,
-                positionFromTop: 70,
-                wrapAround: true,
-                imageFadeDuration: 0,
-              });
-            </script>
-          </body>
-        </html>
-        
+  <script>
+    $(function () {
+      var filterList = {
+        init: function () {
+          // MixItUp plugin
+          // http://mixitup.io
+          $("#portfoliolist").mixItUp({
+            selectors: {
+              target: ".portfolio",
+              filter: ".filter",
+            },
+            load: {
+              filter: ".ronda", // show app tab on first load
+            },
+          });
+        },
+      };
+
+      // Run the show!
+      filterList.init();
+    });
+  </script>
+
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="paypal donate button" title="Paypal donations" border="0"
+        src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    <div id="footer-text">
+      <p>Copyright &copy 2021 David Soanes<br>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script>
+  lightbox.option({
+    resizeDuration: 0,
+    fadeDuration: 200,
+    fitImagesInViewport: true,
+    maxHeight: 550,
+    wrapAround: true,
+    disableScrolling: true,
+    positionFromTop: 70,
+    wrapAround: true,
+    imageFadeDuration: 0,
+  });
+</script>
+</body>
+
+</html>

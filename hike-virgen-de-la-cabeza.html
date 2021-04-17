@@ -1,113 +1,189 @@
 <html>
-    <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-2911RZ0VMC');
-</script>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" type="image/png" href="images/icon.png">
-        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-10703354-8', 'w3bits.com');ga('require', 'displayfeatures');ga('send', 'pageview');</script><script type='text/javascript' src='https://w3bits.com/wp-content/themes/w/assets/js/prettify.js'></script>
-        <link rel="stylesheet" href="css/menu.css">
-        <meta name="viewport" content="width=device-width">
-        <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-        <title>Virgen de la Cabeza Hike - Discover Ronda</title>
-       <meta name="description" content="A beautiful walking trail that includes panoramic views of the Ronda skyline on the way to a small hermitage.">
-  </head>
-  <body>
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
 
-	<nav id="menu">
-  <label for="tm" id="toggle-menu">
-    <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span></a>   
-    <span class="hamburger"><span class="drop-icon" style=color:white;>☰</span></span>
-  </label>
-  <input type="checkbox" id="tm">
-  <ul class="main-menu">
-    <li class="logo"><a href="index.html"><span id="logo-text">Discover Ronda</span></a></li>
-    <li><a href="#">About Ronda
-        <span class="drop-icon">▾</span>
-        <label title="Toggle Drop-down" class="drop-icon" for="menu1">▾
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $('*').tooltip({
+        track: true
+      });
+      $('*[title]').tooltip('disable');
+    });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2911RZ0VMC');
+  </script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-10703354-8', 'w3bits.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script type='text/javascript' src='https://w3bits.com/wp-content/themes/w/assets/js/prettify.js'></script>
+  <link rel="stylesheet" href="css/menu.css">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <title>Virgen de la Cabeza Hike - Discover Ronda</title>
+  <meta name="description"
+    content="A beautiful walking trail that includes panoramic views of the Ronda skyline on the way to a small hermitage.">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          </span>
         </label>
-      </a>
-      <input type="checkbox" id="menu1">
-      <ul class="sub-menu">
-        <li><a href="history.html">History</a></li>
-        <li><a href="ronda-today.html">Ronda Today</a></li>
-        <li><a href="famous-people.html">Famous People</a></li>
-        <li><a href="regional-food.html">Regional Food</a></li>
-      </ul>
-    </li>
-    <li><a href="#">See & Do
-      <span class="drop-icon">▾</span>
-      <label title="Toggle Drop-down" class="drop-icon" for="menu2">▾</label>
-    </a>
-    <input type="checkbox" id="menu2">
-    <ul class="sub-menu">
-      <li><a href="sightseeing.html">Sightseeing</a></li>
-      <li>  <a href="culture.html">Culture/Museums</a></li>
-      <li>  <a href="hiking.html">Nature/Hiking</a></li>
-    </ul>
-  </li>
-  <li><a href="#">Image Gallery
-    <span class="drop-icon">▾</span>
-    <label title="Toggle Drop-down" class="drop-icon" for="menu3">▾</label>
-  </a>
-  <input type="checkbox" id="menu3">
-  <ul class="sub-menu">
-    <li>  <a href="ronda-gallery.html">Ronda</a></li>
-    <li> <a href="serrania-gallery.html">Serrania</a></li>
-    <li> <a href="andalucia-gallery.html">Andalucía</a></li>
-  </ul>
-</li>
-<li><a href="plan-your-trip.html">Plan Your Trip</a></li>
-<li><a href="#">About Us
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
-</a>
-<input type="checkbox" id="menu4">
-<ul class="sub-menu">
-  <li> <a href="who-we-are.html">Who We Are</a></li>
-  <li> <a href="support-us.html">Support Us</a></li>
-
-</ul>
-<span class="addon-section">
-<li class="addon"><div class="instagram">
-  <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-  </div></li>
-  <li class="addon"><div class="language">
-    <a id="addon" href="es/index.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="spanish flag" title="Language selector" src="images/spanish-language.png" ></a>
-    </div></li>
-</li>
-</span>
-  </ul>
-</nav>	      
-
-<section id = "homepage-banner">
-  <img alt="Hermitage of Virgen de la Cabeza" title="Hermitage of Virgen de la Cabeza" id = "desktop-banner" src="./images/hiking/virgen-de-la-cabeza-hike-2.jpg">
-  <img alt="Hermitage of Virgen de la Cabeza" title="Hermitage of Virgen de la Cabeza" id = "mobile-banner" src="./images/hiking/virgen-de-la-cabeza-hike-2.jpg">
-</section>
-
-
-<div id="text-box">
-  <div class="small-container">
-    <h2>Virgen de la Cabeza</h2>
-    <p>Starting at the Puerta de Almocabar, the walk takes you through the San Francisco neighbourhood, a pleasant area with a lovely local atmosphere.
-      After this the walk itself will start properly with a signpost pointing you in the direction of the walk along the Carril Virgen de la Cabeza. 
-      The walk takes you through a trail with olive groves on either side and to your right you will see panoramic views of the city skyline, with the Puente Nuevo gradually revealing itself as the walk progresses.
-      Other points of interest are the ruins of Villa Apolo that you'll pass on your right, an impressive ruin that also has a tower on the same lands that offers incredible views over Ronda. 
-      When you get to the church, the opening times to vary so it's not always possible to go inside, but it's worth taking the trip itself to enjoy the scenery along the way.
-    </p>
-    <p>The full map can be found at the end of the page <a href="#map-embed">here</a></p>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="ronda-today.html">Ronda Today</a></li>
+              <hr />
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3">▾</label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
+    </span>
   </div>
-</div>
 
-<!--
+  <section id="homepage-banner">
+    <img alt="Hermitage of Virgen de la Cabeza" title="Hermitage of Virgen de la Cabeza" id="desktop-banner"
+      src="./images/hiking/virgen-de-la-cabeza-hike-2.jpg">
+    <img alt="Hermitage of Virgen de la Cabeza" title="Hermitage of Virgen de la Cabeza" id="mobile-banner"
+      src="./images/hiking/virgen-de-la-cabeza-hike-2.jpg">
+  </section>
+
+
+  <div id="text-box">
+    <div class="small-container">
+      <h2>Virgen de la Cabeza</h2>
+      <p>Starting at the Puerta de Almocabar, the walk takes you through the San Francisco neighbourhood, a pleasant
+        area with a lovely local atmosphere.
+        After this the walk itself will start properly with a signpost pointing you in the direction of the walk along
+        the Carril Virgen de la Cabeza.
+        The walk takes you through a trail with olive groves on either side and to your right you will see panoramic
+        views of the city skyline, with the Puente Nuevo gradually revealing itself as the walk progresses.
+        Other points of interest are the ruins of Villa Apolo that you'll pass on your right, an impressive ruin that
+        also has a tower on the same lands that offers incredible views over Ronda.
+        When you get to the church, the opening times to vary so it's not always possible to go inside, but it's worth
+        taking the trip itself to enjoy the scenery along the way.
+      </p>
+      <p>The full map can be found at the end of the page <a href="#map-embed">here</a></p>
+    </div>
+  </div>
+
+  <!--
 <section id="map-embed">
   <h5>Map of the route</h5>
   <iframe class = "map-frame-desktop" src="https://www.google.com/maps/d/u/1/embed?mid=141SjxP-x4xZ-fr_kK5wzxsZBinAJGcj3" width="60%" height="600px"></iframe>
@@ -116,91 +192,107 @@
 -->
 
 
-      <section id="image-1-box">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img alt="Torre Del Predicatorio in the San Francisco neighbourhood" title="Torre Del Predicatorio in the San Francisco neighbourhood" src="./images/hiking/virgen-de-la-cabeza-hike-3.jpg" />
-              <div class="figcaption">Torre Del Predicatorio in the San Francisco neighbourhood
-              </div>
-            </div>
+  <section id="image-1-box">
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img alt="Torre Del Predicatorio in the San Francisco neighbourhood"
+            title="Torre Del Predicatorio in the San Francisco neighbourhood"
+            src="./images/hiking/virgen-de-la-cabeza-hike-3.jpg" />
+          <div class="figcaption">Torre Del Predicatorio in the San Francisco neighbourhood
           </div>
         </div>
-      </section>
-
-
-      <section id="image-1-box">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img alt="Ruins of Villa Apolo" title="The ruins of Villa Apolo" src="./images/hiking/virgen-de-la-cabeza-hike-1.jpg" />
-              <div class="figcaption">The ruins of Villa Apolo</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="image-1-box">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img alt="Ronda skyline" title="The panoramic views of the Ronda skyline" src="./images/hiking/virgen-de-la-cabeza-hike-6.jpg" />
-              <div class="figcaption">The panoramic views of the Ronda skyline</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="image-1-box">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img alt="Ronda hills at sunset" title="The surrounding mountains at sunset" src="./images/hiking/virgen-de-la-cabeza-hike-4.jpg" />
-              <div class="figcaption">The surrounding mountains at sunset</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="image-1-box">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img alt="Barrio San Francisco in Ronda" title="Looking towards the Barrio of San Francisco on the outskirts of Ronda" src="./images/hiking/virgen-de-la-cabeza-hike-5.jpg" />
-              <div class="figcaption">Looking towards the Barrio of San Francisco on the outskirts of Ronda</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="image-1-box">
-        <div class="container">
-          <div class="box">
-            <div class="image">
-              <img alt="Hermitage of Virgen de la Cabeza" title="The hermitage of Virgen de la Cabeza" src="./images/hiking/virgen-de-la-cabeza-hike-2.jpg" />
-              <div class="figcaption">The hermitage of Virgen de la Cabeza</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="map-embed">
-        <h5>Map of the route</h5>
-        <iframe class = "map-frame-desktop"  frameBorder="0" scrolling="no" src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=69097291&measures=off&title=on&near=off&images=off&maptype=H"width="50%" height="500px"></iframe>
-        <iframe class = "map-frame-mobile" src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=69097291&measures=off&title=on&near=off&images=off&maptype=H" width="90%" height="400px"></iframe>
-      </section>
-
-
-      <span id="footer-hr"><hr></span>
-      <div id = "footer">
-        <form action="https://www.paypal.com/donate" method="post" target="_top">
-          <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="paypal donate button" title="Paypal donations"  border="0" src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
-          </form>
-            <div id="footer-text">
-              <p>Copyright &copy 2021 David Soanes<br>
-          </div>
       </div>
-      </body>
-      </html>
+    </div>
+  </section>
+
+
+  <section id="image-1-box">
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img alt="Ruins of Villa Apolo" title="The ruins of Villa Apolo"
+            src="./images/hiking/virgen-de-la-cabeza-hike-1.jpg" />
+          <div class="figcaption">The ruins of Villa Apolo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="image-1-box">
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img alt="Ronda skyline" title="The panoramic views of the Ronda skyline"
+            src="./images/hiking/virgen-de-la-cabeza-hike-6.jpg" />
+          <div class="figcaption">The panoramic views of the Ronda skyline</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="image-1-box">
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img alt="Ronda hills at sunset" title="The surrounding mountains at sunset"
+            src="./images/hiking/virgen-de-la-cabeza-hike-4.jpg" />
+          <div class="figcaption">The surrounding mountains at sunset</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="image-1-box">
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img alt="Barrio San Francisco in Ronda"
+            title="Looking towards the Barrio of San Francisco on the outskirts of Ronda"
+            src="./images/hiking/virgen-de-la-cabeza-hike-5.jpg" />
+          <div class="figcaption">Looking towards the Barrio of San Francisco on the outskirts of Ronda</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="image-1-box">
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img alt="Hermitage of Virgen de la Cabeza" title="The hermitage of Virgen de la Cabeza"
+            src="./images/hiking/virgen-de-la-cabeza-hike-2.jpg" />
+          <div class="figcaption">The hermitage of Virgen de la Cabeza</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="map-embed">
+    <h5>Map of the route</h5>
+    <iframe class="map-frame-desktop" frameBorder="0" scrolling="no"
+      src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=69097291&measures=off&title=on&near=off&images=off&maptype=H"
+      width="50%" height="500px"></iframe>
+    <iframe class="map-frame-mobile"
+      src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=69097291&measures=off&title=on&near=off&images=off&maptype=H"
+      width="90%" height="400px"></iframe>
+  </section>
+
+
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="paypal donate button" title="Paypal donations" border="0"
+        src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    <div id="footer-text">
+      <p>Copyright &copy 2021 David Soanes<br>
+    </div>
+  </div>
+</body>
+
+</html>

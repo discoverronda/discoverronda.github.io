@@ -1,173 +1,242 @@
 <html>
-    <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-2911RZ0VMC');
-</script>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" type="image/png" href="images/icon.png">
-        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-10703354-8', 'w3bits.com');ga('require', 'displayfeatures');ga('send', 'pageview');</script><script type='text/javascript' src='https://w3bits.com/wp-content/themes/w/assets/js/prettify.js'></script>
-        <link rel="stylesheet" href="css/menu.css">
-        <meta name="viewport" content="width=device-width">
-        <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-        <title>Festivals and Celebrations - Discover Ronda</title>
-       <meta name="description" content="Yearly events and festivals in Ronda such as Semana Santa and the Pedro Romero festival.">
-  </head>
-  <body>
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("*").tooltip({
+        track: true
+      });
+      $("*[title]").tooltip("disable");
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-	<nav id="menu">
-  <label for="tm" id="toggle-menu">
-    <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span></a>   
-    <span class="hamburger"><span class="drop-icon" style=color:white;>☰</span></span>
-  </label>
-  <input type="checkbox" id="tm">
-  <ul class="main-menu">
-    <li class="logo"><a href="index.html"><span id="logo-text">Discover Ronda</span></a></li>
-    <li><a href="#">About Ronda
-        <span class="drop-icon">▾</span>
-        <label title="Toggle Drop-down" class="drop-icon" for="menu1">▾
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-2911RZ0VMC");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <title>Festivals and Celebrations - Discover Ronda</title>
+  <meta name="description"
+    content="Yearly events and festivals in Ronda such as Semana Santa and the Pedro Romero festival.">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          </span>
         </label>
-      </a>
-      <input type="checkbox" id="menu1">
-      <ul class="sub-menu">
-        <li><a href="history.html">History</a></li>
-        <li><a href="ronda-today.html">Ronda Today</a></li>
-        <li><a href="famous-people.html">Famous People</a></li>
-        <li><a href="regional-food.html">Regional Food</a></li>
-      </ul>
-    </li>
-    <li><a href="#">See & Do
-      <span class="drop-icon">▾</span>
-      <label title="Toggle Drop-down" class="drop-icon" for="menu2">▾</label>
-    </a>
-    <input type="checkbox" id="menu2">
-    <ul class="sub-menu">
-      <li><a href="sightseeing.html">Sightseeing</a></li>
-      <li>  <a href="culture.html">Culture/Museums</a></li>
-      <li>  <a href="hiking.html">Nature/Hiking</a></li>
-    </ul>
-  </li>
-  <li><a href="#">Image Gallery
-    <span class="drop-icon">▾</span>
-    <label title="Toggle Drop-down" class="drop-icon" for="menu3">▾</label>
-  </a>
-  <input type="checkbox" id="menu3">
-  <ul class="sub-menu">
-    <li>  <a href="ronda-gallery.html">Ronda</a></li>
-    <li> <a href="serrania-gallery.html">Serrania</a></li>
-    <li> <a href="andalucia-gallery.html">Andalucía</a></li>
-  </ul>
-</li>
-<li><a href="plan-your-trip.html">Plan Your Trip</a></li>
-<li><a href="#">About Us
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
-</a>
-<input type="checkbox" id="menu4">
-<ul class="sub-menu">
-  <li> <a href="who-we-are.html">Who We Are</a></li>
-  <li> <a href="support-us.html">Support Us</a></li>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="ronda-today.html">Ronda Today</a></li>
+              <hr />
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3">▾</label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
+    </span>
+  </div>
 
-</ul>
-<span class="addon-section">
-<li class="addon"><div class="instagram">
-  <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-  </div></li>
-  <li class="addon"><div class="language">
-    <a id="addon" href="es/index.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="spanish flag" title="Language selector" src="images/spanish-language.png" ></a>
-    </div></li>
-</li>
-</span>
-  </ul>
-</nav>		
-
-
-<style>   
-
-  </style>
-  </head>
-  <body>
- 
 
   <div class="festivalsbg-1">
     <div class="caption">
-    <span class="border">Festivals and Celebrations</span>
+      <span class="border">Festivals and Celebrations</span>
     </div>
   </div>
 
   <div class="parallax-text-container-white">
     <h2>January</h2>
     <h3>Kings Parade</h3>
-<p>On January 5th, the locals line the streets of Ronda to get a glimpse of the Three Kings Parade, a parade that takes places to mark the arrival of the three wise men in Bethlehem after Jesus' birth. The night of the Three Kings is also traditionally when children get their Christmas presents in Spain.</p>
+    <p>On January 5th, the locals line the streets of Ronda to get a glimpse of the Three Kings Parade, a parade that
+      takes places to mark the arrival of the three wise men in Bethlehem after Jesus' birth. The night of the Three
+      Kings is also traditionally when children get their Christmas presents in Spain.</p>
   </div>
-  
+
   <div class="parallax-text-container-white">
     <h2>February</h2>
     <h3>Carnival en Ronda</h3>
-    <p>Carnival usually takes place in Spain in late February or early March, during the week leading up to lent. In Ronda the celebration involves a fun and colourful parade of floats and music that leads from Calle La Bola to the bullring.</p>
+    <p>Carnival usually takes place in Spain in late February or early March, during the week leading up to lent. In
+      Ronda the celebration involves a fun and colourful parade of floats and music that leads from Calle La Bola to the
+      bullring.</p>
   </div>
-  
-    <div class="parallax-text-container-white">
-      <h2>March</h2>
-      <h3>Semana Santa</h3>
-      <p>Semana Santa (Holy Week) in Ronda is celebrated in the same way as all other Andalusia
-        Towns with a variety of processions that spend hours winding through the streets of the old town. Most of the processions cross the Puente Nuevo which makes this one of the busiest spots for people to gather. There are also a variety of other events that take place this week such as concerts, religious acts, and exhibitions.
-        </p>
-      </div>
-  
-        <div class="parallax-text-container-white">
-          <h2>May</h2>
-            <h3>Ronda Romántica</h3>
-            <p>The May fair event is known as Ronda Romantica (Romantic Ronda) and it is a celebration of the romantic past of Ronda, in particular the 19th century May Fair that at the time was known as the greatest festival of Andalusia, with people coming from all over Europe to attend. Events such as concerts, markets, and craft fairs will take place with a lot of locals dressing up as some of these figures from the past such as the famous bandits that used to be in the region.</p>
-        </div>
 
-        <div class="parallax-text-container-white">
-          <h2>June</h2>
-          <h3>Corpus Christi Festival</h3>
-          <p>Corpus Christi is a Christian feast that celebrates the transubstantiation of bread and wine into the actual body of Christ during Mass. It usually takes place in May or June, depending on when Easter occurs. The event in Ronda involves a magnificent procession through the streets.</p>
-          <h3>Pilgrimage of the Virgen de la Cabeza</h3>
-          <p>Considered to be the oldest pilgrimage in all of Spain, the pilgrimage involves a procession of the Virgen de la Cabeza figure through the town and towards the hermitage of the Virgen de la Cabeza church on the outskirts of Ronda.</p>
-        </div>
+  <div class="parallax-text-container-white">
+    <h2>March</h2>
+    <h3>Semana Santa</h3>
+    <p>Semana Santa (Holy Week) in Ronda is celebrated in the same way as all other Andalusia
+      Towns with a variety of processions that spend hours winding through the streets of the old town. Most of the
+      processions cross the Puente Nuevo which makes this one of the busiest spots for people to gather. There are also
+      a variety of other events that take place this week such as concerts, religious acts, and exhibitions.
+    </p>
+  </div>
 
-        <div class="parallax-text-container-white">
-          <h2>September</h2>
-          <h3>Pedro Romero Fair</h3>
- <p>Probably the most famous event to take place each year in Ronda, the festival is dedicated to the famous bullfighter Pedro Romero. The events involve Goyesque bullfights, where the matadors dress in the clothing like those worn by 18th-century bullfighters in the paintings of Goya. Locals also dress up in traditional attire when attending the bullfights. A horse and carriage show also takes place in the bullring the day after the bullfight with Rodeños riding their carriages around the bullring for all to admire. Women also dress up in incredible flamenco dresses for the occasion and a variety of competitions take place during the event. </p>
-        </div>
+  <div class="parallax-text-container-white">
+    <h2>May</h2>
+    <h3>Ronda Romántica</h3>
+    <p>The May fair event is known as Ronda Romantica (Romantic Ronda) and it is a celebration of the romantic past of
+      Ronda, in particular the 19th century May Fair that at the time was known as the greatest festival of Andalusia,
+      with people coming from all over Europe to attend. Events such as concerts, markets, and craft fairs will take
+      place with a lot of locals dressing up as some of these figures from the past such as the famous bandits that used
+      to be in the region.</p>
+  </div>
 
-        <div class="parallax-text-container-white">
-          <h2>October</h2>
-          <h3>Feria en el Barrio de San Francisco</h3>
-<p>A Royal fair that takes place in honour of San Francisco, the involves a variety of leisure and sports activities, along with free paella and music. </p>        </div>
+  <div class="parallax-text-container-white">
+    <h2>June</h2>
+    <h3>Corpus Christi Festival</h3>
+    <p>Corpus Christi is a Christian feast that celebrates the transubstantiation of bread and wine into the actual body
+      of Christ during Mass. It usually takes place in May or June, depending on when Easter occurs. The event in Ronda
+      involves a magnificent procession through the streets.</p>
+    <h3>Pilgrimage of the Virgen de la Cabeza</h3>
+    <p>Considered to be the oldest pilgrimage in all of Spain, the pilgrimage involves a procession of the Virgen de la
+      Cabeza figure through the town and towards the hermitage of the Virgen de la Cabeza church on the outskirts of
+      Ronda.</p>
+  </div>
+
+  <div class="parallax-text-container-white">
+    <h2>September</h2>
+    <h3>Pedro Romero Fair</h3>
+    <p>Probably the most famous event to take place each year in Ronda, the festival is dedicated to the famous
+      bullfighter Pedro Romero. The events involve Goyesque bullfights, where the matadors dress in the clothing like
+      those worn by 18th-century bullfighters in the paintings of Goya. Locals also dress up in traditional attire when
+      attending the bullfights. A horse and carriage show also takes place in the bullring the day after the bullfight
+      with Rodeños riding their carriages around the bullring for all to admire. Women also dress up in incredible
+      flamenco dresses for the occasion and a variety of competitions take place during the event. </p>
+  </div>
+
+  <div class="parallax-text-container-white">
+    <h2>October</h2>
+    <h3>Feria en el Barrio de San Francisco</h3>
+    <p>A Royal fair that takes place in honour of San Francisco, the involves a variety of leisure and sports
+      activities, along with free paella and music. </p>
+  </div>
 
 
 
 
 
-        <div class="parallax-text-container-white">
-          <h2>December</h2>
-          <h3>        Christmas in Ronda</h3>
-          <p>Christmas in Ronda involves beautiful displays of festive lights in the main streets, along with some events that take place during the month of December.</p>
-        </div>
-      
+  <div class="parallax-text-container-white">
+    <h2>December</h2>
+    <h3> Christmas in Ronda</h3>
+    <p>Christmas in Ronda involves beautiful displays of festive lights in the main streets, along with some events that
+      take place during the month of December.</p>
+  </div>
 
-        <span id="footer-hr"><hr></span>
-        <div id = "footer">
-          <form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="paypal donate button" title="Paypal donations"  border="0" src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-              <div id="footer-text">
-                <p>Copyright &copy 2021 David Soanes<br>
-            </div>
-        </div>
-        </body>
-        </html>
+
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="paypal donate button" title="Paypal donations" border="0"
+        src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    <div id="footer-text">
+      <p>Copyright &copy 2021 David Soanes<br>
+    </div>
+  </div>
+</body>
+
+</html>

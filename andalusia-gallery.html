@@ -1,467 +1,414 @@
 <html>
-  <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-2911RZ0VMC');
-</script>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/stylesheet.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/lightbox.min.css" />
-    <link rel="stylesheet" href="css/menu.css">
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("*").tooltip({
+        track: true
+      });
+      $("*[title]").tooltip("disable");
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="icon" type="image/png" href="images/icon.png" />
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
-    ></script>
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-    <script type="text/javascript" src="js/javascript.js"></script>
-    <meta name="viewport" content="width=device-width" />
-    <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-    <title>Andalusia Photo Gallery - Discover Ronda</title>
-    <meta
-      name="description"
-      content="Discover Ronda - A place to discover Ronda."
-    />
-  </head>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-2911RZ0VMC");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <!--Links specific to gallery pages-->
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <title>Andalusia Photo Gallery - Discover Ronda</title>
+  <meta name="description" content="Discover Ronda - A place to discover Ronda." />
+</head>
+
 <body>
-    <nav id="menu">
-      <label for="tm" id="toggle-menu">
-        <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span></a>   
-        <span class="hamburger"><span class="drop-icon" style=color:white;>☰</span></span>
-      </label>
-      <input type="checkbox" id="tm">
-      <ul class="main-menu">
-        <li class="logo"><a href="index.html"><span id="logo-text">Discover Ronda</span></a></li>
-        <li><a href="#">About Ronda
-            <span class="drop-icon">▾</span>
-            <label title="Toggle Drop-down" class="drop-icon" for="menu1">▾
-            </label>
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
           </a>
-          <input type="checkbox" id="menu1">
-          <ul class="sub-menu">
-            <li><a href="history.html">History</a></li>
-            <li><a href="ronda-today.html">Ronda Today</a></li>
-            <li><a href="famous-people.html">Famous People</a></li>
-            <li><a href="regional-food.html">Regional Food</a></li>
-          </ul>
-        </li>
-        <li><a href="#">See & Do
-          <span class="drop-icon">▾</span>
-          <label title="Toggle Drop-down" class="drop-icon" for="menu2">▾</label>
-        </a>
-        <input type="checkbox" id="menu2">
-        <ul class="sub-menu">
-          <li><a href="sightseeing.html">Sightseeing</a></li>
-          <li>  <a href="culture.html">Culture/Museums</a></li>
-          <li>  <a href="hiking.html">Nature/Hiking</a></li>
+          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          </span>
+        </label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="ronda-today.html">Ronda Today</a></li>
+              <hr />
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3">▾</label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
         </ul>
-      </li>
-      <li><a href="#">Image Gallery
-        <span class="drop-icon">▾</span>
-        <label title="Toggle Drop-down" class="drop-icon" for="menu3">▾</label>
-      </a>
-      <input type="checkbox" id="menu3">
-      <ul class="sub-menu">
-        <li>  <a href="ronda-gallery.html">Ronda</a></li>
-        <li> <a href="serrania-gallery.html">Serrania</a></li>
-        <li> <a href="andalucia-gallery.html">Andalucía</a></li>
-      </ul>
-    </li>
-    <li><a href="plan-your-trip.html">Plan Your Trip</a></li>
-    <li><a href="#">About Us
-      <span class="drop-icon">▾</span>
-      <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
-    </a>
-    <input type="checkbox" id="menu4">
-    <ul class="sub-menu">
-      <li> <a href="who-we-are.html">Who We Are</a></li>
-      <li> <a href="support-us.html">Support Us</a></li>
-    
-    </ul>
-    <span class="addon-section">
-    <li class="addon"><div class="instagram">
-      <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-      </div></li>
-      <li class="addon"><div class="language">
-        <a id="addon" href="es/index.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="spanish flag" title="Language selector" src="images/spanish-language.png" ></a>
-        </div></li>
-    </li>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
     </span>
-      </ul>
-    </nav>	  
+  </div>
 
-  <style>
- 
-  </style>
+
 
   <div class="gallery-menu">
     <a href="ronda-gallery.html">Ronda</a>
+    <hr>
     <a href="serrania-gallery.html">Serrania</a>
-    <a href="andalucia-gallery.html">Andalusia</a>
-    </div>
+    <hr>
 
-    <div class="portfolio-container">
-      <div id="portfoliolist">
+    <a href="andalusia-gallery.html">Andalusia</a>
+    <hr>
 
-        <h4>Seville</h4>
+  </div>
 
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/cathedral-of-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Cathedral of Seville at night" title="The Cathedral of Seville" src="images/andalucia/cathedral-of-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/decorations-plaza-espanya-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Decorations in the Plaza de Espanya of Seville" title="Decorations in the Plaza de Espanya of Seville" src="images/andalucia/decorations-plaza-espanya-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/plaza-de-espanya-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Plaza de Espanya in Seville" title="Plaza de Espanya in Seville" src="images/andalucia/plaza-de-espanya-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/horse-carriage-plaza-espanya-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Horse and carriage riding through Plaza de Espanya in Seville" title="Horse and carriage riding through Plaza de Espanya in Seville" src="images/andalucia/horse-carriage-plaza-espanya-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/triana-bridge-seville-dusk.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Triana bridge in Seville at night" title="Triana bridge in Seville at night" src="images/andalucia/triana-bridge-seville-dusk.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/expo-92-area-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Expo 92 area of Seville" title="Expo 92 area of Seville" src="images/andalucia/expo-92-area-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/circular-courtyard-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Circular courtyard in Seville" title="Circular courtyard in Seville" src="images/andalucia/circular-courtyard-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/cathedral-of-seville-2.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Cathedral of Seville" title="The cathedral of Seville" src="images/andalucia/cathedral-of-seville-2.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/horse-carriage-seville-bridge.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Horse and carriage with people in Seville" title="A horse and carriage ride in Seville" src="images/andalucia/horse-carriage-seville-bridge.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/setas-de-sevilla.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Setas of Seville" title="Setas of Seville" src="images/andalucia/setas-de-sevilla.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/zahara-de-la-sierra-viewpoint.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Pueblo of Zahara de la Sierra" title="A viewpoint of Zahara de la Sierra" src="images/andalucia/zahara-de-la-sierra-viewpoint.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/setas-of-seville-dusk.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Setas of Seville at dusk" title="Setas of Seville at dusk" src="images/andalucia/setas-of-seville-dusk.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/seville-skyline.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Skyline of Seville" title="Skyline of Seville" src="images/andalucia/seville-skyline.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/alcazar-of-seville.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Ceramic plant pot in Royal Alcázar of Seville" title="Ceramic plant pot in Royal Alcázar of Seville" src="images/andalucia/alcazar-of-seville.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/seville-cathedral-twilight.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Seville cathedral at twilight" title="Seville cathedral at twilight" src="images/andalucia/seville-cathedral-twilight.jpg"
-            /></a>
-          </div>
+  <div class="portfolio-container">
+    <div id="portfoliolist">
 
+      <div class="small-container">
 
-            
-            <h4>Grazalema</h4>
-  
-            
-            <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/grazalema-skyline.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Grazalema skyline" title="Grazalema skyline" src="images/andalucia/grazalema-skyline.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/viewpoint-of-grazalema.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Woman standing at viewpoint overlooking Grazalema" title="A woman standing at a viewpoint overlooking Grazalema" src="images/andalucia/viewpoint-of-grazalema.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/grazalema-scenery.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Scenery in Grazalema" title="Scenery in Grazalema" src="images/andalucia/grazalema-scenery.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/pueblo-of-grazalema.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Pueblo of Grazalema" title="Pueblo of Grazalema" src="images/andalucia/pueblo-of-grazalema.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/hike-near-grazalema.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Mountains in the Natural Park of Grazalema" title="Mountains in the Natural Park of Grazalema" src="images/andalucia/hike-near-grazalema.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/grazalema-scenic-hike.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Woman walking through a foggy trail in Grazalema" title="A hike near Grazalema" src="images/andalucia/grazalema-scenic-hike.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/foggy-walk-grazalema.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Woman walking on foggy trail in Grazalema" title="A Wwman walking on a foggy trail in Grazalema" src="images/andalucia/foggy-walk-grazalema.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/streets-in-grazalema.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Streets in the town of Grazalema" title="Streets in the town of Grazalema" src="images/andalucia/streets-in-grazalema.jpg"
-          /></a>
-        </div>
-        <div class="portfolio andalucia">
-          <a
-            href="images/andalucia/grazalema-landscape.jpg"
-            data-lightbox="andalucia"
-            data-title=""
-            ><img alt="Hills and valleys in Grazalema" title="Hills and valleys in Grazalema" src="images/andalucia/grazalema-landscape.jpg"
-          /></a>
-        </div>
-        <var>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/town-square-grazalema.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Town square in Grazalema" title="The town square in Grazalema" src="images/andalucia/town-square-grazalema.jpg"
-            /></a>
-          </div>
-
-          <h4>Zahara de la Sierra</h4>
-
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/lake-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Lake in Zahara de la Sierra" title="A man-made lake in Zahara de la Sierra" src="images/andalucia/lake-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/sunset-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Sunset in Zahara de la Sierra" title="Sunset in Zahara de la Sierra" src="images/andalucia/sunset-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/lant-pot-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Plant pot on a wall" title="A plant pot on a wall" src="images/andalucia/lant-pot-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/town-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Viewpoint from the castle of Zahara de la Sierra" title="Viewpoint from the castle of Zahara de la Sierra" src="images/andalucia/town-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/people-walking-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Couple walking through streets of Zahara de la Sierra" title="A couple walking through streets of Zahara de la Sierra" src="images/andalucia/people-walking-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/zahara-de-la-sierra-sunset.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Sunset in the landscape surrounding Zahara de la Sierra" title="Sunset in the landscape surrounding Zahara de la Sierra" src="images/andalucia/zahara-de-la-sierra-sunset.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/zahara-de-la-sierra-lake.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Man-made lake in Zahara de la Sierra" title="Man-made lake in Zahara de la Sierra" src="images/andalucia/zahara-de-la-sierra-lake.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/landscape-of-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Zahara de la Sierra and surrounding landscape" title="Zahara de la Sierra and surrounding landscape" src="images/andalucia/landscape-of-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/man-walking-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Man walking through street in Zahara de la Sierra" title="A man walking through a street in Zahara de la Sierra" src="images/andalucia/man-walking-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-          <div class="portfolio andalucia">
-            <a
-              href="images/andalucia/viewpoint-zahara-de-la-sierra.jpg"
-              data-lightbox="andalucia"
-              data-title=""
-              ><img alt="Viewpoint of Zahara de la Sierra" title="Viewpoint of Zahara de la Sierra" src="images/andalucia/viewpoint-zahara-de-la-sierra.jpg"
-            /></a>
-          </div>
-
-          
-        </var>
+        <p></p>
       </div>
+
+      <h4>Seville</h4>
+
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/cathedral-of-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Cathedral of Seville at night" title="The Cathedral of Seville"
+            src="images/andalucia/cathedral-of-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/decorations-plaza-espanya-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Decorations in the Plaza de Espanya of Seville" title="Decorations in the Plaza de Espanya of Seville"
+            src="images/andalucia/decorations-plaza-espanya-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/plaza-de-espanya-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Plaza de Espanya in Seville" title="Plaza de Espanya in Seville"
+            src="images/andalucia/plaza-de-espanya-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/horse-carriage-plaza-espanya-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Horse and carriage riding through Plaza de Espanya in Seville"
+            title="Horse and carriage riding through Plaza de Espanya in Seville"
+            src="images/andalucia/horse-carriage-plaza-espanya-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/triana-bridge-seville-dusk.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Triana bridge in Seville at night" title="Triana bridge in Seville at night"
+            src="images/andalucia/triana-bridge-seville-dusk.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/expo-92-area-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Expo 92 area of Seville" title="Expo 92 area of Seville"
+            src="images/andalucia/expo-92-area-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/circular-courtyard-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Circular courtyard in Seville" title="Circular courtyard in Seville"
+            src="images/andalucia/circular-courtyard-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/cathedral-of-seville-2.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Cathedral of Seville" title="The cathedral of Seville"
+            src="images/andalucia/cathedral-of-seville-2.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/horse-carriage-seville-bridge.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Horse and carriage with people in Seville" title="A horse and carriage ride in Seville"
+            src="images/andalucia/horse-carriage-seville-bridge.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/setas-de-sevilla.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Setas of Seville" title="Setas of Seville" src="images/andalucia/setas-de-sevilla.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/zahara-de-la-sierra-viewpoint.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Pueblo of Zahara de la Sierra" title="A viewpoint of Zahara de la Sierra"
+            src="images/andalucia/zahara-de-la-sierra-viewpoint.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/setas-of-seville-dusk.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Setas of Seville at dusk" title="Setas of Seville at dusk"
+            src="images/andalucia/setas-of-seville-dusk.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/seville-skyline.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Skyline of Seville" title="Skyline of Seville" src="images/andalucia/seville-skyline.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/alcazar-of-seville.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Ceramic plant pot in Royal Alcázar of Seville" title="Ceramic plant pot in Royal Alcázar of Seville"
+            src="images/andalucia/alcazar-of-seville.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/seville-cathedral-twilight.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Seville cathedral at twilight" title="Seville cathedral at twilight"
+            src="images/andalucia/seville-cathedral-twilight.jpg" /></a>
+      </div>
+
+
+
+      <h4>Grazalema</h4>
+
+
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/grazalema-skyline.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Grazalema skyline" title="Grazalema skyline" src="images/andalucia/grazalema-skyline.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/viewpoint-of-grazalema.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Woman standing at viewpoint overlooking Grazalema"
+            title="A woman standing at a viewpoint overlooking Grazalema"
+            src="images/andalucia/viewpoint-of-grazalema.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/grazalema-scenery.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Scenery in Grazalema" title="Scenery in Grazalema" src="images/andalucia/grazalema-scenery.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/pueblo-of-grazalema.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Pueblo of Grazalema" title="Pueblo of Grazalema" src="images/andalucia/pueblo-of-grazalema.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/hike-near-grazalema.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Mountains in the Natural Park of Grazalema" title="Mountains in the Natural Park of Grazalema"
+            src="images/andalucia/hike-near-grazalema.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/grazalema-scenic-hike.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Woman walking through a foggy trail in Grazalema" title="A hike near Grazalema"
+            src="images/andalucia/grazalema-scenic-hike.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/foggy-walk-grazalema.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Woman walking on foggy trail in Grazalema" title="A Wwman walking on a foggy trail in Grazalema"
+            src="images/andalucia/foggy-walk-grazalema.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/streets-in-grazalema.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Streets in the town of Grazalema" title="Streets in the town of Grazalema"
+            src="images/andalucia/streets-in-grazalema.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/grazalema-landscape.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Hills and valleys in Grazalema" title="Hills and valleys in Grazalema"
+            src="images/andalucia/grazalema-landscape.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/town-square-grazalema.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Town square in Grazalema" title="The town square in Grazalema"
+            src="images/andalucia/town-square-grazalema.jpg" /></a>
+      </div>
+
+      <h4>Zahara de la Sierra</h4>
+
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/lake-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Lake in Zahara de la Sierra" title="A man-made lake in Zahara de la Sierra"
+            src="images/andalucia/lake-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/sunset-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Sunset in Zahara de la Sierra" title="Sunset in Zahara de la Sierra"
+            src="images/andalucia/sunset-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/lant-pot-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Plant pot on a wall" title="A plant pot on a wall"
+            src="images/andalucia/lant-pot-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/town-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Viewpoint from the castle of Zahara de la Sierra"
+            title="Viewpoint from the castle of Zahara de la Sierra"
+            src="images/andalucia/town-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/people-walking-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Couple walking through streets of Zahara de la Sierra"
+            title="A couple walking through streets of Zahara de la Sierra"
+            src="images/andalucia/people-walking-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/zahara-de-la-sierra-sunset.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Sunset in the landscape surrounding Zahara de la Sierra"
+            title="Sunset in the landscape surrounding Zahara de la Sierra"
+            src="images/andalucia/zahara-de-la-sierra-sunset.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/zahara-de-la-sierra-lake.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Man-made lake in Zahara de la Sierra" title="Man-made lake in Zahara de la Sierra"
+            src="images/andalucia/zahara-de-la-sierra-lake.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/landscape-of-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Zahara de la Sierra and surrounding landscape" title="Zahara de la Sierra and surrounding landscape"
+            src="images/andalucia/landscape-of-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/man-walking-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Man walking through street in Zahara de la Sierra"
+            title="A man walking through a street in Zahara de la Sierra"
+            src="images/andalucia/man-walking-zahara-de-la-sierra.jpg" /></a>
+      </div>
+      <div class="portfolio andalucia">
+        <a href="images/andalucia/viewpoint-zahara-de-la-sierra.jpg" data-lightbox="andalucia" data-title=""><img
+            alt="Viewpoint of Zahara de la Sierra" title="Viewpoint of Zahara de la Sierra"
+            src="images/andalucia/viewpoint-zahara-de-la-sierra.jpg" /></a>
+      </div>
+
+
     </div>
+  </div>
 
-    <script>
-      $(function () {
-        var filterList = {
-          init: function () {
-            // MixItUp plugin
-            // http://mixitup.io
-            $("#portfoliolist").mixItUp({
-              selectors: {
-                target: ".portfolio",
-                filter: ".filter",
-              },
-              load: {
-                filter: ".andalucia", // show app tab on first load
-              },
-            });
-          },
-        };
+  <script>
+    $(function () {
+      var filterList = {
+        init: function () {
+          // MixItUp plugin
+          // http://mixitup.io
+          $("#portfoliolist").mixItUp({
+            selectors: {
+              target: ".portfolio",
+              filter: ".filter",
+            },
+            load: {
+              filter: ".andalucia", // show app tab on first load
+            },
+          });
+        },
+      };
 
-        // Run the show!
-        filterList.init();
-      });
-    </script>
+      // Run the show!
+      filterList.init();
+    });
+  </script>
 
-<span id="footer-hr"><hr></span>
-<div id = "footer">
-  <form action="https://www.paypal.com/donate" method="post" target="_top">
-    <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-    <img alt="paypal donate button" title="Paypal donations"  border="0" src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="paypal donate button" title="Paypal donations" border="0"
+        src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
     </form>
-      <div id="footer-text">
-        <p>Copyright &copy 2021 David Soanes<br>
+    <div id="footer-text">
+      <p>Copyright &copy 2021 David Soanes<br>
     </div>
-</div>
+  </div>
 </body>
+
 </html>
 
-    <script>
-      lightbox.option({
-        resizeDuration: 0,
-        fadeDuration: 200,
-        fitImagesInViewport: true,
-        maxHeight: 550,
-        wrapAround: true,
-        disableScrolling: true,
-        positionFromTop: 70,
-        wrapAround: true,
-        imageFadeDuration: 0,
-      });
-    </script>
-  </body>
+<script>
+  lightbox.option({
+    resizeDuration: 0,
+    fadeDuration: 200,
+    fitImagesInViewport: true,
+    maxHeight: 550,
+    wrapAround: true,
+    disableScrolling: true,
+    positionFromTop: 70,
+    wrapAround: true,
+    imageFadeDuration: 0,
+  });
+</script>
+</body>
+
 </html>

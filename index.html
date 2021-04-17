@@ -1,295 +1,392 @@
 <html>
-    <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-2911RZ0VMC');
-</script>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" type="image/png" href="images/icon.png">
-        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-10703354-8', 'w3bits.com');ga('require', 'displayfeatures');ga('send', 'pageview');</script><script type='text/javascript' src='https://w3bits.com/wp-content/themes/w/assets/js/prettify.js'></script>
-        <link rel="stylesheet" href="css/menu.css">
-        <meta name="viewport" content="width=device-width">
-        <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-        <title>Welcome to Ronda - DiscoverRonda.com</title>
-        <meta name="description" content="Discover your ultimate English language guide to Ronda. Discover the best of Ronda with fantastic tourist attractions, things to do and more.">
-  </head>
-  <body>
-    <div class="wrapper">
-    <div class="logo"><a href="index.html"><span id="logo-text">Discover Ronda</span></a></div>
-    <div class=main-menu-container>
-	<nav id="menu">
-  <label for="tm" id="toggle-menu">
-    <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span></a>   
-    <span class="hamburger"><span class="drop-icon" style=color:white;>☰</span></span>
-  </label>
-  <input type="checkbox" id="tm">
-  <ul class="main-menu">
-    <li><a href="#">About Ronda
- <i class="arrow down"></i>
-        <label title="Toggle Drop-down" class="drop-icon" for="menu1">▾
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("*").tooltip({
+        track: true
+      });
+      $("*[title]").tooltip("disable");
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-2911RZ0VMC");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link el="icon" type="image/png" href="images/icon.png" />
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <title>Welcome to Ronda - DiscoverRonda.com</title>
+  <meta name="description"
+    content="Discover your ultimate English language guide to Ronda. Discover the best of Ronda with fantastic tourist attractions, things to do and more." />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          </span>
         </label>
-      </a>
-      <input type="checkbox" id="menu1">
-      <ul class="sub-menu">
-        <li ><a href="history.html">History</a></li><hr>
-        <li><a href="ronda-today.html">Ronda Today</a></li><hr>
-       <!-- <li><a href="culture.html">Ronda Culture</a></li>-->
-        <li><a href="famous-locals.html">Famous Locals</a></li><hr>
-        <li><a href="famous-visitors.html">Famous Visitors</a></li>
-       <!-- <li><a href="regional-food.html">Gastronomy</a></li> -->
-      </ul>
-    </li>
-    <li><a href="#">See & Do
-      <i class="arrow down"></i>
-      <label title="Toggle Drop-down" class="drop-icon" for="menu2">▾</label>
-    </a>
-    <input type="checkbox" id="menu2">
-    <ul class="sub-menu">
-      <li>  <a href="attractions.html">Attractions</a></li><hr>
-      <li>  <a href="hiking-nature.html">Hiking & Other Activities</a></li><hr>
-      <!--<li><a href="other-activities.html">Other Activities</a></li>-->
-      <!--<li><a href="sightseeing.html">Sightseeing</a></li>-->
-      <li><a href="festivals-celebrations.html">Festivals & Celebrations</a></li><hr>
-      <li><a href="around-ronda.html">Around Ronda</a></li><hr>
-      <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
-    </ul>
-  </li>
-  <li ><a href="#">Image Gallery
-    <i class="arrow down"></i>    <label title="Toggle Drop-down" class="drop-icon" for="menu3">▾</label>
-  </a>
-  <input type="checkbox" id="menu3">
-  <ul class="sub-menu">
-    <li>  <a href="ronda-gallery.html">Ronda</a></li><hr>
-    <li> <a href="serrania-gallery.html">Serranía de Ronda</a></li><hr>
-    <li> <a href="andalusia-gallery.html">Andalusia</a></li>
-  </ul>
-</li>
-<li ><a href="#">Plan Your Trip
-  <i class="arrow down"></i>  
-  <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
-</a>
-<input type="checkbox" id="menu4">
-<ul class="sub-menu">
-  <li>  <a href="getting-to-ronda.html">Getting to Ronda</a></li><hr>
-  <li> <a href="practical-information.html">Practical Information</a></li>
-</ul>
-</li>
-
-<li><a href="contact-us.html">Contact Us</a></li>
-  <span class="mobile-instagram"><li><a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-  </li></span>
-
-<!--
-<li><a href="#">Travel Sustainably
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu5">▾</label>
-</a>
-<input type="checkbox" id="menu5">
-<ul class="sub-menu">
-  <li> <a href="sustainability.html">Sustainability</a></li>
-  <li> <a href="hotels-accommodation.html">Hotels & Accommodation</a></li>
-</ul>
--->
-<!--
-<li><a href="#">About Us
-  <span class="drop-icon">▾</span>
-  <label title="Toggle Drop-down" class="drop-icon" for="menu5">▾</label>
-</a>
-<input type="checkbox" id="menu5">
-<ul class="sub-menu">
-  <li> <a href="who-we-are.html">Who We Are</a></li>
-  <li> <a href="support-us.html">Support Us</a></li>
-</ul>
--->
-</ul>
-</nav>	
-</div>
-
-<span class="instagram">
-  <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-    <!--<div class="instagram">
-      <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-      </div>-->
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="ronda-today.html">Ronda Today</a></li>
+              <hr />
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+                ▾
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3">▾</label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
     </span>
+  </div>
 
-</div>
-<!--
-<span class="addon-section">
-<li class="addon"><div class="instagram">
-  <span><a id="addon" href="https://www.instagram.com/discover.ronda/" target="_blank"><img alt="instagram icon" title="instagram icon" src="images/instagram-icon.png" ></a></span>
-  </div></li>
-  <li class="addon"><div class="language">
-    <a id="addon" href="index-espanol.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="spanish flag" title="Language selector" src="images/spanish-language.png" ></a>
-    </div></li>
-</li>
-</span>-->
+  <div class="slideshow-container">
 
-       
 
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img alt="Sunrise over Ronda gorge" title="Sunrise over the gorge of Ronda" src="./images/ronda/sunrise-in-ronda.jpg" style="width:100%">
-      <div class="slider-centered-text-header">
-        Highlights
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img alt="Arab Baths of Ronda" title="Arab Baths of Ronda" src="./images/attractions/arab-baths-2.jpg"
+        style="width: 100%" />
+      <div class="slider-centered-text-header">Highlights</div>
+      <div class="slider-centered-text-large">
+        Attractions of Ronda
+        <hr />
       </div>
-      <div class="slider-centered-text-large">Best Viewpoints in Ronda<hr>
+      <div class="slider-read-more">
+        <a href="attractions.html">Read More</a>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img alt="Skyline of Ronda from a distance" title="Skyline of Ronda from a distance"
+        src="./images/hiking/east-of-ronda-hike-7.jpg" style="width: 100%" />
+      <div class="slider-centered-text-header">Highlights</div>
+      <div class="slider-centered-text-large">
+        Hiking Routes
+        <hr />
+      </div>
+      <div class="slider-read-more">
+        <a href="hiking-nature.html">Read More</a>
+      </div>
+    </div>
+
+    <!--
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img alt="Sunrise over Ronda gorge" title="Sunrise over the gorge of Ronda"
+        src="./images/ronda/sunrise-in-ronda.jpg" style="width: 100%" />
+      <div class="slider-centered-text-header">Highlights</div>
+      <div class="slider-centered-text-large">
+        Best Viewpoints in Ronda
+        <hr />
       </div>
       <div class="slider-read-more">
         <a href="best-viewpoints-in-ronda.html">Read More</a>
-        </div>  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img alt="Arab Baths of Ronda" title="Arab Baths of Ronda" src="./images/attractions/arab-baths-2.jpg" style="width:100%">
-    <div class="slider-centered-text-header">
-      Highlights
+      </div>
     </div>
-    <div class="slider-centered-text-large">Attractions of Ronda<hr>
-    </div>
-    <div class="slider-read-more">
-      <a href="attractions.html">Read More</a>
-    </div>  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img alt="Skyline of Ronda from a distance" title="Skyline of Ronda from a distance" src="./images/hiking/east-of-ronda-hike-7.jpg" style="width:100%">
-    <div class="slider-centered-text-header">
-      Highlights
-    </div>
-    <div class="slider-centered-text-large">Hiking Routes<hr>
-    </div>
-    <div class="slider-read-more">
-      <a href="hiking-nature.html">Read More</a>
-    </div>  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
 
   <script>
-
     //Image slider
-    
+
     var slideIndex = 1;
     showSlides(slideIndex);
-    
+
     function plusSlides(n) {
-      showSlides(slideIndex += n);
+      showSlides((slideIndex += n));
     }
-    
+
     function currentSlide(n) {
-      showSlides(slideIndex = n);
+      showSlides((slideIndex = n));
     }
-    
+
     function showSlides(n) {
       var i;
       var slides = document.getElementsByClassName("mySlides");
       var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
       for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
+        slides[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
-         // dots[i].className = dots[i].className.replace(" active", "");
+        // dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";  
-     // dots[slideIndex-1].className += " active";
+      slides[slideIndex - 1].style.display = "block";
+      // dots[slideIndex-1].className += " active";
     }
-    </script>
-    
-  
-    <div class="homepage-flex-container">
-      <div class="homepage-flex-item-left">
-        <h3>History of Ronda</h3>
-        <p>Ronda has a long an interesting history, having been home to the Romans, Moors and even the invading French for a short time!</p>
-          <div class="feature-read-more"><a href=#>Read More</a></div>
+  </script>
+
+
+  <!--
+  <div class="container">
+    <div class="feature-container-multiple-boxes">
+      <div class="feature-item">
+        <a href="murallas-de-ronda.html">
+          <img alt="Walls of Ronda" title="Walls of Ronda" src="./images/attractions/murallas-de-ronda-thumbnail.jpg">
+          <span class="centered-text">Walls of Ronda
+            <hr>
+          </span>
+        </a>
       </div>
-      <div class="homepage-flex-item-right"><img alt="Arch of Felipe V at dusk" title="Arch of Felipe V at dusk" src="./images/ronda/feliipe-v-arch.jpg"/></div>
-    </div>
-  
+    -->
 
-    <div class = "container">
-      <h4>Planning your Trip</h4>
-<div class="feature-container">
-    <div class="feature-item-left"><img alt="Arch of Felipe V at dusk" title="Arch of Felipe V at dusk" src="./images/ronda/feliipe-v-arch.jpg"><div class="centered-text">1-Day Itinerary<hr></div></div>
-    <div class="feature-item-center"><img alt="Old town of Ronda skyline at night" title="Old town of Ronda skyline at night" src="./images/ronda/ronda-old-town-at-night.jpg"><div class="centered-text">Weekend Trip<hr></div></div>
-    <div class="feature-item-right"><img alt="Man walking towards the new bridge from El Tajo gorge" title="Man walking towards the new bridge from El Tajo gorge" src="./images/ronda/el-tajo-gorge.jpg"><div class="centered-text">Hiking Routes around Ronda<hr></div></div>
-</div>
-</div>
-
-<div class = "container">
-<div class="feature-container">
-    <div class="feature-item-left"><img alt="Gardens of Cuenca" title="Gardens of Cuenca" src="./images/ronda/jardines-de-cuenca.jpg"><div class="centered-text">Best Viewpoints in Ronda<hr></div></div>
-    <div class="feature-item-center"><img alt="Padre Jesus neighbourhood in Ronda" title="Padre Jesus neighbourhood in Ronda" src="./images/ronda/skyline-of-padre-jesus-ronda.jpg"><div class="centered-text">1-Day Itinerary<hr></div></div>
-    <div class="feature-item-right"><img alt="Church of Nuestra Señora del Socorro" title="Church of Nuestra Señora del Socorro" src="./images/ronda/iglesia-nuestra-senora-del-socorro.jpg"><div class="centered-text">Weekend Trip<hr></div></div>
-    </div>
-  </div>
-
-    <div class="container">
-      <div class="homepage-parallax-banner-1">
-        <div class="centered-text-header">
-          Highlights
-        </div>
-        <div class="centered-text-large">Best Viewpoints in Ronda<hr>
-        </div>
-    <div class="read-more">
-      <a href=#>Read More</a>
-    </div>
-    </div>
-    </div>
-    
-
-    <div class="homepage-flex-container">
-      <div class="homepage-flex-item-left">
-        <h3>Planning Your Trip</h3>
-        <p>My favorite activity to look forward to is always when I can get on
-          the train and go travelling - my holidays, weekends and every amount
-          of time away from work were always the times I was looking forward to
-          the most. They were like those treats for me for which I was always
-          looking forward to and couldn’t wait to start. </p>
-          <div class="feature-read-more"><a href=#>Read More</a></div>
+  <div class="container">
+    <h4>About Ronda</h4>
+    <div class="feature-container-multiple-boxes-with-text">
+      <div class="feature-item">
+        <a href="history.html">
+          <img alt="Man walking towards the new bridge from El Tajo gorge"
+            title="Man walking towards the new bridge from El Tajo gorge" src="./images/santa-maria-la-mayor.jpg" />
+          <span class="centered-text">
+            History of Ronda
+            <hr>
+          </span>
+        </a>
+        <p>Ronda has a long an interesting history, having been home to the
+          Romans, Moors and even the invading French for a short time!</p>
       </div>
-      <div class="homepage-flex-item-right"><img alt="Puente Nuevo at dusk" title="The Puente Nuevo at dusk" src="./images/ronda/new-bridge-twilight.jpg"/></div>
+
+
+      <div class="feature-item"><a href="festivals-celebrations.html">
+          <img alt="Man walking towards the new bridge from El Tajo gorge"
+            title="Man walking towards the new bridge from El Tajo gorge"
+            src="./images/man-watching-ronda-sunset.jpg" />
+          <span class="centered-text">
+            Festivals and Celebrations
+            <hr />
+          </span>
+        </a>
+        <p>Enjoy the many events that Ronda celebrates during the year with this guide.</p>
+      </div>
+
+      <div class="feature-item"><a href="wines.html">
+          <img alt="Man walking towards the new bridge from El Tajo gorge"
+            title="Man walking towards the new bridge from El Tajo gorge" src="./images/ronda-vineyards.jpg" />
+          <span class="centered-text">
+            Wines of Ronda
+            <hr />
+          </span>
+        </a>
+        <p>The Serrania de Ronda is filled with bodegas, and it is possible to visit wineries in the Serrania de
+          Ronda
+          and enjoy tours and wine tastings.</p>
+      </div>
+
     </div>
-
-    <div class = "container">
-      <h4>Planning your Trip</h4>
-  <div class="feature-container-multiple-boxes">
-    <div class="feature-item"><img alt="Arch of Felipe V at dusk" title="Arch of Felipe V at dusk" src="./images/ronda/feliipe-v-arch.jpg"><div class="centered-text">1-Day Itinerary<hr></div></div>
-    <div class="feature-item"><img alt="Old town of Ronda skyline at night" title="Old town of Ronda skyline at night" src="./images/ronda/ronda-old-town-at-night.jpg"><div class="centered-text">Weekend Trip<hr></div></div>
-    <div class="feature-item"><img alt="Man walking towards the new bridge from El Tajo gorge" title="Man walking towards the new bridge from El Tajo gorge" src="./images/ronda/el-tajo-gorge.jpg"><div class="centered-text">Hiking Routes around Ronda<hr></div></div>
-    <div class="feature-item"><img alt="Ceramic details inside a house" title="Ceramic details inside a house" src="./images/ronda/ceramic-detail-ronda.jpg"><div class="centered-text">Weekend Trip<hr></div></div>
-  </div>
   </div>
 
-  
-<span id="footer-hr"><hr></span>
-<div id = "footer">
-  <form action="https://www.paypal.com/donate" method="post" target="_top">
-    <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-    <img alt="paypal donate button" title="Paypal donations"  border="0" src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
+
+
+
+  <div class="container">
+    <div class="homepage-parallax-banner-1">
+      <div class="centered-text-header"></div>
+      <div class="centered-text-large">
+        Best Viewpoints in Ronda
+        <p>Enjoy the best views that Ronda has to offer with our useful guide of top viewpoints!</p>
+        <!--  <hr />-->
+
+      </div>
+
+      <a href="best-viewpoints-in-ronda.html"><span class="read-more">
+
+          Read More
+        </span></a>
+    </div>
+  </div>
+
+  <!--
+  <div class="homepage-flex-container">
+    <div class="homepage-flex-item-left">
+      <h3>Planning Your Trip</h3>
+      <p>
+        My favorite activity to look forward to is always when I can get on
+        the train and go travelling - my holidays, weekends and every amount
+        of time away from work were always the times I was looking forward to
+        the most. They were like those treats for me for which I was always
+        looking forward to and couldn’t wait to start.
+      </p>
+      <div class="feature-read-more"><a href="#">Read More</a></div>
+    </div>
+    <div class="homepage-flex-item-right">
+      <img alt="Puente Nuevo at dusk" title="The Puente Nuevo at dusk" src="./images/ronda/new-bridge-twilight.jpg" />
+    </div>
+  </div>
+-->
+
+
+
+
+  <div class="homepage-flex-container">
+    <div class="homepage-flex-item-left">
+      <h3>Around Ronda</h3>
+      <p>
+        From local sites such as Acinipo, Montejaque and the various caves in the Serrania de Ronda, to cities such
+        as
+        Cordoba, Seville and Malaga - Andalusia has so much to offer!
+      </p>
+      <div class="feature-read-more"><a href="around-ronda.html">Read More</a></div>
+    </div>
+    <div class="homepage-flex-item-right">
+      <img alt="Arch of Felipe V at dusk" title="Arch of Felipe V at dusk"
+        src="./images/andalucia/zahara-de-la-sierra-viewpoint.jpg" />
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <h4>Planning your Trip</h4>
+    <div class="feature-container-multiple-boxes">
+
+      <div class="feature-item"><a href="getting-to-ronda.html">
+          <img alt="Puente Nuevo new brige in Ronda" title="Puente Nuevo new brige in Ronda"
+            src="./images/puente-nuevo-new-bridge-ronda.jpg" style="object-position:right-bottom;" />
+          <div class="centered-text">
+            Getting to Ronda
+            <hr />
+          </div>
+        </a>
+      </div>
+      <div class="feature-item"><a href="practical-information.html">
+          <img alt="Old town of Ronda skyline at night" title="Old town of Ronda skyline at night"
+            src="./images/viewpoint-over-serrania-de-ronda.jpg" />
+          <div class="centered-text">
+            Practical Information
+            <hr />
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <span id="footer-hr">
+    <hr /></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="AARW7C37XGUUG" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="paypal donate button" title="Paypal donations" border="0"
+        src="https://www.paypal.com/en_ES/i/scr/pixel.gif" width="1" height="1" />
     </form>
-      
-      <div id="footer-text">
-        <p>Copyright &copy 2021 David Soanes<br>
-<!--<a href="index-espanol.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="" title="" src="images/spanish-language.png" style="width:2%;"></a>-->
+
+    <div id="footer-text">
+      <p>
+        Copyright &copy 2021 David Soanes<br />
+        <!--<a href="index-espanol.html" target="" i class="" aria-hidden="true"><span class="language-text">Cambiar Idioma:</span><img alt="" title="" src="images/spanish-language.png" style="width:2%;"></a>-->
+      </p>
     </div>
-</div>
-
-
+  </div>
 </body>
-</html>
 
+</html>
 
 <!--
 <script> // script for rotating banner images
@@ -375,4 +472,3 @@ function fadeDivs() {
       });
     </script>
 -->
-
