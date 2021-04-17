@@ -986,7 +986,6 @@ a:hover {
 }
 
 .feature-item {
-  background: ;
   flex: 25%;
   margin: 0rem 0.5rem 0.5rem 0.5rem;
   position: relative;
@@ -1012,7 +1011,6 @@ a:hover {
 }
 
 .feature-item {
-  background: ;
   flex: 25%;
   margin: 0rem 0.5rem 0.5rem 0.5rem;
   position: relative;
@@ -1311,13 +1309,11 @@ a:hover {
 
 .full-width-banner {
   margin: 0 auto;
-  align: center;
   text-align: center;
 }
 
 .around-ronda-banner {
   margin: 0 auto;
-  align: center;
   text-align: center;
   padding: 2rem 1rem 0rem 1rem;
 
@@ -1597,7 +1593,6 @@ hr {
 }
 
 .feature-container-multiple-boxes-with-text p {
-  align: bottom;
   text-align: center;
   background-color: white;
   color: #333;
@@ -2092,7 +2087,6 @@ hr {
   }
 
   .feature-item {
-    background: ;
     flex: 25%;
     margin: 0rem 0.5rem 0.5rem 0.5rem;
     position: relative;
@@ -2110,7 +2104,6 @@ hr {
   }
 
   .feature-container-multiple-boxes p {
-    align: bottom;
     text-align: left;
     background-color: white;
     color: #333;
@@ -2123,7 +2116,6 @@ hr {
   }
 
   .feature-container-multiple-boxes-with-text p {
-    align: bottom;
     text-align: left;
     background-color: white;
     color: #333;
@@ -2297,7 +2289,6 @@ hr {
     /* constrains image within the flexbox container */
   }
 
-  .homepage-flex-item-left p {}
 
   /*Large feature container styling */
 

@@ -172,7 +172,6 @@ html {
 */
 
 #menu .logo a:hover {
-  background-color: ;
   color: #333;
 }
 
@@ -402,7 +401,6 @@ html {
   }
 
   #menu .logo a:hover {
-    background-color: ;
     color: #333;
   }
 
@@ -456,7 +454,7 @@ html {
     font-family: Georgia, "Times New Roman", Times, serif;
     text-transform: uppercase;
     pointer-events: auto;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     margin-right: 0;
     padding-top: 0.4rem;
   }
@@ -529,7 +527,6 @@ html {
 
 
   #menu a:hover {
-    background-color: ;
     color: #DB9300;
   }
 
