@@ -17,7 +17,6 @@
 
 body,
 html {
-  height: 100%;
   margin: 0;
 }
 
@@ -1668,7 +1667,6 @@ hr {
 @media (min-width: 1024px) {
 
   body {
-    position: absolute;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     line-height: 1.625;

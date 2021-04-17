@@ -589,11 +589,7 @@ html {
     z-index: 3000;
   }
 
-  /*
-  .main-menu li:after {
-    content: "|";
-    }
-*/
+
   #menu .sub-menu,
   #menu input[type="checkbox"]:checked+.sub-menu {
     display: none;
