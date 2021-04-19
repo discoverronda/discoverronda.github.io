@@ -25,9 +25,9 @@ body {
   position: absolute;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  line-height: 1.425;
-  color: #333;
-  font-size: 15px;
+  line-height: 1.3;
+  color: black;
+  font-size: 14px;
   letter-spacing: 0.7px;
   width: 100%;
 }
@@ -629,17 +629,12 @@ a:hover {
 .festivalsbg-1,
 .festivalsbg-2,
 .festivalsbg-3,
-.festivalsbg-4,
-.festivalsbg-5,
-.festivalsbg-6,
 .getting-to-ronda-bg-1,
 .getting-to-ronda-bg-2,
 .getting-to-ronda-bg-3,
 .getting-to-ronda-bg-4,
 .ronda-today-bg-1,
 .ronda-today-bg-2,
-.ronda-today-bg-3,
-.ronda-today-bg-4,
 .famous-bg-1,
 .famous-bg-2,
 .famous-bg-3,
@@ -651,12 +646,14 @@ a:hover {
 .coming-soon-bg-1 {
   position: relative;
   opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 1rem;
   min-height: 500px;
+
+
+
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .coming-soon-bg-1 {
@@ -884,7 +881,6 @@ a:hover {
 }
 
 .parallax-text-container-white {
-  color: #777;
   background-color: white;
   padding: 2rem 1rem 1rem 1rem;
 
@@ -1354,7 +1350,7 @@ a:hover {
 
 .slideshow-container img {
   width: 100%;
-  height: 30rem;
+  height: 70vh;
   position: relative;
   margin: auto;
   filter: brightness(0.8);
@@ -1505,27 +1501,27 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 1.6rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 1.3rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 
 }
 
 h5 {
   font-size: 1.1rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 p {
@@ -1670,7 +1666,7 @@ hr {
   body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    line-height: 1.625;
+    line-height: 1.525;
     color: #333;
     font-size: 18px;
     letter-spacing: 1px;
@@ -1685,6 +1681,40 @@ hr {
     min-height: 50vh;
   }
 
+  .historybg-1,
+  .historybg-2,
+  .historybg-3,
+  .historybg-4,
+  .historybg-5,
+  .historybg-6,
+  .historybg-7,
+  .historybg-8,
+  .festivalsbg-1,
+  .festivalsbg-2,
+  .festivalsbg-3,
+  .getting-to-ronda-bg-1,
+  .getting-to-ronda-bg-2,
+  .getting-to-ronda-bg-3,
+  .getting-to-ronda-bg-4,
+  .ronda-today-bg-1,
+  .ronda-today-bg-2,
+  .famous-bg-1,
+  .famous-bg-2,
+  .famous-bg-3,
+  .famous-bg-4,
+  .getting-to-ronda-bg-1,
+  .ronda-wines-bg-1,
+  .around-ronda-bg-1,
+  .other-activities-bg-1,
+  .coming-soon-bg-1 {
+
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+  }
+
 
   #homepage-banner #desktop-banner {
     display: block;
@@ -1696,6 +1726,10 @@ hr {
 
   .slideshow-container {
     padding: 1rem 0rem 1rem 0rem;
+  }
+
+  .slideshow-container img {
+    height: 80vh;
   }
 
   #boxes .box img:hover {

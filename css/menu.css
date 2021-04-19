@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-body {
-  line-height: 1.618;
-}
 
 /* Stops all mobile sub menus from opening by default */
 #menu .sub-menu:not(.open) {
