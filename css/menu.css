@@ -188,6 +188,7 @@ html {
 
 /* Styling for the actual icon */
 #menu label.drop-icon {
+  height: 100%;
   position: absolute;
   right: 0;
   font-size: 1em;
