@@ -34,7 +34,10 @@ body {
 
 #portfoliolist {
   min-height: 100vh;
+  margin: 0;
 }
+
+
 
 img {
   pointer-events: none;
@@ -146,6 +149,10 @@ a:hover {
   overflow: hidden;
 }
 
+.image {
+  padding-bottom: 2rem;
+}
+
 #boxes .box img {
   display: block;
   width: 100%;
@@ -182,7 +189,7 @@ a:hover {
 }
 
 #image-1-box .box .image img {
-  width: 90%;
+  width: 100%;
 
 }
 
@@ -646,7 +653,7 @@ a:hover {
 .coming-soon-bg-1 {
   position: relative;
   opacity: 0.65;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
 
@@ -788,7 +795,7 @@ a:hover {
 .slider-centered-text-large {
   position: absolute;
   width: 80%;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -811,20 +818,20 @@ a:hover {
 .slider-centered-text-header {
   position: absolute;
   width: 80%;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
+  font-size: 0.5rem;
 }
 
 .slider-read-more {
   position: absolute;
-  top: 80%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
@@ -1495,7 +1502,7 @@ h5,
 
 h1 {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
 
 }
 
@@ -1610,6 +1617,24 @@ hr {
   font-family: 'Lato', sans-serif;
 }
 
+.mapouter {
+  position: relative;
+  text-align: center;
+
+}
+
+.frame {
+  width: 95%;
+  height: 450px;
+}
+
+.contact-us-image {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+
 
 
 
@@ -1679,6 +1704,7 @@ hr {
 
   #portfoliolist {
     min-height: 50vh;
+    margin: 1rem;
   }
 
   .historybg-1,
@@ -1769,7 +1795,7 @@ hr {
   }
 
   #text-box {
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
     text-align: center;
 
   }
@@ -2057,8 +2083,6 @@ hr {
   }
 
   .parallax-text-container-white h3 {
-
-    color: #111;
     padding: 0rem 0rem 0rem 0rem;
   }
 
@@ -2274,16 +2298,11 @@ hr {
     color: #DB9300;
   }
 
-  /*
-  .portfolio-container h4{
-    padding-top:1rem;
-  }
 
-  .portfolio-container {
-    padding-top: 0.3rem;
-  }
 
-  */
+
+
+
 
   .feature-container-large {
     height: 40rem;
@@ -2412,9 +2431,9 @@ hr {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
     line-height: 1.2em;
+    font-size: 1rem;
   }
 
   .slider-read-more {
@@ -2494,44 +2513,42 @@ hr {
   h2,
   h3,
   h4,
-  h5,
-  .figcaption {
+  h5 {
     text-align: center;
     margin: 0;
-    /* padding: 1rem 0rem 1rem 0rem;*/
-    color: black;
+    color: #333;
 
   }
 
   h1 {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 400;
 
   }
 
   h2 {
     font-size: 2.5rem;
-    letter-spacing: 0.2rem;
-    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
   }
 
   h3 {
     font-size: 2rem;
-    letter-spacing: 0.2rem;
-    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
   }
 
   h4 {
     font-size: 1.6rem;
-    letter-spacing: 0.2rem;
-    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
 
   }
 
   h5 {
     font-size: 1.3rem;
-    letter-spacing: 0.2rem;
-    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
   }
 
   p {
@@ -2547,6 +2564,8 @@ hr {
     font-style: italic;
     font-weight: 100;
     padding-top: 0rem;
+    text-align: center;
+    margin: 0;
 
   }
 
@@ -2577,4 +2596,27 @@ hr {
   .read-more-container {
     margin: 0 auto;
   }
+
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+  }
+
+  .contact-us-image {
+    width: 20%;
+  }
+
+  .image {
+    padding-bottom: 0rem;
+  }
+
 }

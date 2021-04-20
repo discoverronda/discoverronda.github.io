@@ -129,8 +129,6 @@ html {
   margin-left: 0.5rem;
 }
 
-
-
 .submenu a {
   color: #aeaeae;
 }
@@ -140,7 +138,7 @@ html {
 }
 
 #menu li {
-  font-size: 0.7rem;
+  font-size: 1.1rem;
   letter-spacing: 1px;
 }
 
@@ -150,8 +148,7 @@ html {
 
 #toggle-menu,
 #menu a {
-  /*padding: 1em 1.5em;*/
-  padding: 0.5rem 0.5rem;
+  padding: 1em 1.5em;
 }
 
 #toggle-menu,
@@ -196,17 +193,12 @@ html {
 #toggle-menu .drop-icon,
 #menu li label.drop-icon {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
-  padding-left: 10rem;
-
 }
 
-/* Styling for the actual icon */
 #menu label.drop-icon {
-  position: absolute;
-  right: 0;
-  padding-top: 0.5em;
+  padding: 1em;
   font-size: 1em;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.125);
@@ -214,19 +206,13 @@ html {
   color: rgba(255, 255, 255, 0.75);
 }
 
-
 #toggle-menu span.drop-icon {
-  padding: 0.5em 1em 0em 0.7em;
-  font-size: 1.5em;
+  padding: 1em 1em 1em 0.7em;
+  font-size: 1em;
   text-align: center;
   background-color: #333;
   text-shadow: 0 0 0 transparent;
   color: rgba(255, 255, 255, 0.75);
-}
-
-.mobile-right-drop-icon {
-  position: absolute;
-  right: 0;
 }
 
 #menu .main-menu .logo {
@@ -280,18 +266,11 @@ html {
   vertical-align: middle;
 }
 
-/*
 #menu .main-menu .logo-mobile {
   display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
   pointer-events: none;
-  text-align: right;
-}
-*/
-
-.logo-mobile {
-  text-align: right;
 }
 
 #menu .main-menu .logo-mobile #logo-text {
