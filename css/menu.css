@@ -319,8 +319,17 @@ html {
 }
 
 
+.sub-menu a {
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.sub-menu {
+  padding-top: 1rem;
+  padding-left: 10rem;
 
 
+}
 
 
 
