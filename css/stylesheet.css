@@ -700,10 +700,13 @@ a:hover {
 
 .famous-bg-1 {
   background-image: url("../images/cayetano-ordonez-bullfighter-statue.jpg");
+  background-position: top right;
+
 }
 
 .famous-bg-2 {
-  background-image: url("../images/ernest-hemingway-statue.jpg");
+  background-image: url("../images/ernest-hemingway-paseo-sign.jpg");
+
 }
 
 .festivalsbg-1 {
@@ -1316,20 +1319,7 @@ a:hover {
   text-align: center;
 }
 
-.around-ronda-banner {
-  margin: 0 auto;
-  text-align: center;
-  padding: 2rem 1rem 0rem 1rem;
 
-}
-
-
-
-.around-ronda-banner img {
-  width: 80%;
-  height: 500px;
-  object-fit: cover;
-}
 
 .parallax-text-container-white img {
   margin: 0 auto;
@@ -1635,10 +1625,25 @@ hr {
 }
 
 
+.around-ronda-banner {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0.5rem 0rem 0.5rem;
+
+}
 
 
 
+.around-ronda-banner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
+
+#stretch-banner-image img {
+  width: 100%;
+}
 
 
 
@@ -1753,6 +1758,29 @@ hr {
 
 
 
+  }
+
+  .famous-bg-1 {
+    background-image: url("../images/cayetano-ordonez-bullfighter-statue.jpg");
+  }
+
+  .famous-bg-2 {
+    background-image: url("../images/ernest-hemingway-statue.jpg");
+  }
+
+  .around-ronda-banner {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 1rem 0rem 1rem;
+
+  }
+
+
+
+  .around-ronda-banner img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
   }
 
 
