@@ -455,12 +455,13 @@ a:hover {
   border-width: 0 1px 1px 0;
   display: inline-block;
   padding: 2px;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  margin-top: 1rem;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
 }
 
 
@@ -1352,7 +1353,7 @@ a:hover {
   width: 100%;
   position: relative;
   margin: auto;
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  padding: 0rem 0rem 0.5rem 0rem;
 }
 
 .slideshow-container img {
@@ -1696,6 +1697,19 @@ hr {
     font-size: 18px;
     letter-spacing: 1px;
     width: 100%;
+  }
+
+  .arrow {
+    border: solid #333;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 
   img {
