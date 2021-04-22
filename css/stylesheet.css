@@ -586,7 +586,7 @@ a:hover {
 
 .homepage-flex-item-left p {
   padding: 0rem 0rem 1rem 0rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 
 
@@ -758,9 +758,10 @@ a:hover {
 .homepage-parallax-banner-1,
 .homepage-parallax-banner-2,
 .homepage-parallax-banner-3 {
-  display: flex;
   position: relative;
-  background-attachment: fixed;
+  background-attachment: scroll;
+
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1021,6 +1022,8 @@ a:hover {
   position: relative;
   overflow: hidden;
 }
+
+
 
 
 
@@ -1601,6 +1604,8 @@ p {
 
 }
 
+
+
 hr {
 
   opacity: 20%;
@@ -1614,7 +1619,7 @@ h1 {
   text-align: center;
   background-color: white;
   color: #333;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-family: 'Lato';
   /*border: 0.5px solid #333;*/
   z-index: 100;
@@ -1627,7 +1632,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   width: 90%;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   text-transform: none;
   font-family: 'Lato', sans-serif;
 }
@@ -2444,6 +2449,13 @@ h1 {
     width: 70%;
     font-size: 1rem;
     text-transform: none;
+  }
+
+  .homepage-parallax-banner-1,
+  .homepage-parallax-banner-2,
+  .homepage-parallax-banner-3 {
+
+    background-attachment: fixed;
   }
 
   .read-more {
