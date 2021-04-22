@@ -127,7 +127,7 @@ html {
 
 
 #menu li {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 1px;
 }
 
@@ -162,10 +162,10 @@ html {
 
 #menu .sub-menu {
   display: block;
-  border-top: solid grey 1px;
-
-  border-bottom: solid grey 1px;
   border-width: 20%;
+
+  border-top: solid grey 1px;
+  border-bottom: solid grey 1px;
 }
 
 #menu input[type="checkbox"]:checked+.sub-menu {
@@ -206,7 +206,7 @@ html {
 }
 
 #toggle-menu span.drop-icon {
-  padding: 0.5em 1em 0em 0.7em;
+  padding: 0.55em 1em 0em 0.7em;
   font-size: 1.5em;
   text-align: center;
   text-shadow: 0 0 0 transparent;
@@ -306,10 +306,14 @@ html {
 
 .mobile-instagram {
   font-size: 0.5rem;
+
 }
 
 .mobile-instagram a {
   font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+
 }
 
 
