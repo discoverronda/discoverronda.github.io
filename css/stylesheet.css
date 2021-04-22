@@ -464,6 +464,24 @@ a:hover {
   -webkit-transform: rotate(315deg);
 }
 
+#contact-us .arrow {
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+#contact-us .down {
+  margin-top: 1.1rem;
+}
+
+
+.arrow-down-contact-us {
+  margin-top: 1rem;
+  padding: 2px;
+}
+
 
 #homepage-banner #desktop-banner {
   display: none;
@@ -1645,7 +1663,10 @@ hr {
   width: 100%;
 }
 
-
+.small-container p a {
+  text-decoration: none;
+  color: black;
+}
 
 
 
