@@ -47,7 +47,7 @@
         <label for="tm" id="toggle-menu">
           <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
           </a>
-          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          <span class="hamburger"><span class="drop-icon">☰</span>
           </span>
         </label>
         <input type="checkbox" id="tm" />
@@ -56,8 +56,9 @@
             <a href="#">About Ronda
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu1">
-                ▾
+
               </label>
+              <!--<span class="mobile-right-drop-icon">></span>-->
             </a>
             <input type="checkbox" id="menu1" />
             <ul class="sub-menu">
@@ -71,10 +72,10 @@
             </ul>
           </li>
           <li>
-            <a href="#">See & Do
+            <a href="#" title="Toggle Drop-down">See & Do
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu2">
-                ▾
+
               </label>
             </a>
             <input type="checkbox" id="menu2" />
@@ -98,7 +99,7 @@
           <li>
             <a href="#">
               Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
-                for="menu3">▾</label>
+                for="menu3"></label>
             </a>
             <input type="checkbox" id="menu3" />
             <ul class="sub-menu">
@@ -112,7 +113,7 @@
           <li>
             <a href="#">Plan Your Trip
               <i class="arrow down"></i>
-              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4"></label>
             </a>
             <input type="checkbox" id="menu4" />
             <ul class="sub-menu">
@@ -123,7 +124,14 @@
               </li>
             </ul>
           </li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li>
+            <a href="contact-us.html">Contact Us
+              <span id="contact-us"> <i class="arrow down"></i></span>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <!--<input type="checkbox" id="menu5" />-->
+          </li>
+          <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
           <span class="mobile-instagram">
             <li>
               <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
@@ -143,12 +151,16 @@
 
   <div class="getting-to-ronda-bg-1">
     <div class="caption">
-      <span class="border">Getting to Ronda</span>
+      <h1>
+
+
+        Getting to Ronda
+      </h1>
     </div>
   </div>
 
   <div class="parallax-text-container-white">
-    <h3>By Car</h3>
+    <h2>By Car</h2>
     <p>Ronda is easily accessible by car from many other Andalusian towns. From towns on the Costa del Sol such as
       Marbella, Ronda is only a one hour drive, taking in beautiful scenery and dramatic landscapes along the way.
       Ronda
@@ -175,7 +187,7 @@
 
 
   <div class="parallax-text-container-white">
-    <h3>By Train</h3>
+    <h2>By Train</h2>
     <p>Ronda is easily accessible from other Andalusian towns by train and the routes feature beautiful scenery.</p>
 
     <p>Train tickets can be booked using the <a href=”http://www.renfe.com”>Renfe </a> website.</p> </div> <section
@@ -195,7 +207,7 @@
 
 
         <div class="parallax-text-container-white">
-          <h3>By bus</h3>
+          <h2>By bus</h2>
           <p>Ronda is easily accessible by bus from many other towns in Andalusia.</p>
 
           <p><b>Bus companies:</b></p>
@@ -205,7 +217,7 @@
           <p>Paco Pepe: <a href="https://www.grupopacopepe.com/">www.grupopacopepe.com </a> </p>
         </div>
         <div class="parallax-text-container-white">
-          <h3>By Plane</h3>
+          <h2>By Plane</h2>
           <p>Andalusia has 2 international airports, Seville and Malaga, with both offering connections to Ronda
             by
             bus. </p>

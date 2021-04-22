@@ -164,8 +164,10 @@ html {
   display: block;
   border-width: 20%;
 
+  /*
   border-top: solid grey 1px;
   border-bottom: solid grey 1px;
+  */
 }
 
 #menu input[type="checkbox"]:checked+.sub-menu {
@@ -475,8 +477,8 @@ html {
     display: flex;
     width: 100%;
     margin: 0 auto;
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
 
   .logo {
@@ -554,7 +556,7 @@ html {
   #menu a {
     text-align: center;
     width: 10rem;
-    padding: 0.2rem 0rem 0.2rem 0rem;
+    padding: 0.2rem 0rem 0.7rem 0rem;
   }
 
   #menu .sub-menu a {

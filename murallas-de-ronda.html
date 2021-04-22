@@ -47,7 +47,7 @@
         <label for="tm" id="toggle-menu">
           <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
           </a>
-          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          <span class="hamburger"><span class="drop-icon">☰</span>
           </span>
         </label>
         <input type="checkbox" id="tm" />
@@ -56,8 +56,9 @@
             <a href="#">About Ronda
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu1">
-                ▾
+
               </label>
+              <!--<span class="mobile-right-drop-icon">></span>-->
             </a>
             <input type="checkbox" id="menu1" />
             <ul class="sub-menu">
@@ -71,10 +72,10 @@
             </ul>
           </li>
           <li>
-            <a href="#">See & Do
+            <a href="#" title="Toggle Drop-down">See & Do
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu2">
-                ▾
+
               </label>
             </a>
             <input type="checkbox" id="menu2" />
@@ -98,7 +99,7 @@
           <li>
             <a href="#">
               Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
-                for="menu3">▾</label>
+                for="menu3"></label>
             </a>
             <input type="checkbox" id="menu3" />
             <ul class="sub-menu">
@@ -112,7 +113,7 @@
           <li>
             <a href="#">Plan Your Trip
               <i class="arrow down"></i>
-              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4"></label>
             </a>
             <input type="checkbox" id="menu4" />
             <ul class="sub-menu">
@@ -123,7 +124,14 @@
               </li>
             </ul>
           </li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li>
+            <a href="contact-us.html">Contact Us
+              <span id="contact-us"> <i class="arrow down"></i></span>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <!--<input type="checkbox" id="menu5" />-->
+          </li>
+          <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
           <span class="mobile-instagram">
             <li>
               <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
@@ -154,7 +162,9 @@
 
   <div id="text-box">
     <div class="small-container">
-      <h2>Walls of Ronda</h2>
+      <h1
+>Walls of Ronda</h1
+>
       <p>The location of Ronda at the top of a rocky hill gave the city a strong strategic and defensive value. The
         Medina was located here during the Moorish age, with well-defined city limits on one side made by the natural
         border of the gorge, and on the order side by the city walls themselves. The Almocabar gate is one of the best

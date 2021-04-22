@@ -92,12 +92,12 @@ a:hover {
   display: flex;
 }
 
-#text-box h2 {
+#text-box h1 {
   padding: 0rem 0rem 0.5rem 0rem;
   text-align: center;
 }
 
-#text-box h3 {
+#text-box h2 {
   padding: 0rem 0rem 0.5rem 0rem;
   text-align: left;
 
@@ -108,7 +108,7 @@ a:hover {
   text-align: center;
 }
 
-.text-left h3 {
+.text-left h2 {
   margin-top: 0;
   padding: 0rem 0rem 0.2rem 0rem;
   ;
@@ -137,11 +137,11 @@ a:hover {
 }
 
 
-.small-container h2 {
+.small-container h1 {
   margin-top: 0;
 }
 
-.gallery-header h2 {
+.gallery-header h1 {
   padding-bottom: 0;
 }
 
@@ -259,7 +259,7 @@ a:hover {
 }
 
 
-#quote h3 {
+#quote h2 {
   font-family: Bariol-Regular, serif;
   font-style: normal;
   font-weight: normal;
@@ -532,11 +532,11 @@ a:hover {
   margin-right: 0rem;
 }
 
-.flex-item-left h3 {
+.flex-item-left h2 {
   padding-bottom: 0.2rem;
 }
 
-.homepage-flex-item-left h3 {
+.homepage-flex-item-left h2 {
   padding-bottom: 0.2rem;
 }
 
@@ -580,7 +580,7 @@ a:hover {
   text-align: justify;
 }
 
-.homepage-flex-item-left h3 {
+.homepage-flex-item-left h2 {
   font-size: 1.1rem;
 }
 
@@ -771,7 +771,7 @@ a:hover {
   background-image: url("../images/top-photography-spots.jpg");
 
   /*background-image: url("../images/ronda/streets-in-ronda.jpg");*/
-  min-height: 70vh;
+  min-height: 80vh;
   margin: 0.5rem 0rem 0.5rem 0rem;
 
 }
@@ -818,7 +818,6 @@ a:hover {
   position: absolute;
   width: 80%;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -887,16 +886,15 @@ a:hover {
 }*/
 
 .caption {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 100%;
+
   text-align: center;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 
 }
 
-.caption span.border {
+.caption h1 {
   background-color: #333;
   color: white;
   padding: 18px;
@@ -906,6 +904,12 @@ a:hover {
   text-transform: uppercase;
   font-family: Georgia, "Times New Roman", Times, serif;
 
+  font-size: 0.8rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translate(-50%, );
+  transform: translate(-50%, );
 
 }
 
@@ -921,12 +925,12 @@ a:hover {
   padding: 2rem 1rem 1rem 1rem;
 }
 
-.parallax-text-container-white h3 {
+.parallax-text-container-white h2 {
   padding: 0rem 0rem 1rem 0rem;
 
 }
 
-.parallax-text-container-grey h3 {
+.parallax-text-container-grey h2 {
   color: white;
 
   padding: 0rem 0rem 1rem 0rem;
@@ -1366,7 +1370,7 @@ a:hover {
 
 .slideshow-container img {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   position: relative;
   margin: auto;
   filter: brightness(0.8);
@@ -1511,12 +1515,13 @@ h5,
 
 h1 {
   font-size: 2rem;
+  letter-spacing: 0.1rem;
   font-weight: 400;
 
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.1rem;
   font-weight: 400;
 }
@@ -1600,7 +1605,7 @@ hr {
   opacity: 20%;
 }
 
-.border {
+h1 {
   text-transform: uppercase;
 }
 
@@ -1663,7 +1668,7 @@ hr {
   width: 100%;
 }
 
-.small-container p a {
+.small-container a {
   text-decoration: none;
   color: black;
 }
@@ -1818,7 +1823,7 @@ hr {
   }
 
   .slideshow-container img {
-    height: 80vh;
+    height: 72vh;
   }
 
   #boxes .box img:hover {
@@ -1863,13 +1868,13 @@ hr {
 
   }
 
-  #text-box h2 {
+  #text-box h1 {
     padding: 1rem 0rem 1rem 0rem;
     text-align: center;
 
   }
 
-  #text-box h3 {
+  #text-box h2 {
     padding: 0rem 0rem 0.5rem 0rem;
     text-align: center;
 
@@ -1881,7 +1886,7 @@ hr {
 
   }
 
-  .text-left h3 {
+  .text-left h2 {
     margin-top: 0;
     padding: 0rem 0rem 0.2rem 0rem;
     ;
@@ -1949,7 +1954,7 @@ hr {
     text-align: left;
   }
 
-  .text-left-image-right h3 {
+  .text-left-image-right h2 {
     padding-bottom: 0.6rem;
   }
 
@@ -2024,11 +2029,11 @@ hr {
     margin-right: 1rem;
   }
 
-  .flex-item-left h3 {
+  .flex-item-left h2 {
     padding-bottom: 0rem;
   }
 
-  .homepage-flex-item-left h3 {
+  .homepage-flex-item-left h2 {
     padding-bottom: 0rem;
   }
 
@@ -2064,7 +2069,7 @@ hr {
 
   }
 
-  .homepage-flex-item-left h3 {
+  .homepage-flex-item-left h2 {
     font-size: 2rem;
   }
 
@@ -2103,15 +2108,13 @@ hr {
 
   /* Styling for parallax scrolling   */
   .caption {
-    position: absolute;
-    left: 0;
-    top: 30%;
-    width: 100%;
-    text-align: center;
     color: #000;
+    margin: 0 auto;
+
+
   }
 
-  .caption span.border {
+  .caption h1 {
     background-color: #333;
     color: white;
     padding: 18px;
@@ -2121,6 +2124,9 @@ hr {
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 2rem;
+    margin: 0 auto;
+
+
   }
 
 
@@ -2145,7 +2151,7 @@ hr {
 
   }
 
-  .parallax-text-container-white h3 {
+  .parallax-text-container-white h2 {
     padding: 0rem 0rem 0rem 0rem;
   }
 
@@ -2156,7 +2162,7 @@ hr {
   }
 
 
-  .parallax-text-container-grey h3 {
+  .parallax-text-container-grey h2 {
 
 
     padding: 0rem;
@@ -2385,7 +2391,7 @@ hr {
     margin: 0 auto;
   }
 
-  .homepage-flex-item-right h3 {
+  .homepage-flex-item-right h2 {
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -2584,13 +2590,14 @@ hr {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
     font-weight: 400;
 
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 0.1rem;
     font-weight: 400;
   }

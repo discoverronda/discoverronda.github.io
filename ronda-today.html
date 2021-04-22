@@ -47,7 +47,7 @@
         <label for="tm" id="toggle-menu">
           <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
           </a>
-          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          <span class="hamburger"><span class="drop-icon">☰</span>
           </span>
         </label>
         <input type="checkbox" id="tm" />
@@ -56,8 +56,9 @@
             <a href="#">About Ronda
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu1">
-                ▾
+
               </label>
+              <!--<span class="mobile-right-drop-icon">></span>-->
             </a>
             <input type="checkbox" id="menu1" />
             <ul class="sub-menu">
@@ -71,10 +72,10 @@
             </ul>
           </li>
           <li>
-            <a href="#">See & Do
+            <a href="#" title="Toggle Drop-down">See & Do
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu2">
-                ▾
+
               </label>
             </a>
             <input type="checkbox" id="menu2" />
@@ -98,7 +99,7 @@
           <li>
             <a href="#">
               Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
-                for="menu3">▾</label>
+                for="menu3"></label>
             </a>
             <input type="checkbox" id="menu3" />
             <ul class="sub-menu">
@@ -112,7 +113,7 @@
           <li>
             <a href="#">Plan Your Trip
               <i class="arrow down"></i>
-              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4"></label>
             </a>
             <input type="checkbox" id="menu4" />
             <ul class="sub-menu">
@@ -123,7 +124,14 @@
               </li>
             </ul>
           </li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li>
+            <a href="contact-us.html">Contact Us
+              <span id="contact-us"> <i class="arrow down"></i></span>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <!--<input type="checkbox" id="menu5" />-->
+          </li>
+          <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
           <span class="mobile-instagram">
             <li>
               <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
@@ -140,12 +148,16 @@
 
   <div class="ronda-today-bg-1">
     <div class="caption">
-      <span class="border">RONDA TODAY</span>
+      <h1>
+
+
+        Ronda Today
+      </h1>
     </div>
   </div>
 
   <div class="parallax-text-container-white">
-    <h3></h3>
+    <h2></h2>
     <p>Today Ronda enjoys a great reputation as one of the most popular places to visit in Andalusia. Ronda has a
       population of 33,978 (2018) and is the central
       town for the Serrania de Ronda region.
@@ -167,22 +179,30 @@
 
   <!--
   <div class="parallax-text-container-white">
-    <h3>Flamenco</h3>
+    <h2
+>Flamenco</h2
+>
     <p>Andalusia is the home to Flamenco and Ronda has a few places where you can watch live Flamenco and also practice the art of Flamenco dancing.</p>
   </div>
 
   <div class="parallax-text-container-white">
-    <h3>Spanish Guitar</h3>
+    <h2
+>Spanish Guitar</h2
+>
     <p></p>
   </div>
 
   <div class="parallax-text-container-white">
-    <h3>Cuisine</h3>
+    <h2
+>Cuisine</h2
+>
     <p></p>
   </div>
 
   <div class="parallax-text-container-white">
-    <h3>Learning Spanish</h3>
+    <h2
+>Learning Spanish</h2
+>
     <p></p>
   </div>
   -->
@@ -191,11 +211,11 @@
   <span id="footer-hr">
     <hr></span>
   <div id="footer">
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-          title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-      </form>
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    </form>
     <div id="footer-text">
       <p>Copyright &copy 2021 David Soanes<br>
     </div>

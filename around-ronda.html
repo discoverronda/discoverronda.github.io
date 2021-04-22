@@ -47,7 +47,7 @@
         <label for="tm" id="toggle-menu">
           <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
           </a>
-          <span class="hamburger"><span class="drop-icon" style="color: white">☰</span>
+          <span class="hamburger"><span class="drop-icon">☰</span>
           </span>
         </label>
         <input type="checkbox" id="tm" />
@@ -56,8 +56,9 @@
             <a href="#">About Ronda
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu1">
-                ▾
+
               </label>
+              <!--<span class="mobile-right-drop-icon">></span>-->
             </a>
             <input type="checkbox" id="menu1" />
             <ul class="sub-menu">
@@ -71,10 +72,10 @@
             </ul>
           </li>
           <li>
-            <a href="#">See & Do
+            <a href="#" title="Toggle Drop-down">See & Do
               <i class="arrow down"></i>
               <label title="Toggle Drop-down" class="drop-icon" for="menu2">
-                ▾
+
               </label>
             </a>
             <input type="checkbox" id="menu2" />
@@ -98,7 +99,7 @@
           <li>
             <a href="#">
               Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
-                for="menu3">▾</label>
+                for="menu3"></label>
             </a>
             <input type="checkbox" id="menu3" />
             <ul class="sub-menu">
@@ -112,7 +113,7 @@
           <li>
             <a href="#">Plan Your Trip
               <i class="arrow down"></i>
-              <label title="Toggle Drop-down" class="drop-icon" for="menu4">▾</label>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4"></label>
             </a>
             <input type="checkbox" id="menu4" />
             <ul class="sub-menu">
@@ -123,7 +124,14 @@
               </li>
             </ul>
           </li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li>
+            <a href="contact-us.html">Contact Us
+              <span id="contact-us"> <i class="arrow down"></i></span>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <!--<input type="checkbox" id="menu5" />-->
+          </li>
+          <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
           <span class="mobile-instagram">
             <li>
               <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
@@ -142,7 +150,11 @@
 
   <div class="around-ronda-bg-1">
     <div class="caption">
-      <span class="border">Around Ronda</span>
+      <h1>
+
+
+        Around Ronda
+      </h1>
     </div>
   </div>
 
@@ -151,12 +163,12 @@
     <img alt="a large entrance to the cueva del gato" title="cueva del gato" src="./images/caves-banner.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Cueva del Gato</h3>
+    <h2>Cueva del Gato</h2>
 
     <p>One of the most unique cave complexes in all of Andalusia, the Cueva del Gato has an entrance that resembles
       the face of a cat. Inside the cave are colonies of bats, cave paintings and material from the Neolithic period.
       The cave should be visited with a professional guide. </p>
-    <h3>Cueva de la Pileta</h3>
+    <h2>Cueva de la Pileta</h2>
     <p>Discovered in 1905, the Cueva de la Pileta contains cave paintings from the Neolithic period in Ronda.Advance
       reservations are necessary to visit the caves.
     </p>
@@ -167,7 +179,7 @@
     <img alt="the ruined roman theatre of acinipo" title="Acinipo" src="./images/acinipo.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Acinipo</h3>
+    <h2>Acinipo</h2>
     <p>The now-ruins of the nearby Acinipo (land of the wines) was founded by the Phoenicians. In the Second Century
       B.C. the Romans came to Ronda and were engaged in bloody wars with the Carthaginians. After the defeat of the
       Carthaginians in the Second Punic War, the Romanisation of Acinipo in particular led to a period in which it was
@@ -182,7 +194,7 @@
     <img alt="montejaque" title="Montejaque" src="./images/montejaque-banner.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Montejaque</h3>
+    <h2>Montejaque</h2>
     <p>A charming village and one of the many Pueblos Blancos that surround Ronda. Make sure to hike up to the
       viewpoint that towers above the village and offers incredible vistas over the Serrania. Also worth visiting is
       the nearby village of Benaoján. It's possible to hike to both towns from Ronda, either by taking the train one
@@ -196,7 +208,7 @@
     <img alt="grazalema skyline" title="The town of Grazalema" src="./images/andalucia/grazalema-skyline.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Grazalema</h3>
+    <h2>Grazalema</h2>
     <p>In the Sierra de Grazelema Natural Park is the beautiful village of Grazalema. An ideal place for hikers and
       nature lovers to enjoy one of the many walks around the area.</p>
     <p>Distance from Ronda: 35km</p>
@@ -209,7 +221,7 @@
       src="./images/andalucia/zahara-de-la-sierra-viewpoint.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Zahara de la Sierra</h3>
+    <h2>Zahara de la Sierra</h2>
 
     <p>Zahara de la Sierra is located in the Sierra de Grazelema Natural Park. The town is perched on a mountain,
       overlooking a valley and a beautiful lake. The remains of a Moorish castle above the town also still exist and
@@ -229,7 +241,7 @@
     <img alt="seville cathedral and skyline" title="Skyline of Seville" src="./images/andalucia/seville-skyline.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Seville</h3>
+    <h2>Seville</h2>
     <p>The capital of Andalusia, Seville is famous for its many major landmarks including the Alcázar castle and the
       Gothic Cathedral of Seville. Seville’s old town also retains the charm of a small Andalusian village, with an
       enchanting atmosphere and always lots to see and do.</p>
@@ -244,7 +256,7 @@
     <img alt="roman bridge in cordoba" title="Roman Bridge in Cordoba" src="./images/cordoba-banner.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Cordoba</h3>
+    <h2>Cordoba</h2>
     <p>Cordoba is a charming city with famous attractions including the Mezquita, a sprawling mosque from Moorish
       times, a Roman bridge, and a beautiful old town with many streets lined with flowers, especially for the flower
       festival each May.</p>
@@ -258,7 +270,7 @@
     <img alt="costa del sol" title="Costa del Sol" src="./images/costa-del-sol-banner-1.jpg" />
   </div>
   <div class="parallax-text-container-white">
-    <h3>Costa del Sol</h3>
+    <h2>Costa del Sol</h2>
     <p>One of the most famous areas for visitors to Andalusia, the Costa del Sol features a beautiful stretch of
       coastline with places to visit such as Malaga, Marbella and Estepona. </p>
     <p>Distance from Ronda: 50km</p>
@@ -270,11 +282,11 @@
   <span id="footer-hr">
     <hr></span>
   <div id="footer">
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-          title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-      </form>
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    </form>
     <div id="footer-text">
       <p>Copyright &copy 2021 David Soanes<br>
     </div>
