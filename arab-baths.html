@@ -5,15 +5,19 @@
   <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-  <!--<script>
-    $(function () {
-      $("*").tooltip({
-        track: true
-      });
-      $("*[title]").tooltip("disable");
+  <script>
+    $('img').live('contextmenu', function (e) {
+      return false;
     });
-  </script>-->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  </script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      $('img[title]').each(function () {
+        $(this).removeAttr('title');
+      });
+    });
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -162,9 +166,7 @@
 
   <div id="text-box">
     <div class="small-container">
-      <h1
->Arab Baths</h1
->
+      <h1>Arab Baths</h1>
       <p>
         One of the best surviving examples of Arabic baths in all of Spain, the Arab Baths were built in the 13th
         century. A sophisticated water system originally transported the water into the baths by means of a waterwheel
@@ -236,15 +238,28 @@
   <span id="footer-hr">
     <hr></span>
   <div id="footer">
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-          title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-      </form>
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="VC6999ZC395K8" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
+        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    </form>
     <div id="footer-text">
-      <p>Copyright &copy 2021 David Soanes<br>
+      <p>
+        Copyright &copy 2021 David Soanes &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <a href="privacy-policy.html"
+          style="color:#333333">Privacy Policy</a><br />
+      </p>
     </div>
   </div>
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"edgeless",Location:"https://discoverronda.com/cookie-policy.html",Time:"1",})</script></body>
+  <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
+  <script>
+    window.start.init({
+      Palette: "palette2",
+      Mode: "banner bottom",
+      Theme: "edgeless",
+      Location: "https://discoverronda.com/cookie-policy.html",
+      Time: "1",
+    })
+  </script>
+</body>
 
 </html>

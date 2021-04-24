@@ -7,6 +7,11 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
   <script>
+    $('img').live('contextmenu', function (e) {
+      return false;
+    });
+  </script>
+  <script>
     $(function () {
       $('*').tooltip({
         track: true
@@ -15,6 +20,13 @@
     });
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+    jQuery(document).ready(function ($) {
+      $('img[title]').each(function () {
+        $(this).removeAttr('title');
+      });
+    });
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -188,9 +200,7 @@
   </div>
 
   <div class="parallax-text-container-white">
-    <h2
->Bird Watching</h2
->
+    <h2>Bird Watching</h2>
     <p>The Serranía de Ronda offers a diverse and unique habitat for a huge variety of birds, from smaller birds like
       goldfinches, stonechats and kingfishers to larger birds such as kestrels, peregrine falcons and griffin vultures.
       Also the natural parks that surround Ronda such as the Sierra de las Nieves and Sierra de Grazalema offer an ideal
@@ -282,15 +292,28 @@
     <hr></span>
   <div id="footer">
     <form action="https://www.paypal.com/donate" method="post" target="_top">
-      <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <input type="hidden" name="hosted_button_id" value="VC6999ZC395K8" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
+        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
     </form>
     <div id="footer-text">
-      <p>Copyright &copy 2021 David Soanes<br>
+      <p>
+        Copyright &copy 2021 David Soanes &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <a href="privacy-policy.html"
+          style="color:#333333">Privacy Policy</a><br />
+      </p>
     </div>
   </div>
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"edgeless",Location:"https://discoverronda.com/cookie-policy.html",Time:"1",})</script></body>
+  <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
+  <script>
+    window.start.init({
+      Palette: "palette2",
+      Mode: "banner bottom",
+      Theme: "edgeless",
+      Location: "https://discoverronda.com/cookie-policy.html",
+      Time: "1",
+    })
+  </script>
+</body>
 
 </html>
 
@@ -307,6 +330,16 @@
     imageFadeDuration: 0,
   });
 </script>
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"edgeless",Location:"https://discoverronda.com/cookie-policy.html",Time:"1",})</script></body>
+<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
+<script>
+  window.start.init({
+    Palette: "palette2",
+    Mode: "banner bottom",
+    Theme: "edgeless",
+    Location: "https://discoverronda.com/cookie-policy.html",
+    Time: "1",
+  })
+</script>
+</body>
 
 </html>

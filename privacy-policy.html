@@ -5,15 +5,19 @@
   <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-  <!--<script>
-    $(function () {
-      $("*").tooltip({
-        track: true
-      });
-      $("*[title]").tooltip("disable");
+  <script>
+    $('img').live('contextmenu', function (e) {
+      return false;
     });
-  </script>-->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  </script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      $('img[title]').each(function () {
+        $(this).removeAttr('title');
+      });
+    });
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -146,6 +150,7 @@
   </div>
 
   <div id="privacy-policy-container" style="text-align:center;width:80%;margin: 0 auto;">
+    <br>
     <h1>Privacy Policy of Discover Ronda</h1>
 
     <p>Discover Ronda operates the https://discoverronda.com website, which provides the SERVICE.</p>
@@ -244,12 +249,15 @@
     <hr></span>
   <div id="footer">
     <form action="https://www.paypal.com/donate" method="post" target="_top">
-      <input type="hidden" name="hosted_button_id" value="NYDU2TKT73LN4" />
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <input type="hidden" name="hosted_button_id" value="VC6999ZC395K8" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
+        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
     </form>
     <div id="footer-text">
-      <p>Copyright &copy 2021 David Soanes<br>
+      <p>
+        Copyright &copy 2021 David Soanes &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <a href="privacy-policy.html"
+          style="color:#333333">Privacy Policy</a><br />
+      </p>
     </div>
   </div>
   <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
