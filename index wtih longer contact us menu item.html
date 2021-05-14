@@ -1,9 +1,16 @@
 <html>
 
 <head>
+  <script>
+    jQuery(document).ready(function ($) {
+      $('img[title]').each(function () {
+        $(this).removeAttr('title');
+      });
+    });
+  </script>
+
   <!--Stops image title tooltip from being displayed-->
   <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
-
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
   <script>
@@ -12,21 +19,11 @@
     });
   </script>
   <script>
-    $(function () {
-      $('*').tooltip({
-        track: true
-      });
-      $('*[title]').tooltip('disable');
+    $('img').live('contextmenu', function (e) {
+      return false;
     });
   </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script>
-    jQuery(document).ready(function ($) {
-      $('img[title]').each(function () {
-        $(this).removeAttr('title');
-      });
-    });
-  </script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -34,30 +31,22 @@
     function gtag() {
       dataLayer.push(arguments);
     }
-    gtag('js', new Date());
-
-    gtag('config', 'G-2911RZ0VMC');
+    gtag("js", new Date());
+    gtag("config", "G-2911RZ0VMC");
   </script>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/stylesheet.css" />
-  <link rel="stylesheet" href="css/layout.css" />
-  <link rel="stylesheet" href="css/lightbox.min.css" />
-  <link rel="stylesheet" href="css/menu.css">
-
+  <link rel="stylesheet" href="css/menu.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="icon" type="image/png" href="images/icon.png" />
-  <script src="js/lightbox-plus-jquery.min.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-  <script type="text/javascript" src="js/javascript.js"></script>
-  <meta name="viewport" content="width=device-width" />
   <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-  <title>Hiking and Nature - Discover Ronda</title>
-  <meta name="description" content="Discover Ronda - A place to discover Ronda." />
+  <title>Welcome to Ronda - DiscoverRonda.com</title>
+  <meta name="description"
+    content="Discover your ultimate English language guide to Ronda. Discover the best of Ronda with fantastic tourist attractions, things to do and more." />
 </head>
 
 <body>
-
   <div class="wrapper">
     <div class="logo">
       <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
@@ -144,12 +133,29 @@
             </ul>
           </li>
           <li>
+          <li>
+            <a href="#">Contact Us
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <input type="checkbox" id="menu5" />
+            <ul class="sub-menu">
+              <li><a href="about-us.html">About Us</a></li>
+              <hr />
+              <li>
+                <a href="work-with-us.html">Work With Us</a>
+              </li>
+            </ul>
+          </li>
+          <!--
+            <li>
             <a href="contact-us.html">Contact Us
               <span id="contact-us"> <i class="arrow down"></i></span>
               <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
             </a>
-            <!--<input type="checkbox" id="menu5" />-->
+            <input type="checkbox" id="menu5" />
           </li>
+        -->
           <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
           <span class="mobile-instagram">
             <li>
