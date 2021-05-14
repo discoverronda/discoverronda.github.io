@@ -1,0 +1,190 @@
+<html>
+
+<head>
+  <!--Stops image title tooltip from being displayed-->
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  <script>
+    $('img').live('contextmenu', function (e) {
+      return false;
+    });
+  </script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      $('img[title]').each(function () {
+        $(this).removeAttr('title');
+      });
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-2911RZ0VMC");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="images/icon.png" />
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <title>Contact Us - Discover Ronda</title>
+  <meta name="description" content="For any queries or to work with us please feel free to get in touch!">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon">☰</span>
+          </span>
+        </label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+
+              </label>
+              <!--<span class="mobile-right-drop-icon">></span>-->
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" title="Toggle Drop-down">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3"></label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4"></label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact-us.html">Contact Us
+              <span id="contact-us"> <i class="arrow down"></i></span>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <!--<input type="checkbox" id="menu5" />-->
+          </li>
+          <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
+    </span>
+  </div>
+
+
+  <div id="text-box">
+    <div class="small-container">
+      <h2>Work With Us</h2>
+      <p>We are always happy to discuss any features or collaborations with anyone who would like to be featured on our
+        website. For more information please get in touch by email at:
+        <a href="mailto:discoverronda@gmail.com">discoverronda@gmail.com</a>
+        <p>
+    </div>
+  </div>
+
+
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="VC6999ZC395K8" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
+        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    </form>
+    <div id="footer-text">
+      <p>
+        Copyright &copy 2021 David Soanes &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <a href="privacy-policy.html"
+          style="color:#333333">Privacy Policy</a><br />
+      </p>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
+  <script>
+    window.start.init({
+      Palette: "palette2",
+      Mode: "banner bottom",
+      Theme: "edgeless",
+      Location: "https://discoverronda.com/cookie-policy.html",
+      Time: "1",
+    })
+  </script>
+</body>
+
+</html>
