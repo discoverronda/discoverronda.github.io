@@ -768,7 +768,7 @@ a:hover {
 }
 
 .practical-info-bg-1 {
-  background-image: url("../images/practical-info.jpg");
+  background-image: url("../images/ronda-viewpoint-at-sunset.jpg");
 }
 
 
@@ -786,7 +786,7 @@ a:hover {
 }
 
 .homepage-parallax-banner-1 {
-  background-image: url("../images/top-photography-spots.jpg");
+  background-image: url("../images/people-photographing-ronda-viewpoint-at-sunset.jpg");
 
   /*background-image: url("../images/ronda/streets-in-ronda.jpg");*/
   min-height: 80vh;
@@ -1796,6 +1796,8 @@ h1 {}
   #portfoliolist {
     min-height: 50vh;
     margin: 1rem;
+    padding-top: 1rem;
+
   }
 
   .historybg-1,

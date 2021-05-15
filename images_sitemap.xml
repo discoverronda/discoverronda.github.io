@@ -148,7 +148,7 @@
         <image:title>Plaza del Socorro</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/top-photography-spots.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/people-photographing-ronda-viewpoint-at-sunset.jpg</image:loc>
         <image:title>Group of people photographing a sunset in Ronda</image:title>
       </image:image>
   </url>
@@ -158,11 +158,11 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>http://discoverronda.com/images/practical-info-desktop.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/ronda-viewpoint-at-sunset-desktop.jpg</image:loc>
         <image:title>Woman standing at a viewpoint overlooking the Serrania de Ronda</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/practical-info.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/ronda-viewpoint-at-sunset.jpg</image:loc>
         <image:title>Woman standing at a viewpoint overlooking the Serrania de Ronda</image:title>
       </image:image>
   </url>
@@ -222,7 +222,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>http://discoverronda.com/images/andalusia-renfe.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/andalusia-renfe-train-map.jpg</image:loc>
         <image:title>Renfe train map</image:title>
       </image:image>
   </url>
@@ -316,7 +316,7 @@
         <image:title>Man walking towards the new bridge from El Tajo gorge</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/ronda/kyline-of-ronda.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/ronda/skyline-of-ronda.jpg</image:loc>
         <image:title>Skyline of Ronda</image:title>
       </image:image>
       <image:image>
