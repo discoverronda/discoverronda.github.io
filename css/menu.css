@@ -336,7 +336,14 @@ html {
   height: 1px;
   color: #333;
   background-color: white;
-  opacity: 15%;
+  opacity: 0.15;
+  /* Standard compliant browsers */
+  -moz-opacity: 0.15;
+  /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0.15;
+  /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=15);
+  /* For IE8 and earlier */
   margin: 0;
 }
 
@@ -445,7 +452,14 @@ html {
     height: 1px;
     color: #333;
     background-color: white;
-    opacity: 15%;
+    opacity: 0.15;
+    /* Standard compliant browsers */
+    -moz-opacity: 0.15;
+    /* Firefox and Mozilla browsers */
+    -webkit-opacity: 0.15;
+    /* WebKit browser e.g. Safari */
+    filter: alpha(opacity=15);
+    /* For IE8 and earlier */
     margin: 0;
   }
 
@@ -541,7 +555,14 @@ html {
     letter-spacing: 0px;
     font-size: 2.5rem;
     overflow: none;
-    opacity: 90%;
+    opacity: 0.90;
+    /* Standard compliant browsers */
+    -moz-opacity: 0.90;
+    /* Firefox and Mozilla browsers */
+    -webkit-opacity: 0.90;
+    /* WebKit browser e.g. Safari */
+    filter: alpha(opacity=90);
+    /* For IE8 and earlier */
     color: #333;
 
   }

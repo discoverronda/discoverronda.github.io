@@ -111,7 +111,14 @@
 .portfolio img:hover {
   transition: 0.3s ease-in-out;
   transform: scale3d(1.1, 1.1, 1);
-  opacity: 80%;
+  opacity: 0.8;
+  /* Standard compliant browsers */
+  -moz-opacity: 0.8;
+  /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0.8;
+  /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
 }
 
 .portfolio .label {

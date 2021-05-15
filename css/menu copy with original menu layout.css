@@ -388,7 +388,14 @@ html {
     height: 1px;
     color: #333;
     background-color: white;
-    opacity: 15%;
+    opacity: 0.15;
+    /* Standard compliant browsers */
+    -moz-opacity: 0.15;
+    /* Firefox and Mozilla browsers */
+    -webkit-opacity: 0.15;
+    /* WebKit browser e.g. Safari */
+    filter: alpha(opacity=15);
+    /* For IE8 and earlier */
     margin: 0;
   }
 

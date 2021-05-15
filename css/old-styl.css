@@ -273,7 +273,10 @@ header :hover {
   /*border-top: 1px solid black;*/
   min-height: 400px;
   background-image: url("../images/travel-banner-2.jpg");
-  opacity: 80%;
+      opacity: 0.80; /* Standard compliant browsers */
+   -moz-opacity: 0.80; /* Firefox and Mozilla browsers */
+   -webkit-opacity: 0.80; /* WebKit browser e.g. Safari */
+   filter: alpha(opacity=80); /* For IE8 and earlier */
   background-size: cover;
 }
 
@@ -473,7 +476,10 @@ header :hover {
 .box img:hover {
   transform: scale(1.02);
   transform-origin: 50% 50%;
-  opacity: 80%;
+      opacity: 0.80; /* Standard compliant browsers */
+   -moz-opacity: 0.80; /* Firefox and Mozilla browsers */
+   -webkit-opacity: 0.80; /* WebKit browser e.g. Safari */
+   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .gallery-new {
