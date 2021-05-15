@@ -1721,8 +1721,15 @@ h1 {}
   width: 90%;
 }
 
+hr {
+  width: 50%;
+  opacity: 20%;
+}
 
 
+.parallax-text-container-white .reduced-padding-paragraph {
+  padding-bottom: 0.5rem;
+}
 
 
 
@@ -2759,5 +2766,6 @@ h1 {}
   #image-1-box .box .contact-us-image img {
     width: 40%;
   }
+
 
 }
