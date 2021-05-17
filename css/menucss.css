@@ -239,6 +239,7 @@ h1 {
 }
 
 hr {
+clear: both;
   display: block;
   padding: 0;
   margin-bottom: -0.05rem;
@@ -421,6 +422,7 @@ h1 {
   }
 
   hr {
+clear: both;
     display: block;
     padding: 0;
     margin-bottom: -0.05rem;
