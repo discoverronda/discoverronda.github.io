@@ -184,6 +184,10 @@ a:hover {
   padding-bottom: 2rem;
 }
 
+.portrait-image {
+  padding-bottom: 2rem;
+}
+
 #boxes .box img {
   display: block;
   width: 100%;
@@ -1826,6 +1830,7 @@ hr {
   text-decoration: none;
   color: #017698;
   text-decoration: underline;
+  font-weight: 400;
 }
 
 
