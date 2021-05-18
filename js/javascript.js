@@ -33,11 +33,13 @@
 
 
 //Disable image right click
+/*
 (function($){
 	$(document).on('contextmenu', 'img', function() {
 		return false;
 	})
   })(jQuery);
+  */
 
 
 
