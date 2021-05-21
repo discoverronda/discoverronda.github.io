@@ -88,7 +88,7 @@
         <image:title>Iglesia de Santa Maria la Mayor</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum-thumbnail.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum-thumbnail.jpg</image:loc>
         <image:title>Puente Nuevo Interpretation Museum</image:title>
       </image:image>
       <image:image>
@@ -737,32 +737,32 @@
       </image:image>
   </url>
   <url>
-    <loc>http://discoverronda.com/bridge-museum.html</loc>
+    <loc>http://discoverronda.com/puente-nuevo-interpretation-museum.html</loc>
     <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum.jpg</image:loc>
         <image:title>Puente Nuevo</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum-1.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum-1.jpg</image:loc>
         <image:title>Interior of Puente Nuevo Interpretation Museum</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum-2.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum-2.jpg</image:loc>
         <image:title>Ronda gorge viewpoint</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum-3.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum-3.jpg</image:loc>
         <image:title>Stairway inside the Puente Nuevo Interpretation Museum</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum-5.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum-5.jpg</image:loc>
         <image:title>Arch of the Puente Nuevo</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://discoverronda.com/images/attractions/bridge-museum-7.jpg</image:loc>
+        <image:loc>http://discoverronda.com/images/attractions/puente-nuevo-interpretation-museum-7.jpg</image:loc>
         <image:title>Puente Nuevo and Tajo de Ronda</image:title>
       </image:image>
   </url>
