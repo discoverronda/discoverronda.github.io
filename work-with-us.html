@@ -1,17 +1,52 @@
+<!DOCTYPE html>
 <html>
 
 <head>
- 
-  <!--Stops image title tooltip from being displayed-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Contact Us - Discover Ronda</title>
+  <meta name="description" content="For any queries or to work with us please feel free to get in touch!">
+
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/menu.css">
   <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="./images/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!--Links specific to gallery pages-->
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+
+  <!--This is disabling image right click completely-->
   <script>
     $('img').live('contextmenu', function (e) {
       return false;
     });
   </script>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script>
     jQuery(document).ready(function ($) {
       $('img[title]').each(function () {
@@ -26,18 +61,10 @@
     function gtag() {
       dataLayer.push(arguments);
     }
-    gtag("js", new Date());
-    gtag("config", "G-2911RZ0VMC");
+    gtag('js', new Date());
+
+    gtag('config', 'G-2911RZ0VMC');
   </script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <link rel="stylesheet" href="css/stylesheet.css" />
-  <link rel="stylesheet" href="css/menu.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="icon" type="image/png" href="images/icon.png" />
-  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
-  <title>Contact Us - Discover Ronda</title>
-  <meta name="description" content="For any queries or to work with us please feel free to get in touch!">
 </head>
 
 <body>
@@ -186,6 +213,6 @@
     })
   </script>
 </body>
-  
+
 
 </html>
