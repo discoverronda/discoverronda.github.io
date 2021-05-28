@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Culture of Ronda - Discover Ronda</title>
+  <meta name="description" content="Discover the local culture such as flamenco and much more!.">
+
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="./images/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <script src="https://use.fontawesome.com/af14fb55aa.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!--Links specific to gallery pages-->
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+
+  <!--This is disabling image right click completely-->
+  <script>
+    $('img').live('contextmenu', function (e) {
+      return false;
+    });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+    jQuery(document).ready(function ($) {
+      $('img[title]').each(function () {
+        $(this).removeAttr('title');
+      });
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2911RZ0VMC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2911RZ0VMC');
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="logo">
+      <a href="index.html"><span id="logo-text">Discover Ronda</span></a>
+    </div>
+    <div class="main-menu-container">
+      <nav id="menu">
+        <label for="tm" id="toggle-menu">
+          <a class="logo-mobile" href="index.html"><span id="logo-text">Discover Ronda</span>
+          </a>
+          <span class="hamburger"><span class="drop-icon">☰</span>
+          </span>
+        </label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">About Ronda
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu1">
+
+              </label>
+              <!--<span class="mobile-right-drop-icon">></span>-->
+            </a>
+            <input type="checkbox" id="menu1" />
+            <ul class="sub-menu">
+              <li><a href="history.html">History</a></li>
+              <hr />
+              <li><a href="culture.html">Culture</a></li>
+              <hr />
+
+              <li><a href="famous-locals.html">Famous Locals</a></li>
+              <hr />
+              <li><a href="famous-visitors.html">Famous Visitors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" title="Toggle Drop-down">See & Do
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu2">
+
+              </label>
+            </a>
+            <input type="checkbox" id="menu2" />
+            <ul class="sub-menu">
+              <li><a href="attractions.html">Attractions</a></li>
+              <hr />
+              <li>
+                <a href="hiking-nature.html">Hiking & Other Activities</a>
+              </li>
+              <hr />
+              <li>
+                <a href="festivals-celebrations.html">Festivals & Celebrations
+                </a>
+              </li>
+              <hr />
+              <li><a href="around-ronda.html">Around Ronda</a></li>
+              <hr />
+              <li><a href="wines.html">Wines of the Serranía de Ronda</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              Image Gallery <i class="arrow down"></i><label title="Toggle Drop-down" class="drop-icon"
+                for="menu3"></label>
+            </a>
+            <input type="checkbox" id="menu3" />
+            <ul class="sub-menu">
+              <li><a href="ronda-gallery.html">Ronda</a></li>
+              <hr />
+              <li><a href="serrania-gallery.html">Serranía de Ronda</a></li>
+              <hr />
+              <li><a href="andalusia-gallery.html">Andalusia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plan Your Trip
+              <i class="arrow down"></i>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu4"></label>
+            </a>
+            <input type="checkbox" id="menu4" />
+            <ul class="sub-menu">
+              <li><a href="getting-to-ronda.html">Getting to Ronda</a></li>
+              <hr />
+              <li>
+                <a href="practical-information.html">Practical Information</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact-us.html">Contact Us
+              <span id="contact-us"> <i class="arrow down"></i></span>
+              <label title="Toggle Drop-down" class="drop-icon" for="menu5"></label>
+            </a>
+            <!--<input type="checkbox" id="menu5" />-->
+          </li>
+          <!--  <li><a href="contact-us.html">Contact Us</a></li>-->
+          <span class="mobile-instagram">
+            <li>
+              <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+                  aria-hidden="true"></i></a></li>
+          </span>
+        </ul>
+      </nav>
+    </div>
+    <span class="instagram">
+      <a href="https://www.instagram.com/discover.ronda/" target="_blank"><i class="fa fa-instagram fa-2x"
+          aria-hidden="true"></i></a>
+    </span>
+  </div>
+
+
+
+
+  <div class="culturebg-1">
+    <div class="caption">
+      <h1>
+
+
+        Culture
+      </h1>
+    </div>
+  </div>
+
+
+
+  <div class="parallax-text-container-white">
+
+    <h2>Flamenco</h2>
+
+    <p>Flamenco is an art form based on the folkloric music traditions of southern Spain, having originated in
+      Andalusia. Many different hypothesis exist regarding the origins of flamenco. One of the most common theories is
+      that flamenco originally developed as a result of the cultural exchange between the moriscos (former Moors) of
+      Andalusia and the gypsies from India who arrived in the 16th century to Andalusia. The oldest known record of the
+      music of flamenco dates back to 1774 in the book Las Cartas Marruecas by José Cadalso.</p>
+
+
+    <p>The origins of the word “flamenco” are also shrouded in mystery. Blas Infante in his book "Orígenes de lo
+      flamenco" details one of the most widely known theories – that the word “flamenco” was derived from the Arabic
+      term "Felah-Mengus", which together mean "wandering country person".</p>
+
+    <p>Flamenco has three forms of expression:</p>
+    <ul style="list-style-type:circle">
+      <li>Toque (guitar) – flamenco guitarists are called “tocaores”</li>
+      <li>Cante (song) – meaning “flamenco singing”. It is easy to assume that the dancer is the most important part of
+        a flamenco performance, but the cante is actually the heart and soul of the genre. </li>
+      <li>Baile (dance) – The flamenco dance is known for its emotional intensity, expressive use of the arms and
+        rhythmic stamping of the feet. Many different styles of flamenco have developed over time.</li>
+    </ul>
+
+    <p>On November 16, 2010, UNESCO declared flamenco one of the Masterpieces of the Oral and Intangible Heritage of
+      Humanity.</p>
+  </div>
+
+
+  <div class="small-container">
+    <h5> <a href="https://www.youtube.com/watch?v=Naea31w7D_w" target="_new">"Flamenco"</a> documentary by Carlos Saura
+    </h5>
+  </div>
+  </div>
+
+
+
+
+
+  <span id="footer-hr">
+    <hr></span>
+  <div id="footer">
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="VC6999ZC395K8" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0"
+        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    </form>
+    <div id="footer-text">
+      <p>
+        Copyright &copy 2021 David Soanes &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; <a href="privacy-policy.html"
+          style="color:#333333">Privacy Policy</a><br />
+      </p>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
+  <script>
+    window.start.init({
+      Palette: "palette2",
+      Mode: "banner bottom",
+      Theme: "edgeless",
+      Location: "https://discoverronda.com/cookie-policy.html",
+      Time: "1",
+    })
+  </script>
+</body>
+
+
+</html>

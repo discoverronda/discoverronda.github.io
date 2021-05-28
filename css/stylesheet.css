@@ -14,6 +14,7 @@ html {
   margin: 0;
 }
 
+
 body {
   margin: 0;
   /*position: absolute;*/
@@ -25,13 +26,30 @@ body {
   font-size: 14px;
   letter-spacing: 0.7px;
 
-  /*Disables blue highlight over right-clicked link */
+
+
+  /*Disables blue highlight over right-clicked link but also disables text highlighting 
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
+
+  
+  */
+
+
 }
+
+/* This changes the text highlight colour 
+
+::selection {
+  background-color: #B3D7FE;
+  color: #B3D7FE;
+}
+*/
+
+
 
 #portfoliolist {
   min-height: 100vh;
@@ -691,6 +709,8 @@ a:hover {
 .festivalsbg-1,
 .festivalsbg-2,
 .festivalsbg-3,
+.flamencobg-1,
+.culturebg-1,
 .getting-to-ronda-bg-1,
 .getting-to-ronda-bg-2,
 .getting-to-ronda-bg-3,
@@ -767,6 +787,18 @@ a:hover {
 }
 
 .festivalsbg-1 {
+  background-image: url("../images/flamenco-dancer-group-dresses.jpg");
+
+}
+
+.flamencobg-1 {
+  background-image: url("../images/flamenco-performance.jpg");
+  background-position: 10% 20%;
+
+
+}
+
+.culturebg-1 {
   background-image: url("../images/flamenco-dancer-group-dresses.jpg");
 
 }
@@ -1080,7 +1112,9 @@ a:hover {
   margin: 0rem 0.5rem 0.5rem 0.5rem;
   position: relative;
   overflow: hidden;
+
 }
+
 
 
 
@@ -1784,6 +1818,21 @@ hr {
 
 }
 
+.youtubeouter {
+  position: relative;
+  text-align: center;
+
+
+}
+
+.youtubeouter iframe {
+  width: 90%;
+  height: 30%;
+
+
+}
+
+
 .frame {
   width: 95%;
   height: 450px;
@@ -2060,6 +2109,10 @@ hr {
   }
 
   .mapouter {
+    margin: 0 auto;
+  }
+
+  .youtubeouter {
     margin: 0 auto;
   }
 
@@ -2426,6 +2479,7 @@ hr {
     margin: 0rem 0.5rem 0.5rem 0.5rem;
     position: relative;
     overflow: hidden;
+
   }
 
   .feature-container-multiple-boxes img {
@@ -2896,6 +2950,21 @@ hr {
     height: 500px;
     width: 600px;
   }
+
+  .youtubeouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+  }
+
+  .youtubeouter iframe {
+
+    width: 100%;
+    height: 80%;
+
+  }
+
 
   .gmap_canvas {
     overflow: hidden;
