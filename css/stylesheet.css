@@ -711,6 +711,7 @@ a:hover {
 .festivalsbg-3,
 .flamencobg-1,
 .culturebg-1,
+.cuisinebg-1,
 .getting-to-ronda-bg-1,
 .getting-to-ronda-bg-2,
 .getting-to-ronda-bg-3,
@@ -800,6 +801,11 @@ a:hover {
 
 .culturebg-1 {
   background-image: url("../images/flamenco-dancer-group-dresses.jpg");
+
+}
+
+.cuisinebg-1 {
+  background-image: url("../images/churros-coffee-ronda.jpg");
 
 }
 
