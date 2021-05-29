@@ -1987,7 +1987,7 @@ hr {
   */
 
   #portfoliolist {
-    min-height: 50vh;
+    min-height: 10vh;
     margin: 1rem;
     padding-top: 1rem;
     margin: 0 auto;
