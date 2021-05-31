@@ -686,6 +686,12 @@ html {
     float: left;
   }
 
+  /*Padding for sub menu items */
+  #menu .sub-menu li {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
   #menu .sub-menu {
     border: 1px solid #eee;
     background-color: white;
