@@ -1907,6 +1907,26 @@ hr {
   font-weight: 400;
 }
 
+.flag-thumbnails {
+  display: inline-block;
+
+}
+
+.flag-thumbnails img {
+  display: inline-block;
+  width: 20px;
+  vertical-align: center;
+
+}
+
+
+.flag-thumbnails .uk-flag img {
+  display: inline-block;
+  width: 25px;
+  vertical-align: center;
+
+}
+
 
 
 
@@ -2002,15 +2022,16 @@ hr {
   .historybg-6,
   .historybg-7,
   .historybg-8,
-  .festivalsbg-1,
-  .festivalsbg-2,
-  .festivalsbg-3,
+  .culturebg-1,
   .getting-to-ronda-bg-1,
   .getting-to-ronda-bg-2,
   .getting-to-ronda-bg-3,
   .getting-to-ronda-bg-4,
   .ronda-today-bg-1,
   .ronda-today-bg-2,
+  .festivalsbg-1,
+  .festivalsbg-2,
+  .festivalsbg-3,
   .famous-bg-1,
   .famous-bg-2,
   .famous-bg-3,
@@ -2027,6 +2048,9 @@ hr {
 
 
   }
+
+
+
 
   .famous-bg-1 {
     background-image: url("../images/cayetano-ordonez-bullfighter-statue.jpg");
@@ -3001,6 +3025,28 @@ hr {
   #image-1-box .box .contact-us-image img {
     width: 40%;
   }
+
+
+  .flag-thumbnails {
+    display: inline-block;
+
+  }
+
+  .flag-thumbnails img {
+    display: inline-block;
+    width: 50px;
+    vertical-align: center;
+
+  }
+
+
+  .flag-thumbnails .uk-flag img {
+    display: inline-block;
+    width: 63px;
+    vertical-align: center;
+
+  }
+
 
 
 }
