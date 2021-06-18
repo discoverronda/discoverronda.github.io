@@ -44,11 +44,7 @@
 
 
 
-lightbox.addEventListener('click', e => {
-	//remove this to make image box clickable to return
-	//if (e.target !== e.currentTarget) return
-	lightbox.classList.remove('active')
-})
+
 
 
 
