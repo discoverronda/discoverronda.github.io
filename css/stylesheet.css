@@ -209,6 +209,7 @@ a:hover {
 }
 #footer {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: #fff;
   opacity: 1;
   -moz-opacity: 1;
@@ -592,7 +593,8 @@ a:hover {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: Georgia,"Times New Roman",Times,serif;
-  font-weight: 700
+  font-weight: 700;
+  font-size: 1rem;
 }
 .slider-centered-text-large hr {
   clear: both;
@@ -1549,6 +1551,7 @@ hr {
     height: 200px
   }
   #footer {
+    margin-bottom: 0.5rem;
     position: relative;
     bottom: 0
   }
