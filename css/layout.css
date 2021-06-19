@@ -5,6 +5,7 @@
 }
 #info .info-wrapper {
   padding: 10px;
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box
@@ -24,7 +25,6 @@
 }
 #filters li {
   text-align: center;
-  display: inline-block;
   float: center
 }
 #filters li a {
@@ -48,6 +48,8 @@
   color: #000
 }
 #portfoliolist .portfolio {
+  box-sizing: border-box;
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -72,7 +74,9 @@
   object-fit: cover;
   -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
   transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transform: translateZ(0) scale(1,1);
   -webkit-transform: translateZ(0) scale(1,1)
 }
 .portfolio img:hover {
